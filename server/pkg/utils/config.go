@@ -45,6 +45,7 @@ type RedisConfig struct {
 	Port     string
 	Password string
 	DB       int
+	Conn string
 }
 
 type BusinessRules struct {
@@ -111,6 +112,7 @@ func ReadConfiguration() (Configuration, error) {
 			Port:     viper.GetString("REDIS_PORT"),
 			Password: viper.GetString("REDIS_PASSWORD"),
 			DB:       viper.GetInt("REDIS_DB"),
+			Conn: viper.GetString("REDIS_CONN"),
 		},
 
 		BaseURL: viper.GetString("APP_URL"),
