@@ -1,0 +1,21 @@
+2026-04-05T10:36:14.616+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "trial-pack-coba-lerak-pemula"}
+2026-04-05T10:39:59.272+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "trial-pack-coba-lerak-pemula"}
+2026-04-05T10:39:59.306+0700	ERROR	repository/review.go:113	Error counting reviews	{"error": "unsupported data type: 0xc001142c90: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+2026-04-05T10:40:00.377+0700	ERROR	repository/review.go:113	Error counting reviews	{"error": "unsupported data type: 0xc001370488: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+2026-04-05T10:40:02.388+0700	ERROR	repository/review.go:113	Error counting reviews	{"error": "unsupported data type: 0xc001370578: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+2026-04-05T10:40:06.432+0700	ERROR	repository/review.go:113	Error counting reviews	{"error": "unsupported data type: 0xc00140eb88: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+2026-04-05T10:40:11.801+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "trial-pack-coba-lerak-pemula"}
+2026-04-05T10:40:12.304+0700	ERROR	repository/review.go:113	Error counting reviews	{"error": "unsupported data type: 0xc001249368: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+2026-04-05T10:40:13.367+0700	ERROR	repository/review.go:113	Error counting reviews	{"error": "unsupported data type: 0xc00140fec8: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+2026-04-05T10:40:15.390+0700	ERROR	repository/review.go:113	Error counting reviews	{"error": "unsupported data type: 0xc00140ffc8: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+2026-04-05T10:40:19.418+0700	ERROR	repository/review.go:113	Error counting reviews	{"error": "unsupported data type: 0xc0014720c8: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+2026-04-05T10:42:16.097+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "trial-pack-coba-lerak-pemula"}
+2026-04-05T10:42:23.828+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "trial-pack-coba-lerak-pemula"}
+2026-04-05T10:43:11.999+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "trial-pack-coba-lerak-pemula"}
+2026-04-05T10:44:26.664+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "trial-pack-coba-lerak-pemula"}
+2026-04-05T10:45:01.184+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "trial-pack-coba-lerak-pemula"}
+2026-04-05T11:14:05.069+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "bagasse-food-trays-3-compartment-cutting-resistant"}
+2026-04-05T11:16:08.423+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "bagasse-food-trays-3-compartment-cutting-resistant"}
+2026-04-05T11:16:54.210+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "bagasse-food-trays-3-compartment-cutting-resistant"}
+2026-04-05T15:19:58.286+0700	INFO	repository/order.go:321	Mark orders as shipped...
+2026-04-05T15:19:59.789+0700	INFO	repository/order.go:352	Successfully mark orders as shipped

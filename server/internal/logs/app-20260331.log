@@ -1,0 +1,100 @@
+2026-03-31T06:04:47.075+0700	INFO	repository/product.go:46	Creating product	{"name": "Salad cup Japanase style", "category_id": 5}
+2026-03-31T06:04:47.760+0700	INFO	repository/product.go:59	Product created successfully	{"id": 48, "name": "Salad cup Japanase style"}
+2026-03-31T06:04:47.920+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 48, "sku_code": "YPrGdQpnTk"}
+2026-03-31T06:04:48.008+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 167, "sku_code": "YPrGdQpnTk"}
+2026-03-31T06:09:42.525+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:18:55.553+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:21:31.669+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:23:35.448+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:26:20.590+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:33:06.489+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:33:38.903+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:33:42.991+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:34:42.913+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:34:47.840+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:35:18.345+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:35:45.172+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:38:43.611+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:41:16.025+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:41:38.059+0700	INFO	repository/product.go:224	Get product by id	{"id": 48}
+2026-03-31T06:49:07.238+0700	INFO	repository/product.go:46	Creating product	{"name": "Salad cup Western style", "category_id": 6}
+2026-03-31T06:49:08.824+0700	INFO	repository/product.go:59	Product created successfully	{"id": 49, "name": "Salad cup Western style"}
+2026-03-31T06:49:08.953+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 49, "sku_code": "W4oGLNx5PQ"}
+2026-03-31T06:49:09.019+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 168, "sku_code": "W4oGLNx5PQ"}
+2026-03-31T11:09:47.589+0700	INFO	repository/product.go:46	Creating product	{"name": "Tomato cherry tomato", "category_id": 5}
+2026-03-31T11:09:47.809+0700	INFO	repository/product.go:59	Product created successfully	{"id": 50, "name": "Tomato cherry tomato"}
+2026-03-31T11:09:47.810+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "Weight", "product_id": 50}
+2026-03-31T11:09:47.862+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 76, "name": "Weight"}
+2026-03-31T11:09:47.862+0700	INFO	repository/variant_value.go:111	Creating variant value	{"value": "100g", "variant_type_id": 76}
+2026-03-31T11:09:47.908+0700	INFO	repository/variant_value.go:124	Variant value created successfully	{"id": 166, "value": "100g"}
+2026-03-31T11:09:47.909+0700	INFO	repository/variant_value.go:111	Creating variant value	{"value": "250g", "variant_type_id": 76}
+2026-03-31T11:09:47.914+0700	INFO	repository/variant_value.go:124	Variant value created successfully	{"id": 167, "value": "250g"}
+2026-03-31T11:09:47.915+0700	INFO	repository/variant_value.go:111	Creating variant value	{"value": "500g", "variant_type_id": 76}
+2026-03-31T11:09:47.921+0700	INFO	repository/variant_value.go:124	Variant value created successfully	{"id": 168, "value": "500g"}
+2026-03-31T11:09:47.939+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:09:47.977+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 50, "sku_code": "tomato-cherry-tomato-100g-1774930187977267000"}
+2026-03-31T11:09:47.998+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 169, "sku_code": "tomato-cherry-tomato-100g-1774930187977267000"}
+2026-03-31T11:09:47.999+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 169, "variant_value_id": 166}
+2026-03-31T11:09:48.028+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 173, "sku_id": 169}
+2026-03-31T11:09:48.028+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:09:48.044+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 50, "sku_code": "tomato-cherry-tomato-250g-1774930188043852000"}
+2026-03-31T11:09:48.049+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 170, "sku_code": "tomato-cherry-tomato-250g-1774930188043852000"}
+2026-03-31T11:09:48.049+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 170, "variant_value_id": 167}
+2026-03-31T11:09:48.053+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 174, "sku_id": 170}
+2026-03-31T11:09:48.053+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:09:48.070+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 50, "sku_code": "tomato-cherry-tomato-500g-1774930188070062700"}
+2026-03-31T11:09:48.072+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 171, "sku_code": "tomato-cherry-tomato-500g-1774930188070062700"}
+2026-03-31T11:09:48.072+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 171, "variant_value_id": 168}
+2026-03-31T11:09:48.074+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 175, "sku_id": 171}
+2026-03-31T11:09:59.828+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:10:33.027+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:11:33.392+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:11:56.195+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:15:56.518+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:24:53.145+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:25:04.699+0700	ERROR	usecase/product.go:240	Failed to update variant types	{"error": "variant type ID is nil for clean"}
+2026-03-31T11:25:04.700+0700	ERROR	usecase/product.go:259	Transaction update product failed	{"error": "variant type ID is nil for clean"}
+2026-03-31T11:25:04.791+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:26:28.279+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:27:50.435+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:28:07.840+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:29:00.945+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:29:41.113+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:30:45.227+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:32:04.782+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:33:31.362+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:34:16.213+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:34:36.849+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:34:44.417+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:36:55.170+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:38:54.595+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:41:14.323+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:41:29.953+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:43:06.835+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T11:44:25.840+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T12:12:25.634+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T12:13:11.053+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T12:14:03.320+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T12:14:49.693+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T12:16:28.826+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T12:16:53.749+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T12:17:06.685+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T12:18:22.220+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T12:18:57.331+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T14:17:27.560+0700	INFO	repository/product.go:224	Get product by id	{"id": 50}
+2026-03-31T15:00:00.011+0700	INFO	repository/order.go:321	Mark orders as shipped...
+2026-03-31T15:00:00.198+0700	INFO	repository/order.go:352	Successfully mark orders as shipped
+2026-03-31T23:15:14.624+0700	INFO	repository/order.go:433	Get order by id	{"id": 10}
+2026-03-31T23:17:18.107+0700	INFO	repository/order.go:433	Get order by id	{"id": 10}
+2026-03-31T23:20:20.132+0700	INFO	repository/order.go:433	Get order by id	{"id": 10}
+2026-03-31T23:20:21.781+0700	INFO	repository/order.go:433	Get order by id	{"id": 10}
+2026-03-31T23:25:39.510+0700	INFO	repository/order.go:433	Get order by id	{"id": 10}
+2026-03-31T23:25:57.646+0700	INFO	repository/order.go:433	Get order by id	{"id": 10}
+2026-03-31T23:26:26.780+0700	INFO	repository/order.go:433	Get order by id	{"id": 10}
+2026-03-31T23:26:27.130+0700	INFO	repository/order.go:433	Get order by id	{"id": 10}
+2026-04-01T00:00:00.077+0700	INFO	repository/order.go:360	Mark orders as delivered...
+2026-04-01T00:00:00.425+0700	INFO	repository/order.go:389	Successfully mark orders as delivered
+2026-04-01T00:05:00.068+0700	INFO	repository/order.go:397	Mark orders as completed...
+2026-04-01T00:05:00.116+0700	ERROR	repository/order.go:422	Failed to mark orders as completed
+2026-04-01T00:05:00.119+0700	ERROR	usecase/order.go:889	Failed to update order	{"error": "ERROR: syntax error at or near \"interval\" (SQLSTATE 42601)"}
+2026-04-01T00:05:00.124+0700	ERROR	scheduler/jobs.go:57	cron AutoCompleted failed	{"error": "ERROR: syntax error at or near \"interval\" (SQLSTATE 42601)"}

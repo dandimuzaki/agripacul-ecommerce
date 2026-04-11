@@ -1,0 +1,118 @@
+2026-03-06T03:49:34.213+0700	ERROR	utils/external.go:24	Error request fetch	{"error": "Get \"https://wilayah.id/api/villages/33.05.26.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+2026-03-06T03:49:34.500+0700	ERROR	seeder/location.go:161	Error fetch subdistricts	{"error": "Get \"https://wilayah.id/api/villages/33.05.26.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+2026-03-06T04:34:07.910+0700	ERROR	utils/external.go:24	Error request fetch	{"error": "Get \"https://wilayah.id/api/villages/72.05.06.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+2026-03-06T04:34:07.922+0700	ERROR	seeder/location.go:161	Error fetch subdistricts	{"error": "Get \"https://wilayah.id/api/villages/72.05.06.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+2026-03-06T14:39:56.510+0700	WARN	seeder/rajaongkir.go:104	Province not matched	{"province": "aceh"}
+2026-03-06T14:39:56.514+0700	INFO	seeder/rajaongkir.go:105	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-03-06T14:39:57.490+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "MUKO MUKO"}
+2026-03-06T14:39:57.495+0700	WARN	seeder/rajaongkir.go:104	Province not matched	{"province": "yogyakarta"}
+2026-03-06T14:39:57.496+0700	INFO	seeder/rajaongkir.go:105	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-03-06T14:39:58.429+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "BATANG HARI"}
+2026-03-06T14:39:58.443+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "SUNGAIPENUH"}
+2026-03-06T14:40:00.630+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "PALANGKA RAYA"}
+2026-03-06T14:40:01.977+0700	WARN	seeder/rajaongkir.go:104	Province not matched	{"province": "kepulauan bangka belitung"}
+2026-03-06T14:40:01.978+0700	INFO	seeder/rajaongkir.go:105	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-03-06T14:40:02.919+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "MALUKU TENGGARA BARAT"}
+2026-03-06T14:40:03.237+0700	WARN	seeder/rajaongkir.go:104	Province not matched	{"province": "nusa tenggara barat"}
+2026-03-06T14:40:03.241+0700	INFO	seeder/rajaongkir.go:105	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-03-06T14:40:03.260+0700	WARN	seeder/rajaongkir.go:104	Province not matched	{"province": "nusa tenggara timur"}
+2026-03-06T14:40:03.294+0700	INFO	seeder/rajaongkir.go:105	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-03-06T14:40:04.028+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "FAKFAK"}
+2026-03-06T14:40:04.071+0700	WARN	seeder/rajaongkir.go:104	Province not matched	{"province": "papua barat daya"}
+2026-03-06T14:40:04.072+0700	INFO	seeder/rajaongkir.go:105	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-03-06T14:40:04.077+0700	WARN	seeder/rajaongkir.go:104	Province not matched	{"province": "papua pegunungan"}
+2026-03-06T14:40:04.079+0700	INFO	seeder/rajaongkir.go:105	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-03-06T14:40:04.082+0700	WARN	seeder/rajaongkir.go:104	Province not matched	{"province": "papua selatan"}
+2026-03-06T14:40:04.082+0700	INFO	seeder/rajaongkir.go:105	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-03-06T14:40:04.086+0700	WARN	seeder/rajaongkir.go:104	Province not matched	{"province": "papua tengah"}
+2026-03-06T14:40:04.089+0700	INFO	seeder/rajaongkir.go:105	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-03-06T14:40:04.741+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "MAMUJU UTARA"}
+2026-03-06T14:40:05.084+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "PANGKAJENE KEPULAUAN"}
+2026-03-06T14:40:05.409+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "TOLI-TOLI"}
+2026-03-06T14:40:05.432+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "TOJO UNA-UNA"}
+2026-03-06T14:40:05.725+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "BAU-BAU"}
+2026-03-06T14:40:06.129+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "KEPULAUAN SIAU TAGULANDANG BIARO (SITARO)"}
+2026-03-06T14:40:06.473+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "SAWAH LUNTO"}
+2026-03-06T14:40:06.804+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "OGAN KOMERING ILIR"}
+2026-03-06T14:40:07.141+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "TOBA SAMOSIR"}
+2026-03-06T14:40:07.197+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "PADANG SIDEMPUAN"}
+2026-03-06T14:40:08.164+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "TANJUNG BALAI"}
+2026-03-06T14:40:08.320+0700	WARN	seeder/rajaongkir.go:385	Regency not matched	{"rajaongkir_city": "PEMATANG SIANTAR"}
+2026-03-06T14:40:09.056+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Karangasem", "district": "Karangasem"}
+2026-03-06T14:40:09.682+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Gianyar", "district": "Tampaksiring"}
+2026-03-06T14:40:10.279+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Klungkung", "district": "Nusa Penida"}
+2026-03-06T14:40:11.783+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Lebak", "district": "Gunungkencana"}
+2026-03-06T14:40:12.042+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Serang", "district": "Waringinkurung"}
+2026-03-06T14:40:12.921+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Air Nipis"}
+2026-03-06T14:40:12.921+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Bunga Mas"}
+2026-03-06T14:40:12.922+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Kedurang"}
+2026-03-06T14:40:12.922+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Kedurang Ilir"}
+2026-03-06T14:40:12.922+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Kota Manna"}
+2026-03-06T14:40:12.923+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Manna"}
+2026-03-06T14:40:12.923+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Pasar Manna"}
+2026-03-06T14:40:12.923+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Pino"}
+2026-03-06T14:40:12.924+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Pino Raya"}
+2026-03-06T14:40:12.924+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Seginim"}
+2026-03-06T14:40:12.924+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Ulu Manna"}
+2026-03-06T14:40:13.188+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bengkulu Tengah", "district": "Semidang Lagan"}
+2026-03-06T14:40:13.482+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Rejang Lebong", "district": "Sindang Dataran"}
+2026-03-06T14:40:13.795+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Kaur", "district": "Semidang Gumay"}
+2026-03-06T14:40:14.380+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Lebong", "district": "Tubei"}
+2026-03-06T14:40:15.099+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kota Administrasi Jakarta Barat", "district": "Pal Merah"}
+2026-03-06T14:40:15.386+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kota Administrasi Jakarta Selatan", "district": "Setiabudi"}
+2026-03-06T14:40:17.278+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Gorontalo", "district": "Talaga Jaya"}
+2026-03-06T14:40:17.595+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Gorontalo Utara", "district": "Tomilito"}
+2026-03-06T14:40:17.896+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Boalemo", "district": "Botumoito"}
+2026-03-06T14:40:18.259+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bone Bolango", "district": "Botupingge"}
+2026-03-06T14:40:19.774+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Bahar Selatan"}
+2026-03-06T14:40:19.775+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Bahar Utara"}
+2026-03-06T14:40:19.777+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Jambi Luar Kota"}
+2026-03-06T14:40:19.778+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Kumpeh"}
+2026-03-06T14:40:19.779+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Kumpeh Ulu"}
+2026-03-06T14:40:19.780+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Maro Sebo"}
+2026-03-06T14:40:19.782+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Mestong"}
+2026-03-06T14:40:19.782+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Sekernan"}
+2026-03-06T14:40:19.783+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Sungai Bahar"}
+2026-03-06T14:40:19.783+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Sungai Gelam"}
+2026-03-06T14:40:19.784+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Taman Rajo"}
+2026-03-06T14:40:20.628+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bungo", "district": "Batin II Babeko"}
+2026-03-06T14:40:20.628+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bungo", "district": "Muko-muko Bathin VII"}
+2026-03-06T14:40:20.629+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bungo", "district": "Pasar Muaro Bungo"}
+2026-03-06T14:40:20.949+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Sarolangun", "district": "Cermin Nan Gedang"}
+2026-03-06T14:40:21.201+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Batanghari", "district": "Bajubang"}
+2026-03-06T14:40:21.202+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Batanghari", "district": "Batin XXIV"}
+2026-03-06T14:40:21.203+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Batanghari", "district": "Maro Sebo Ilir"}
+2026-03-06T14:40:21.204+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Batanghari", "district": "Maro Sebo Ulu"}
+2026-03-06T14:40:21.204+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Batanghari", "district": "Mersam"}
+2026-03-06T14:40:21.205+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Batanghari", "district": "Muara Bulian"}
+2026-03-06T14:40:21.206+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Batanghari", "district": "Muara Tembesi"}
+2026-03-06T14:40:21.206+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Batanghari", "district": "Pemayung"}
+2026-03-06T14:40:21.631+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bandung", "district": "Cimenyan"}
+2026-03-06T14:40:21.632+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bandung", "district": "Rancabali"}
+2026-03-06T14:40:21.632+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bandung", "district": "Solokanjeruk"}
+2026-03-06T14:40:22.791+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bandung Barat", "district": "Cikalongwetan"}
+2026-03-06T14:40:23.066+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Cianjur", "district": "Bonjogpicung"}
+2026-03-06T14:40:23.066+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Cianjur", "district": "Cubinong"}
+2026-03-06T14:40:23.378+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bekasi", "district": "Karang Bahagia"}
+2026-03-06T14:40:23.378+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bekasi", "district": "Muaragembong"}
+2026-03-06T14:40:23.673+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bogor", "district": "Gunungputri"}
+2026-03-06T14:40:23.675+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bogor", "district": "Gunungsindur"}
+2026-03-06T14:40:23.677+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Bogor", "district": "Rancabungur"}
+2026-03-06T14:40:24.272+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Kuningan", "district": "Kramatmulya"}
+2026-03-06T14:40:25.185+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Karawang", "district": "Kota Baru"}
+2026-03-06T14:40:25.186+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Karawang", "district": "Telagasari"}
+2026-03-06T14:40:25.494+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Purwakarta", "district": "Tegalwaru"}
+2026-03-06T14:40:26.071+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Bojonggenteng"}
+2026-03-06T14:40:26.071+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Gegerbitung"}
+2026-03-06T14:40:26.072+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Jampangkulon"}
+2026-03-06T14:40:26.072+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Jampangtengah"}
+2026-03-06T14:40:26.073+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Kalapanunggal"}
+2026-03-06T14:40:26.073+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Palabuhanratu"}
+2026-03-06T14:40:26.074+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Parakansalak"}
+2026-03-06T14:40:26.075+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Parungkuda"}
+2026-03-06T14:40:26.617+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Ciamis", "district": "Banjaranyar"}
+2026-03-06T14:40:28.978+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Boyolali", "district": "Tamansari"}
+2026-03-06T14:40:28.980+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Boyolali", "district": "Wonosamodro"}
+2026-03-06T14:40:30.232+0700	WARN	seeder/rajaongkir.go:302	District not matched	{"regency": "Kabupaten Sragen", "district": "Sambungmacan"}
+2026-03-06T14:40:32.111+0700	ERROR	seeder/rajaongkir.go:190	Error get response fetch raja ongkir districts	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/destination/district/563: status 429"}
+2026-03-06T14:40:32.114+0700	ERROR	seeder/rajaongkir.go:360	Error update district	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/destination/district/563: status 429"}

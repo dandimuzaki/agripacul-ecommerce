@@ -1,0 +1,1181 @@
+2026-02-12T00:06:57.212+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.217+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "aceh"}
+2026-02-12T00:06:57.217+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.219+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.222+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "bali"}
+2026-02-12T00:06:57.223+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.227+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.228+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "banten"}
+2026-02-12T00:06:57.229+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.230+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.231+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "bengkulu"}
+2026-02-12T00:06:57.231+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.234+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.234+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "yogyakarta"}
+2026-02-12T00:06:57.234+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.236+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.237+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "jakarta"}
+2026-02-12T00:06:57.237+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.239+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.240+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "gorontalo"}
+2026-02-12T00:06:57.240+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.242+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.242+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "jambi"}
+2026-02-12T00:06:57.243+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.245+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.245+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "jawa barat"}
+2026-02-12T00:06:57.246+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.248+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.248+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "jawa tengah"}
+2026-02-12T00:06:57.248+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.251+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.251+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "jawa timur"}
+2026-02-12T00:06:57.251+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.253+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.253+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "kalimantan barat"}
+2026-02-12T00:06:57.253+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.256+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.257+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "kalimantan selatan"}
+2026-02-12T00:06:57.257+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.259+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.260+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "kalimantan tengah"}
+2026-02-12T00:06:57.260+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.261+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.262+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "kalimantan timur"}
+2026-02-12T00:06:57.262+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.264+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.264+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "kalimantan utara"}
+2026-02-12T00:06:57.265+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.266+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.267+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "kepulauan bangka belitung"}
+2026-02-12T00:06:57.267+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.269+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.269+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "kepulauan riau"}
+2026-02-12T00:06:57.269+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.271+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.271+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "lampung"}
+2026-02-12T00:06:57.272+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.273+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.274+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "maluku"}
+2026-02-12T00:06:57.274+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.276+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.276+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "maluku utara"}
+2026-02-12T00:06:57.276+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.278+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.278+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "nusa tenggara barat"}
+2026-02-12T00:06:57.279+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.280+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.280+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "nusa tenggara timur"}
+2026-02-12T00:06:57.281+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.282+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.283+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "papua"}
+2026-02-12T00:06:57.283+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.285+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.285+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "papua barat"}
+2026-02-12T00:06:57.285+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.287+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.288+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "papua barat daya"}
+2026-02-12T00:06:57.288+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.289+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.290+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "papua pegunungan"}
+2026-02-12T00:06:57.290+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.292+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.292+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "papua selatan"}
+2026-02-12T00:06:57.292+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.294+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.294+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "papua tengah"}
+2026-02-12T00:06:57.294+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.296+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.296+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "riau"}
+2026-02-12T00:06:57.297+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.298+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.299+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "sulawesi barat"}
+2026-02-12T00:06:57.299+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.301+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.301+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "sulawesi selatan"}
+2026-02-12T00:06:57.301+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.303+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.304+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "sulawesi tengah"}
+2026-02-12T00:06:57.304+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.305+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.306+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "sulawesi tenggara"}
+2026-02-12T00:06:57.306+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.308+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.308+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "sulawesi utara"}
+2026-02-12T00:06:57.308+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.310+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.311+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "sumatera barat"}
+2026-02-12T00:06:57.311+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.313+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.313+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "sumatera selatan"}
+2026-02-12T00:06:57.313+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:06:57.315+0700	ERROR	seeder/rajaongkir.go:103	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:06:57.316+0700	WARN	seeder/rajaongkir.go:108	Province not matched	{"province": "sumatera utara"}
+2026-02-12T00:06:57.316+0700	INFO	seeder/rajaongkir.go:109	map	{"map": {"":0}}
+2026-02-12T00:09:50.686+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.689+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "aceh"}
+2026-02-12T00:09:50.690+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.693+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.694+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "bali"}
+2026-02-12T00:09:50.694+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.697+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.699+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "banten"}
+2026-02-12T00:09:50.699+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.706+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.706+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "bengkulu"}
+2026-02-12T00:09:50.707+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.710+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.711+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "yogyakarta"}
+2026-02-12T00:09:50.712+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.713+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.714+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "jakarta"}
+2026-02-12T00:09:50.714+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.716+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.716+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "gorontalo"}
+2026-02-12T00:09:50.717+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.718+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.719+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "jambi"}
+2026-02-12T00:09:50.719+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.721+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.722+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "jawa barat"}
+2026-02-12T00:09:50.723+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.725+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.725+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "jawa tengah"}
+2026-02-12T00:09:50.725+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.727+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.728+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "jawa timur"}
+2026-02-12T00:09:50.728+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.733+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.733+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kalimantan barat"}
+2026-02-12T00:09:50.733+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.735+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.735+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kalimantan selatan"}
+2026-02-12T00:09:50.735+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.737+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.739+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kalimantan tengah"}
+2026-02-12T00:09:50.740+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.743+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.743+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kalimantan timur"}
+2026-02-12T00:09:50.743+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.749+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.750+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kalimantan utara"}
+2026-02-12T00:09:50.751+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.752+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.752+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kepulauan bangka belitung"}
+2026-02-12T00:09:50.753+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.756+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.756+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kepulauan riau"}
+2026-02-12T00:09:50.756+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.760+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.761+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "lampung"}
+2026-02-12T00:09:50.761+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.763+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.763+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "maluku"}
+2026-02-12T00:09:50.763+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.765+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.765+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "maluku utara"}
+2026-02-12T00:09:50.766+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.767+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.767+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "nusa tenggara barat"}
+2026-02-12T00:09:50.768+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.769+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.769+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "nusa tenggara timur"}
+2026-02-12T00:09:50.770+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.772+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.773+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua"}
+2026-02-12T00:09:50.774+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.775+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.776+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua barat"}
+2026-02-12T00:09:50.776+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.781+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.783+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua barat daya"}
+2026-02-12T00:09:50.783+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.785+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.786+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua pegunungan"}
+2026-02-12T00:09:50.786+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.789+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.790+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua selatan"}
+2026-02-12T00:09:50.790+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.792+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.792+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua tengah"}
+2026-02-12T00:09:50.792+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.794+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.794+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "riau"}
+2026-02-12T00:09:50.795+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.800+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.800+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sulawesi barat"}
+2026-02-12T00:09:50.800+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.802+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.802+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sulawesi selatan"}
+2026-02-12T00:09:50.803+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.805+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.806+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sulawesi tengah"}
+2026-02-12T00:09:50.806+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.808+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.809+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sulawesi tenggara"}
+2026-02-12T00:09:50.809+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.811+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.812+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sulawesi utara"}
+2026-02-12T00:09:50.814+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.817+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.817+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sumatera barat"}
+2026-02-12T00:09:50.817+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.819+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.819+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sumatera selatan"}
+2026-02-12T00:09:50.819+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:09:50.821+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:09:50.822+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sumatera utara"}
+2026-02-12T00:09:50.822+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.634+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.644+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "aceh"}
+2026-02-12T00:11:04.644+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.648+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.649+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "bali"}
+2026-02-12T00:11:04.649+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.652+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.652+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "banten"}
+2026-02-12T00:11:04.657+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.664+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.664+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "bengkulu"}
+2026-02-12T00:11:04.665+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.667+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.667+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "yogyakarta"}
+2026-02-12T00:11:04.668+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.673+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.675+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "jakarta"}
+2026-02-12T00:11:04.675+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.678+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.678+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "gorontalo"}
+2026-02-12T00:11:04.678+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.683+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.683+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "jambi"}
+2026-02-12T00:11:04.683+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.685+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.686+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "jawa barat"}
+2026-02-12T00:11:04.686+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.693+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.693+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "jawa tengah"}
+2026-02-12T00:11:04.693+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.698+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.698+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "jawa timur"}
+2026-02-12T00:11:04.699+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.700+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.700+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kalimantan barat"}
+2026-02-12T00:11:04.701+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.702+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.708+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kalimantan selatan"}
+2026-02-12T00:11:04.708+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.710+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.711+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kalimantan tengah"}
+2026-02-12T00:11:04.711+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.713+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.713+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kalimantan timur"}
+2026-02-12T00:11:04.714+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.716+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.716+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kalimantan utara"}
+2026-02-12T00:11:04.716+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.719+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.719+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kepulauan bangka belitung"}
+2026-02-12T00:11:04.725+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.726+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.726+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kepulauan riau"}
+2026-02-12T00:11:04.727+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.728+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.728+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "lampung"}
+2026-02-12T00:11:04.729+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.731+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.731+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "maluku"}
+2026-02-12T00:11:04.732+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.733+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.734+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "maluku utara"}
+2026-02-12T00:11:04.734+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.741+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.741+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "nusa tenggara barat"}
+2026-02-12T00:11:04.742+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.744+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.744+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "nusa tenggara timur"}
+2026-02-12T00:11:04.745+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.749+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.749+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua"}
+2026-02-12T00:11:04.750+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.751+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.752+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua barat"}
+2026-02-12T00:11:04.752+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.759+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.759+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua barat daya"}
+2026-02-12T00:11:04.760+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.764+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.764+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua pegunungan"}
+2026-02-12T00:11:04.765+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.767+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.767+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua selatan"}
+2026-02-12T00:11:04.767+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.773+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.775+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua tengah"}
+2026-02-12T00:11:04.775+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.777+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.778+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "riau"}
+2026-02-12T00:11:04.778+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.782+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.782+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sulawesi barat"}
+2026-02-12T00:11:04.783+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.785+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.785+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sulawesi selatan"}
+2026-02-12T00:11:04.785+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.792+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.792+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sulawesi tengah"}
+2026-02-12T00:11:04.793+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.795+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.796+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sulawesi tenggara"}
+2026-02-12T00:11:04.796+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.799+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.800+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sulawesi utara"}
+2026-02-12T00:11:04.800+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.802+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.807+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sumatera barat"}
+2026-02-12T00:11:04.808+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.810+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.810+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sumatera selatan"}
+2026-02-12T00:11:04.810+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:11:04.812+0700	ERROR	seeder/rajaongkir.go:108	Failed update province	{"error": "ERROR: column \"raja_ongkir_id\" of relation \"provinces\" does not exist (SQLSTATE 42703)"}
+2026-02-12T00:11:04.813+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "sumatera utara"}
+2026-02-12T00:11:04.813+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"":0}}
+2026-02-12T00:13:21.182+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "aceh"}
+2026-02-12T00:13:21.183+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.190+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "bali"}
+2026-02-12T00:13:21.190+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.198+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "banten"}
+2026-02-12T00:13:21.200+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.204+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "bengkulu"}
+2026-02-12T00:13:21.205+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.209+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "yogyakarta"}
+2026-02-12T00:13:21.210+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.213+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "jakarta"}
+2026-02-12T00:13:21.213+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.216+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "gorontalo"}
+2026-02-12T00:13:21.216+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.222+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "jambi"}
+2026-02-12T00:13:21.222+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.228+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "jawa barat"}
+2026-02-12T00:13:21.230+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.233+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "jawa tengah"}
+2026-02-12T00:13:21.233+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.239+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "jawa timur"}
+2026-02-12T00:13:21.239+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.246+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "kalimantan barat"}
+2026-02-12T00:13:21.247+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.251+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "kalimantan selatan"}
+2026-02-12T00:13:21.253+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.256+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "kalimantan tengah"}
+2026-02-12T00:13:21.256+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.261+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "kalimantan timur"}
+2026-02-12T00:13:21.262+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.266+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "kalimantan utara"}
+2026-02-12T00:13:21.266+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.271+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "kepulauan bangka belitung"}
+2026-02-12T00:13:21.273+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.275+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "kepulauan riau"}
+2026-02-12T00:13:21.277+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.280+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "lampung"}
+2026-02-12T00:13:21.280+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.282+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "maluku"}
+2026-02-12T00:13:21.283+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.285+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "maluku utara"}
+2026-02-12T00:13:21.286+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.289+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "nusa tenggara barat"}
+2026-02-12T00:13:21.290+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.295+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "nusa tenggara timur"}
+2026-02-12T00:13:21.295+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.299+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "papua"}
+2026-02-12T00:13:21.299+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.304+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "papua barat"}
+2026-02-12T00:13:21.305+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.308+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "papua barat daya"}
+2026-02-12T00:13:21.308+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.310+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "papua pegunungan"}
+2026-02-12T00:13:21.310+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.312+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "papua selatan"}
+2026-02-12T00:13:21.313+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.315+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "papua tengah"}
+2026-02-12T00:13:21.315+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.319+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "riau"}
+2026-02-12T00:13:21.320+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.323+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "sulawesi barat"}
+2026-02-12T00:13:21.323+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.330+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "sulawesi selatan"}
+2026-02-12T00:13:21.331+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.334+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "sulawesi tengah"}
+2026-02-12T00:13:21.335+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.341+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "sulawesi tenggara"}
+2026-02-12T00:13:21.342+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.346+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "sulawesi utara"}
+2026-02-12T00:13:21.347+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.349+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "sumatera barat"}
+2026-02-12T00:13:21.350+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.357+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "sumatera selatan"}
+2026-02-12T00:13:21.357+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:13:21.376+0700	WARN	seeder/rajaongkir.go:114	Province not matched	{"province": "sumatera utara"}
+2026-02-12T00:13:21.376+0700	INFO	seeder/rajaongkir.go:115	map	{"map": {"":0}}
+2026-02-12T00:20:24.269+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "aceh"}
+2026-02-12T00:20:24.273+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-02-12T00:20:24.409+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Denpasar", "raja_ongkir_id": 201}
+2026-02-12T00:20:24.414+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Karangasem", "raja_ongkir_id": 203}
+2026-02-12T00:20:24.421+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bangli", "raja_ongkir_id": 204}
+2026-02-12T00:20:24.426+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Gianyar", "raja_ongkir_id": 205}
+2026-02-12T00:20:24.433+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Jembrana", "raja_ongkir_id": 206}
+2026-02-12T00:20:24.437+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Klungkung", "raja_ongkir_id": 208}
+2026-02-12T00:20:24.441+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Buleleng", "raja_ongkir_id": 210}
+2026-02-12T00:20:24.446+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tabanan", "raja_ongkir_id": 211}
+2026-02-12T00:20:24.452+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Badung", "raja_ongkir_id": 212}
+2026-02-12T00:20:24.503+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Cilegon", "raja_ongkir_id": 143}
+2026-02-12T00:20:24.506+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pandeglang", "raja_ongkir_id": 144}
+2026-02-12T00:20:24.514+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lebak", "raja_ongkir_id": 147}
+2026-02-12T00:20:24.518+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Serang", "raja_ongkir_id": 148}
+2026-02-12T00:20:24.521+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tangerang", "raja_ongkir_id": 592}
+2026-02-12T00:20:24.524+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Tangerang Selatan", "raja_ongkir_id": 594}
+2026-02-12T00:20:24.594+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bengkulu Selatan", "raja_ongkir_id": 64}
+2026-02-12T00:20:24.599+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bengkulu Utara", "raja_ongkir_id": 65}
+2026-02-12T00:20:24.604+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bengkulu Tengah", "raja_ongkir_id": 66}
+2026-02-12T00:20:24.607+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Rejang Lebong", "raja_ongkir_id": 67}
+2026-02-12T00:20:24.613+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kaur", "raja_ongkir_id": 69}
+2026-02-12T00:20:24.621+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kepahiang", "raja_ongkir_id": 70}
+2026-02-12T00:20:24.624+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lebong", "raja_ongkir_id": 71}
+2026-02-12T00:20:24.626+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "MUKO MUKO"}
+2026-02-12T00:20:24.631+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Seluma", "raja_ongkir_id": 76}
+2026-02-12T00:20:24.633+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "yogyakarta"}
+2026-02-12T00:20:24.638+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-02-12T00:20:24.689+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Administrasi Jakarta Barat", "raja_ongkir_id": 135}
+2026-02-12T00:20:24.692+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Administrasi Jakarta Selatan", "raja_ongkir_id": 136}
+2026-02-12T00:20:24.697+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Administrasi Jakarta Pusat", "raja_ongkir_id": 137}
+2026-02-12T00:20:24.702+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Administrasi Jakarta Utara ", "raja_ongkir_id": 138}
+2026-02-12T00:20:24.707+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Administrasi Jakarta Timur", "raja_ongkir_id": 139}
+2026-02-12T00:20:24.713+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Administrasi Kepulauan Seribu", "raja_ongkir_id": 141}
+2026-02-12T00:20:24.771+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Gorontalo", "raja_ongkir_id": 251}
+2026-02-12T00:20:24.775+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Gorontalo Utara", "raja_ongkir_id": 252}
+2026-02-12T00:20:24.781+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Boalemo", "raja_ongkir_id": 253}
+2026-02-12T00:20:24.788+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bone Bolango", "raja_ongkir_id": 254}
+2026-02-12T00:20:24.791+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pohuwato", "raja_ongkir_id": 255}
+2026-02-12T00:20:24.842+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten  Muaro Jambi", "raja_ongkir_id": 150}
+2026-02-12T00:20:24.848+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tanjung Jabung Barat", "raja_ongkir_id": 152}
+2026-02-12T00:20:24.852+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten  Merangin", "raja_ongkir_id": 153}
+2026-02-12T00:20:24.854+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "BATANG HARI"}
+2026-02-12T00:20:24.858+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bungo", "raja_ongkir_id": 156}
+2026-02-12T00:20:24.859+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "SUNGAIPENUH"}
+2026-02-12T00:20:24.864+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kerinci", "raja_ongkir_id": 158}
+2026-02-12T00:20:24.875+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sarolangun", "raja_ongkir_id": 161}
+2026-02-12T00:20:24.881+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tanjung Jabung Timur", "raja_ongkir_id": 163}
+2026-02-12T00:20:24.888+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tebo", "raja_ongkir_id": 164}
+2026-02-12T00:20:24.941+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bandung", "raja_ongkir_id": 55}
+2026-02-12T00:20:24.944+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Cimahi", "raja_ongkir_id": 56}
+2026-02-12T00:20:24.949+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sumedang", "raja_ongkir_id": 57}
+2026-02-12T00:20:24.954+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Garut", "raja_ongkir_id": 59}
+2026-02-12T00:20:24.958+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bandung Barat", "raja_ongkir_id": 60}
+2026-02-12T00:20:24.964+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Cianjur", "raja_ongkir_id": 62}
+2026-02-12T00:20:24.967+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bekasi", "raja_ongkir_id": 63}
+2026-02-12T00:20:24.971+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bogor", "raja_ongkir_id": 77}
+2026-02-12T00:20:24.974+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Cirebon", "raja_ongkir_id": 129}
+2026-02-12T00:20:24.979+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Indramayu", "raja_ongkir_id": 131}
+2026-02-12T00:20:24.985+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kuningan", "raja_ongkir_id": 132}
+2026-02-12T00:20:24.987+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Majalengka", "raja_ongkir_id": 133}
+2026-02-12T00:20:24.991+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Depok", "raja_ongkir_id": 199}
+2026-02-12T00:20:24.996+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Karawang", "raja_ongkir_id": 329}
+2026-02-12T00:20:25.002+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Purwakarta", "raja_ongkir_id": 532}
+2026-02-12T00:20:25.005+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Subang", "raja_ongkir_id": 533}
+2026-02-12T00:20:25.009+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sukabumi", "raja_ongkir_id": 538}
+2026-02-12T00:20:25.016+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tasikmalaya", "raja_ongkir_id": 632}
+2026-02-12T00:20:25.021+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Banjar", "raja_ongkir_id": 633}
+2026-02-12T00:20:25.026+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Ciamis", "raja_ongkir_id": 634}
+2026-02-12T00:20:25.033+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pangandaran", "raja_ongkir_id": 635}
+2026-02-12T00:20:25.084+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Cilacap", "raja_ongkir_id": 149}
+2026-02-12T00:20:25.086+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Magelang", "raja_ongkir_id": 383}
+2026-02-12T00:20:25.089+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kebumen", "raja_ongkir_id": 384}
+2026-02-12T00:20:25.092+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Wonosobo", "raja_ongkir_id": 385}
+2026-02-12T00:20:25.097+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Purworejo", "raja_ongkir_id": 386}
+2026-02-12T00:20:25.104+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Temanggung", "raja_ongkir_id": 387}
+2026-02-12T00:20:25.107+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Surakarta", "raja_ongkir_id": 539}
+2026-02-12T00:20:25.111+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Boyolali", "raja_ongkir_id": 540}
+2026-02-12T00:20:25.118+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Karanganyar", "raja_ongkir_id": 541}
+2026-02-12T00:20:25.122+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Klaten", "raja_ongkir_id": 542}
+2026-02-12T00:20:25.125+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sragen", "raja_ongkir_id": 543}
+2026-02-12T00:20:25.130+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sukoharjo", "raja_ongkir_id": 544}
+2026-02-12T00:20:25.137+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Wonogiri", "raja_ongkir_id": 545}
+2026-02-12T00:20:25.141+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Semarang", "raja_ongkir_id": 560}
+2026-02-12T00:20:25.144+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Jepara", "raja_ongkir_id": 561}
+2026-02-12T00:20:25.149+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kudus", "raja_ongkir_id": 562}
+2026-02-12T00:20:25.152+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pekalongan", "raja_ongkir_id": 563}
+2026-02-12T00:20:25.155+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Batanghari", "raja_ongkir_id": 564}
+2026-02-12T00:20:25.158+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Blora", "raja_ongkir_id": 565}
+2026-02-12T00:20:25.162+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Demak", "raja_ongkir_id": 567}
+2026-02-12T00:20:25.167+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kendal", "raja_ongkir_id": 568}
+2026-02-12T00:20:25.170+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pati", "raja_ongkir_id": 569}
+2026-02-12T00:20:25.172+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pemalang", "raja_ongkir_id": 570}
+2026-02-12T00:20:25.175+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Grobogan", "raja_ongkir_id": 571}
+2026-02-12T00:20:25.179+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Rembang", "raja_ongkir_id": 572}
+2026-02-12T00:20:25.187+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Salatiga", "raja_ongkir_id": 573}
+2026-02-12T00:20:25.190+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Purbalingga", "raja_ongkir_id": 575}
+2026-02-12T00:20:25.192+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Banjarnegara", "raja_ongkir_id": 576}
+2026-02-12T00:20:25.197+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tegal", "raja_ongkir_id": 588}
+2026-02-12T00:20:25.202+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Brebes", "raja_ongkir_id": 589}
+2026-02-12T00:20:25.207+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Banyumas", "raja_ongkir_id": 591}
+2026-02-12T00:20:25.259+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Jember", "raja_ongkir_id": 256}
+2026-02-12T00:20:25.264+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Banyuwangi", "raja_ongkir_id": 257}
+2026-02-12T00:20:25.269+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bondowoso", "raja_ongkir_id": 258}
+2026-02-12T00:20:25.271+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kediri", "raja_ongkir_id": 289}
+2026-02-12T00:20:25.274+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Madiun", "raja_ongkir_id": 353}
+2026-02-12T00:20:25.279+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Magetan", "raja_ongkir_id": 355}
+2026-02-12T00:20:25.285+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Ngawi", "raja_ongkir_id": 357}
+2026-02-12T00:20:25.289+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pacitan", "raja_ongkir_id": 359}
+2026-02-12T00:20:25.299+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Ponorogo", "raja_ongkir_id": 360}
+2026-02-12T00:20:25.306+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mojokerto", "raja_ongkir_id": 388}
+2026-02-12T00:20:25.314+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Jombang", "raja_ongkir_id": 389}
+2026-02-12T00:20:25.322+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Nganjuk", "raja_ongkir_id": 390}
+2026-02-12T00:20:25.329+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Blitar", "raja_ongkir_id": 392}
+2026-02-12T00:20:25.334+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Batu", "raja_ongkir_id": 393}
+2026-02-12T00:20:25.343+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Probolinggo", "raja_ongkir_id": 394}
+2026-02-12T00:20:25.347+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lumajang", "raja_ongkir_id": 395}
+2026-02-12T00:20:25.378+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Situbondo", "raja_ongkir_id": 396}
+2026-02-12T00:20:25.385+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pasuruan", "raja_ongkir_id": 531}
+2026-02-12T00:20:25.390+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bojonegoro", "raja_ongkir_id": 566}
+2026-02-12T00:20:25.394+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Surabaya", "raja_ongkir_id": 577}
+2026-02-12T00:20:25.401+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Gresik", "raja_ongkir_id": 578}
+2026-02-12T00:20:25.407+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lamongan", "raja_ongkir_id": 579}
+2026-02-12T00:20:25.411+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bangkalan", "raja_ongkir_id": 580}
+2026-02-12T00:20:25.416+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pamekasan", "raja_ongkir_id": 581}
+2026-02-12T00:20:25.422+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sampang", "raja_ongkir_id": 582}
+2026-02-12T00:20:25.425+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sidoarjo", "raja_ongkir_id": 583}
+2026-02-12T00:20:25.430+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sumenep", "raja_ongkir_id": 584}
+2026-02-12T00:20:25.439+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tuban", "raja_ongkir_id": 585}
+2026-02-12T00:20:25.446+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tulungagung", "raja_ongkir_id": 586}
+2026-02-12T00:20:25.450+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Trenggalek", "raja_ongkir_id": 587}
+2026-02-12T00:20:25.506+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Pontianak", "raja_ongkir_id": 513}
+2026-02-12T00:20:25.509+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Ketapang", "raja_ongkir_id": 514}
+2026-02-12T00:20:25.515+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sanggau", "raja_ongkir_id": 515}
+2026-02-12T00:20:25.520+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Singkawang", "raja_ongkir_id": 516}
+2026-02-12T00:20:25.524+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sintang", "raja_ongkir_id": 517}
+2026-02-12T00:20:25.529+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kapuas Hulu", "raja_ongkir_id": 519}
+2026-02-12T00:20:25.535+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bengkayang", "raja_ongkir_id": 522}
+2026-02-12T00:20:25.540+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Landak", "raja_ongkir_id": 523}
+2026-02-12T00:20:25.545+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Melawi", "raja_ongkir_id": 524}
+2026-02-12T00:20:25.549+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mempawah", "raja_ongkir_id": 526}
+2026-02-12T00:20:25.557+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kubu Raya", "raja_ongkir_id": 527}
+2026-02-12T00:20:25.562+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sambas", "raja_ongkir_id": 528}
+2026-02-12T00:20:25.566+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sekadau", "raja_ongkir_id": 529}
+2026-02-12T00:20:25.573+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kayong Utara", "raja_ongkir_id": 530}
+2026-02-12T00:20:25.624+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Banjarmasin", "raja_ongkir_id": 29}
+2026-02-12T00:20:25.628+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Hulu Sungai Tengah", "raja_ongkir_id": 30}
+2026-02-12T00:20:25.632+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Hulu Sungai Selatan", "raja_ongkir_id": 32}
+2026-02-12T00:20:25.635+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kotabaru", "raja_ongkir_id": 34}
+2026-02-12T00:20:25.637+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tabalong", "raja_ongkir_id": 35}
+2026-02-12T00:20:25.640+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Banjarbaru", "raja_ongkir_id": 36}
+2026-02-12T00:20:25.642+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Hulu Sungai Utara", "raja_ongkir_id": 38}
+2026-02-12T00:20:25.646+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Barito Kuala", "raja_ongkir_id": 39}
+2026-02-12T00:20:25.651+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tanah Laut", "raja_ongkir_id": 42}
+2026-02-12T00:20:25.654+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tapin", "raja_ongkir_id": 44}
+2026-02-12T00:20:25.657+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Balangan", "raja_ongkir_id": 53}
+2026-02-12T00:20:25.661+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tanah Bumbu", "raja_ongkir_id": 54}
+2026-02-12T00:20:25.715+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Barito Utara", "raja_ongkir_id": 46}
+2026-02-12T00:20:25.722+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Barito Timur", "raja_ongkir_id": 48}
+2026-02-12T00:20:25.729+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Murung Raya", "raja_ongkir_id": 50}
+2026-02-12T00:20:25.733+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Barito Selatan", "raja_ongkir_id": 52}
+2026-02-12T00:20:25.738+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "PALANGKA RAYA"}
+2026-02-12T00:20:25.743+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Katingan", "raja_ongkir_id": 458}
+2026-02-12T00:20:25.750+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Gunung Mas", "raja_ongkir_id": 462}
+2026-02-12T00:20:25.758+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Seruyan", "raja_ongkir_id": 464}
+2026-02-12T00:20:25.761+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kotawaringin Barat", "raja_ongkir_id": 466}
+2026-02-12T00:20:25.765+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kotawaringin Timur", "raja_ongkir_id": 468}
+2026-02-12T00:20:25.772+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lamandau", "raja_ongkir_id": 470}
+2026-02-12T00:20:25.774+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pulang Pisau", "raja_ongkir_id": 471}
+2026-02-12T00:20:25.779+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sukamara", "raja_ongkir_id": 472}
+2026-02-12T00:20:25.917+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Balikpapan", "raja_ongkir_id": 78}
+2026-02-12T00:20:25.926+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kutai Kartanegara", "raja_ongkir_id": 79}
+2026-02-12T00:20:25.961+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Paser", "raja_ongkir_id": 80}
+2026-02-12T00:20:25.966+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Berau", "raja_ongkir_id": 81}
+2026-02-12T00:20:25.971+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Penajam Paser Utara", "raja_ongkir_id": 83}
+2026-02-12T00:20:25.975+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Bontang", "raja_ongkir_id": 84}
+2026-02-12T00:20:25.981+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kutai Timur", "raja_ongkir_id": 86}
+2026-02-12T00:20:25.988+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Samarinda", "raja_ongkir_id": 534}
+2026-02-12T00:20:25.992+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kutai Barat", "raja_ongkir_id": 536}
+2026-02-12T00:20:25.997+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mahakam Ulu", "raja_ongkir_id": 537}
+2026-02-12T00:20:26.049+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Tarakan", "raja_ongkir_id": 626}
+2026-02-12T00:20:26.055+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bulungan", "raja_ongkir_id": 627}
+2026-02-12T00:20:26.058+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Malinau", "raja_ongkir_id": 628}
+2026-02-12T00:20:26.063+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Nunukan", "raja_ongkir_id": 629}
+2026-02-12T00:20:26.070+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tana Tidung", "raja_ongkir_id": 631}
+2026-02-12T00:20:26.072+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "kepulauan bangka belitung"}
+2026-02-12T00:20:26.072+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-02-12T00:20:26.124+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Batam", "raja_ongkir_id": 90}
+2026-02-12T00:20:26.132+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Natuna", "raja_ongkir_id": 94}
+2026-02-12T00:20:26.135+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kepulauan Anambas", "raja_ongkir_id": 95}
+2026-02-12T00:20:26.138+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Karimun", "raja_ongkir_id": 96}
+2026-02-12T00:20:26.143+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Tanjung Pinang", "raja_ongkir_id": 619}
+2026-02-12T00:20:26.147+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bintan", "raja_ongkir_id": 624}
+2026-02-12T00:20:26.199+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Bandar Lampung", "raja_ongkir_id": 598}
+2026-02-12T00:20:26.206+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lampung Selatan", "raja_ongkir_id": 599}
+2026-02-12T00:20:26.209+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lampung Utara", "raja_ongkir_id": 600}
+2026-02-12T00:20:26.215+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Metro", "raja_ongkir_id": 601}
+2026-02-12T00:20:26.219+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lampung Barat", "raja_ongkir_id": 603}
+2026-02-12T00:20:26.222+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pesisir Barat", "raja_ongkir_id": 604}
+2026-02-12T00:20:26.225+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lampung Tengah", "raja_ongkir_id": 605}
+2026-02-12T00:20:26.231+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lampung Timur", "raja_ongkir_id": 607}
+2026-02-12T00:20:26.235+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Way Kanan", "raja_ongkir_id": 608}
+2026-02-12T00:20:26.239+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tulang Bawang", "raja_ongkir_id": 609}
+2026-02-12T00:20:26.244+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mesuji", "raja_ongkir_id": 610}
+2026-02-12T00:20:26.250+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tulang Bawang Barat", "raja_ongkir_id": 611}
+2026-02-12T00:20:26.254+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pringsewu", "raja_ongkir_id": 615}
+2026-02-12T00:20:26.257+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tanggamus", "raja_ongkir_id": 616}
+2026-02-12T00:20:26.264+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pesawaran", "raja_ongkir_id": 618}
+2026-02-12T00:20:26.321+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Ambon", "raja_ongkir_id": 11}
+2026-02-12T00:20:26.328+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Maluku Tengah", "raja_ongkir_id": 12}
+2026-02-12T00:20:26.333+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Maluku Tenggara", "raja_ongkir_id": 14}
+2026-02-12T00:20:26.340+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Tual", "raja_ongkir_id": 15}
+2026-02-12T00:20:26.345+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Buru", "raja_ongkir_id": 16}
+2026-02-12T00:20:26.350+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Buru Selatan", "raja_ongkir_id": 17}
+2026-02-12T00:20:26.353+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kepulauan Aru", "raja_ongkir_id": 19}
+2026-02-12T00:20:26.355+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Seram Bagian Barat", "raja_ongkir_id": 21}
+2026-02-12T00:20:26.358+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Seram Bagian Timur", "raja_ongkir_id": 23}
+2026-02-12T00:20:26.365+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Maluku Barat Daya", "raja_ongkir_id": 24}
+2026-02-12T00:20:26.367+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "MALUKU TENGGARA BARAT"}
+2026-02-12T00:20:26.420+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Ternate", "raja_ongkir_id": 636}
+2026-02-12T00:20:26.423+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Halmahera Barat", "raja_ongkir_id": 637}
+2026-02-12T00:20:26.426+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Halmahera Selatan", "raja_ongkir_id": 639}
+2026-02-12T00:20:26.433+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Halmahera Tengah", "raja_ongkir_id": 640}
+2026-02-12T00:20:26.438+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Halmahera Timur", "raja_ongkir_id": 641}
+2026-02-12T00:20:26.442+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Halmahera Utara", "raja_ongkir_id": 642}
+2026-02-12T00:20:26.448+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pulau Morotai", "raja_ongkir_id": 643}
+2026-02-12T00:20:26.451+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kepulauan Sula", "raja_ongkir_id": 644}
+2026-02-12T00:20:26.456+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pulau Taliabu", "raja_ongkir_id": 646}
+2026-02-12T00:20:26.461+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Tidore Kepulauan", "raja_ongkir_id": 647}
+2026-02-12T00:20:26.464+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "nusa tenggara barat"}
+2026-02-12T00:20:26.464+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-02-12T00:20:26.467+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "nusa tenggara timur"}
+2026-02-12T00:20:26.469+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-02-12T00:20:26.523+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Jayapura", "raja_ongkir_id": 165}
+2026-02-12T00:20:26.528+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Biak Numfor", "raja_ongkir_id": 166}
+2026-02-12T00:20:26.533+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Merauke", "raja_ongkir_id": 167}
+2026-02-12T00:20:26.540+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Nabire", "raja_ongkir_id": 168}
+2026-02-12T00:20:26.544+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Dogiyai", "raja_ongkir_id": 169}
+2026-02-12T00:20:26.548+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kepulauan Yapen", "raja_ongkir_id": 171}
+2026-02-12T00:20:26.555+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Jayawijaya", "raja_ongkir_id": 172}
+2026-02-12T00:20:26.559+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lanny Jaya", "raja_ongkir_id": 174}
+2026-02-12T00:20:26.564+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Yalimo", "raja_ongkir_id": 175}
+2026-02-12T00:20:26.570+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Nduga", "raja_ongkir_id": 176}
+2026-02-12T00:20:26.574+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mamberamo Tengah", "raja_ongkir_id": 177}
+2026-02-12T00:20:26.579+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Asmat", "raja_ongkir_id": 178}
+2026-02-12T00:20:26.585+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Boven Digoel", "raja_ongkir_id": 180}
+2026-02-12T00:20:26.589+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Keerom", "raja_ongkir_id": 181}
+2026-02-12T00:20:26.594+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mappi", "raja_ongkir_id": 183}
+2026-02-12T00:20:26.598+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Intan Jaya", "raja_ongkir_id": 184}
+2026-02-12T00:20:26.604+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Paniai", "raja_ongkir_id": 185}
+2026-02-12T00:20:26.608+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Deiyai", "raja_ongkir_id": 186}
+2026-02-12T00:20:26.613+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kab Pegunungan Bintang", "raja_ongkir_id": 187}
+2026-02-12T00:20:26.620+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Puncak Jaya", "raja_ongkir_id": 188}
+2026-02-12T00:20:26.623+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Puncak", "raja_ongkir_id": 189}
+2026-02-12T00:20:26.626+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sarmi", "raja_ongkir_id": 190}
+2026-02-12T00:20:26.630+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Supiori", "raja_ongkir_id": 192}
+2026-02-12T00:20:26.636+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tolikara", "raja_ongkir_id": 193}
+2026-02-12T00:20:26.640+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Waropen", "raja_ongkir_id": 195}
+2026-02-12T00:20:26.643+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Yahukimo", "raja_ongkir_id": 196}
+2026-02-12T00:20:26.648+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mamberamo Raya", "raja_ongkir_id": 198}
+2026-02-12T00:20:26.656+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mimika", "raja_ongkir_id": 595}
+2026-02-12T00:20:26.708+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sorong", "raja_ongkir_id": 546}
+2026-02-12T00:20:26.714+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tambrauw", "raja_ongkir_id": 547}
+2026-02-12T00:20:26.715+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "FAKFAK"}
+2026-02-12T00:20:26.718+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kaimana", "raja_ongkir_id": 549}
+2026-02-12T00:20:26.721+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Raja Ampat", "raja_ongkir_id": 551}
+2026-02-12T00:20:26.726+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sorong Selatan", "raja_ongkir_id": 552}
+2026-02-12T00:20:26.732+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Maybrat", "raja_ongkir_id": 553}
+2026-02-12T00:20:26.735+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Teluk Bintuni", "raja_ongkir_id": 554}
+2026-02-12T00:20:26.739+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Teluk Wondama", "raja_ongkir_id": 556}
+2026-02-12T00:20:26.742+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Manokwari", "raja_ongkir_id": 557}
+2026-02-12T00:20:26.746+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pegunungan Arfak", "raja_ongkir_id": 558}
+2026-02-12T00:20:26.754+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Manokwari Selatan", "raja_ongkir_id": 559}
+2026-02-12T00:20:26.756+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua barat daya"}
+2026-02-12T00:20:26.756+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-02-12T00:20:26.758+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua pegunungan"}
+2026-02-12T00:20:26.758+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-02-12T00:20:26.762+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua selatan"}
+2026-02-12T00:20:26.762+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-02-12T00:20:26.765+0700	WARN	seeder/rajaongkir.go:113	Province not matched	{"province": "papua tengah"}
+2026-02-12T00:20:26.765+0700	INFO	seeder/rajaongkir.go:114	map	{"map": {"bali":15,"bangka belitung":24,"banten":11,"bengkulu":6,"di yogyakarta":19,"gorontalo":17,"jakarta":10,"jambi":13,"jawa barat":5,"jawa tengah":12,"jawa timur":18,"kalimantan barat":28,"kalimantan selatan":3,"kalimantan tengah":4,"kalimantan timur":7,"kalimantan utara":31,"kepulauan riau":8,"lampung":30,"maluku":2,"maluku utara":32,"nanggroe aceh darussalam nad":9,"nusa tenggara barat ntb":1,"nusa tenggara timur ntt":21,"papua":14,"papua barat":29,"riau":25,"sulawesi barat":34,"sulawesi selatan":33,"sulawesi tengah":27,"sulawesi tenggara":20,"sulawesi utara":22,"sumatera barat":23,"sumatera selatan":26,"sumatera utara":16}}
+2026-02-12T00:20:26.818+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Pekanbaru", "raja_ongkir_id": 433}
+2026-02-12T00:20:26.822+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Dumai", "raja_ongkir_id": 434}
+2026-02-12T00:20:26.827+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kampar", "raja_ongkir_id": 435}
+2026-02-12T00:20:26.834+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bengkalis", "raja_ongkir_id": 436}
+2026-02-12T00:20:26.837+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Indragiri Hulu", "raja_ongkir_id": 438}
+2026-02-12T00:20:26.842+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Indragiri Hilir", "raja_ongkir_id": 439}
+2026-02-12T00:20:26.848+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Rokan Hilir", "raja_ongkir_id": 441}
+2026-02-12T00:20:26.854+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kuantan Singingi", "raja_ongkir_id": 443}
+2026-02-12T00:20:26.858+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pelalawan", "raja_ongkir_id": 444}
+2026-02-12T00:20:26.866+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Rokan Hulu", "raja_ongkir_id": 447}
+2026-02-12T00:20:26.880+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Siak", "raja_ongkir_id": 451}
+2026-02-12T00:20:26.886+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kepulauan Meranti", "raja_ongkir_id": 454}
+2026-02-12T00:20:26.938+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mamuju", "raja_ongkir_id": 657}
+2026-02-12T00:20:26.944+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mamuju Tengah", "raja_ongkir_id": 658}
+2026-02-12T00:20:26.949+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Majene", "raja_ongkir_id": 662}
+2026-02-12T00:20:26.953+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Polewali Mandar", "raja_ongkir_id": 665}
+2026-02-12T00:20:26.958+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mamasa", "raja_ongkir_id": 687}
+2026-02-12T00:20:26.960+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "MAMUJU UTARA"}
+2026-02-12T00:20:27.015+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Makassar", "raja_ongkir_id": 648}
+2026-02-12T00:20:27.017+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bantaeng", "raja_ongkir_id": 649}
+2026-02-12T00:20:27.023+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Barru", "raja_ongkir_id": 650}
+2026-02-12T00:20:27.027+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bulukumba", "raja_ongkir_id": 651}
+2026-02-12T00:20:27.032+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Enrekang", "raja_ongkir_id": 652}
+2026-02-12T00:20:27.039+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Jeneponto", "raja_ongkir_id": 653}
+2026-02-12T00:20:27.043+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tana Toraja", "raja_ongkir_id": 654}
+2026-02-12T00:20:27.050+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Toraja Utara", "raja_ongkir_id": 655}
+2026-02-12T00:20:27.052+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Maros", "raja_ongkir_id": 659}
+2026-02-12T00:20:27.058+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Palopo", "raja_ongkir_id": 663}
+2026-02-12T00:20:27.062+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pinrang", "raja_ongkir_id": 664}
+2026-02-12T00:20:27.069+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sidenreng Rappang", "raja_ongkir_id": 667}
+2026-02-12T00:20:27.073+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Wajo", "raja_ongkir_id": 670}
+2026-02-12T00:20:27.077+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sinjai", "raja_ongkir_id": 671}
+2026-02-12T00:20:27.081+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Gowa", "raja_ongkir_id": 673}
+2026-02-12T00:20:27.088+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Takalar", "raja_ongkir_id": 674}
+2026-02-12T00:20:27.149+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Soppeng", "raja_ongkir_id": 678}
+2026-02-12T00:20:27.153+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kepulauan Selayar", "raja_ongkir_id": 679}
+2026-02-12T00:20:27.156+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "PANGKAJENE KEPULAUAN"}
+2026-02-12T00:20:27.160+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Parepare", "raja_ongkir_id": 683}
+2026-02-12T00:20:27.166+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Luwu", "raja_ongkir_id": 684}
+2026-02-12T00:20:27.171+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Luwu Timur", "raja_ongkir_id": 685}
+2026-02-12T00:20:27.176+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Luwu Utara", "raja_ongkir_id": 686}
+2026-02-12T00:20:27.231+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Palu", "raja_ongkir_id": 497}
+2026-02-12T00:20:27.235+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Banggai", "raja_ongkir_id": 498}
+2026-02-12T00:20:27.240+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Poso", "raja_ongkir_id": 499}
+2026-02-12T00:20:27.242+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "TOLI-TOLI"}
+2026-02-12T00:20:27.247+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Banggai Laut", "raja_ongkir_id": 501}
+2026-02-12T00:20:27.254+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Banggai Kepulauan", "raja_ongkir_id": 502}
+2026-02-12T00:20:27.258+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Buol", "raja_ongkir_id": 504}
+2026-02-12T00:20:27.263+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Donggala", "raja_ongkir_id": 505}
+2026-02-12T00:20:27.271+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sigi", "raja_ongkir_id": 507}
+2026-02-12T00:20:27.275+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Morowali", "raja_ongkir_id": 509}
+2026-02-12T00:20:27.280+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Morowali Utara", "raja_ongkir_id": 510}
+2026-02-12T00:20:27.288+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Parigi Moutong", "raja_ongkir_id": 511}
+2026-02-12T00:20:27.289+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "TOJO UNA-UNA"}
+2026-02-12T00:20:27.344+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Kendari", "raja_ongkir_id": 264}
+2026-02-12T00:20:27.347+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "BAU-BAU"}
+2026-02-12T00:20:27.351+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kolaka", "raja_ongkir_id": 268}
+2026-02-12T00:20:27.356+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kolaka Timur", "raja_ongkir_id": 269}
+2026-02-12T00:20:27.361+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Buton Utara", "raja_ongkir_id": 271}
+2026-02-12T00:20:27.365+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Muna", "raja_ongkir_id": 272}
+2026-02-12T00:20:27.372+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Muna Barat", "raja_ongkir_id": 273}
+2026-02-12T00:20:27.377+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Konawe", "raja_ongkir_id": 276}
+2026-02-12T00:20:27.383+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Konawe Utara", "raja_ongkir_id": 277}
+2026-02-12T00:20:27.390+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bombana", "raja_ongkir_id": 280}
+2026-02-12T00:20:27.395+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Buton", "raja_ongkir_id": 281}
+2026-02-12T00:20:27.403+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Buton Selatan", "raja_ongkir_id": 282}
+2026-02-12T00:20:27.406+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Buton Tengah", "raja_ongkir_id": 283}
+2026-02-12T00:20:27.411+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kolaka Utara", "raja_ongkir_id": 285}
+2026-02-12T00:20:27.416+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Konawe Selatan", "raja_ongkir_id": 286}
+2026-02-12T00:20:27.421+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Wakatobi", "raja_ongkir_id": 287}
+2026-02-12T00:20:27.425+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Konawe Kepulauan", "raja_ongkir_id": 288}
+2026-02-12T00:20:27.478+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Manado", "raja_ongkir_id": 330}
+2026-02-12T00:20:27.481+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Kotamobagu", "raja_ongkir_id": 331}
+2026-02-12T00:20:27.486+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bolaang Mongondow Utara", "raja_ongkir_id": 332}
+2026-02-12T00:20:27.491+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bolaang Mongondow", "raja_ongkir_id": 333}
+2026-02-12T00:20:27.496+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bolaang Mongondow Selatan", "raja_ongkir_id": 335}
+2026-02-12T00:20:27.503+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Bolaang Mongondow Timur", "raja_ongkir_id": 336}
+2026-02-12T00:20:27.508+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kepulauan Sangihe", "raja_ongkir_id": 338}
+2026-02-12T00:20:27.510+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "KEPULAUAN SIAU TAGULANDANG BIARO (SITARO)"}
+2026-02-12T00:20:27.516+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Minahasa", "raja_ongkir_id": 341}
+2026-02-12T00:20:27.522+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Bitung", "raja_ongkir_id": 342}
+2026-02-12T00:20:27.526+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kepulauan Talaud", "raja_ongkir_id": 347}
+2026-02-12T00:20:27.531+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Minahasa Utara", "raja_ongkir_id": 348}
+2026-02-12T00:20:27.539+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Minahasa Selatan", "raja_ongkir_id": 349}
+2026-02-12T00:20:27.542+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Minahasa Tenggara", "raja_ongkir_id": 351}
+2026-02-12T00:20:27.547+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Tomohon", "raja_ongkir_id": 352}
+2026-02-12T00:20:27.599+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Padang Pariaman", "raja_ongkir_id": 397}
+2026-02-12T00:20:27.602+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tanah Datar", "raja_ongkir_id": 399}
+2026-02-12T00:20:27.606+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Bukittinggi", "raja_ongkir_id": 401}
+2026-02-12T00:20:27.612+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pasaman", "raja_ongkir_id": 402}
+2026-02-12T00:20:27.616+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pesisir Selatan", "raja_ongkir_id": 404}
+2026-02-12T00:20:27.623+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lima Puluh Kota", "raja_ongkir_id": 407}
+2026-02-12T00:20:27.625+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Payakumbuh", "raja_ongkir_id": 408}
+2026-02-12T00:20:27.629+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "SAWAH LUNTO"}
+2026-02-12T00:20:27.633+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Solok", "raja_ongkir_id": 411}
+2026-02-12T00:20:27.638+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Padang Panjang", "raja_ongkir_id": 412}
+2026-02-12T00:20:27.642+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Dharmasraya", "raja_ongkir_id": 413}
+2026-02-12T00:20:27.647+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Kepulauan Mentawai", "raja_ongkir_id": 416}
+2026-02-12T00:20:27.654+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pasaman Barat", "raja_ongkir_id": 419}
+2026-02-12T00:20:27.657+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Solok Selatan", "raja_ongkir_id": 424}
+2026-02-12T00:20:27.662+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Sijunjung", "raja_ongkir_id": 426}
+2026-02-12T00:20:27.665+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Agam", "raja_ongkir_id": 427}
+2026-02-12T00:20:27.719+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Palembang", "raja_ongkir_id": 473}
+2026-02-12T00:20:27.722+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Musi Rawas", "raja_ongkir_id": 475}
+2026-02-12T00:20:27.725+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Musi Rawas Utara", "raja_ongkir_id": 476}
+2026-02-12T00:20:27.732+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Ogan Komering Ulu", "raja_ongkir_id": 479}
+2026-02-12T00:20:27.733+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "OGAN KOMERING ILIR"}
+2026-02-12T00:20:27.737+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Lahat", "raja_ongkir_id": 482}
+2026-02-12T00:20:27.741+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Muara Enim", "raja_ongkir_id": 485}
+2026-02-12T00:20:27.746+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Penukal Abab Lematang Ilir", "raja_ongkir_id": 486}
+2026-02-12T00:20:27.754+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Pagar Alam", "raja_ongkir_id": 487}
+2026-02-12T00:20:27.757+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Prabumulih", "raja_ongkir_id": 488}
+2026-02-12T00:20:27.763+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Musi Banyuasin", "raja_ongkir_id": 489}
+2026-02-12T00:20:27.768+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Banyuasin", "raja_ongkir_id": 491}
+2026-02-12T00:20:27.771+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Empat Lawang", "raja_ongkir_id": 492}
+2026-02-12T00:20:27.775+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Ogan Ilir", "raja_ongkir_id": 493}
+2026-02-12T00:20:27.779+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Ogan Komering Ulu Timur", "raja_ongkir_id": 494}
+2026-02-12T00:20:27.786+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Ogan Komering Ulu Selatan", "raja_ongkir_id": 495}
+2026-02-12T00:20:27.790+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Lubuk Linggau", "raja_ongkir_id": 496}
+2026-02-12T00:20:27.841+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "TOBA SAMOSIR"}
+2026-02-12T00:20:27.846+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Gunungsitoli", "raja_ongkir_id": 219}
+2026-02-12T00:20:27.851+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Nias", "raja_ongkir_id": 220}
+2026-02-12T00:20:27.855+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Nias Barat", "raja_ongkir_id": 221}
+2026-02-12T00:20:27.860+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Nias Selatan", "raja_ongkir_id": 222}
+2026-02-12T00:20:27.867+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Nias Utara", "raja_ongkir_id": 223}
+2026-02-12T00:20:27.871+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Sibolga", "raja_ongkir_id": 225}
+2026-02-12T00:20:27.875+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tapanuli Tengah", "raja_ongkir_id": 226}
+2026-02-12T00:20:27.879+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "PADANG SIDEMPUAN"}
+2026-02-12T00:20:27.883+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tapanuli Selatan", "raja_ongkir_id": 228}
+2026-02-12T00:20:27.887+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Tapanuli Utara", "raja_ongkir_id": 229}
+2026-02-12T00:20:27.892+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Padang Lawas Utara", "raja_ongkir_id": 231}
+2026-02-12T00:20:27.897+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Humbang Hasundutan", "raja_ongkir_id": 239}
+2026-02-12T00:20:27.902+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Mandailing Natal", "raja_ongkir_id": 240}
+2026-02-12T00:20:27.905+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Padang Lawas", "raja_ongkir_id": 243}
+2026-02-12T00:20:27.909+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Asahan", "raja_ongkir_id": 363}
+2026-02-12T00:20:27.917+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Dairi", "raja_ongkir_id": 364}
+2026-02-12T00:20:27.922+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Deli Serdang", "raja_ongkir_id": 365}
+2026-02-12T00:20:27.926+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Binjai", "raja_ongkir_id": 366}
+2026-02-12T00:20:27.931+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Simalungun", "raja_ongkir_id": 368}
+2026-02-12T00:20:27.937+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Labuhanbatu Utara", "raja_ongkir_id": 370}
+2026-02-12T00:20:27.941+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Labuhanbatu", "raja_ongkir_id": 371}
+2026-02-12T00:20:27.946+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Labuhanbatu Selatan", "raja_ongkir_id": 372}
+2026-02-12T00:20:27.953+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Karo", "raja_ongkir_id": 374}
+2026-02-12T00:20:27.956+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Langkat", "raja_ongkir_id": 375}
+2026-02-12T00:20:27.961+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Serdang Bedagai", "raja_ongkir_id": 376}
+2026-02-12T00:20:27.966+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kota Tebing Tinggi", "raja_ongkir_id": 377}
+2026-02-12T00:20:27.972+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Batu Bara", "raja_ongkir_id": 378}
+2026-02-12T00:20:27.975+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Pakpak Bharat", "raja_ongkir_id": 379}
+2026-02-12T00:20:27.981+0700	INFO	seeder/rajaongkir.go:395	Regency matched	{"regency": "Kabupaten Samosir", "raja_ongkir_id": 380}
+2026-02-12T00:20:27.983+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "TANJUNG BALAI"}
+2026-02-12T00:20:27.984+0700	WARN	seeder/rajaongkir.go:363	Regency not matched	{"rajaongkir_city": "PEMATANG SIANTAR"}
+2026-02-12T00:20:28.098+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karangasem", "district": "Karangasem"}
+2026-02-12T00:20:28.235+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Gianyar", "district": "Blahbatuh"}
+2026-02-12T00:20:28.237+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Gianyar", "district": "Tampaksiring"}
+2026-02-12T00:20:28.359+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klungkung", "district": "Nusa Penida"}
+2026-02-12T00:20:28.711+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pandeglang", "district": "Cikedal"}
+2026-02-12T00:20:28.808+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Lebak", "district": "Gunungkencana"}
+2026-02-12T00:20:28.908+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Serang", "district": "Waringinkurung"}
+2026-02-12T00:20:28.931+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Serang", "district": "Carenang"}
+2026-02-12T00:20:29.224+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Kedurang"}
+2026-02-12T00:20:29.224+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Seginim"}
+2026-02-12T00:20:29.225+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Pino"}
+2026-02-12T00:20:29.225+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Manna"}
+2026-02-12T00:20:29.225+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Kota Manna"}
+2026-02-12T00:20:29.225+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Pino Raya"}
+2026-02-12T00:20:29.226+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Kedurang Ilir"}
+2026-02-12T00:20:29.226+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Air Nipis"}
+2026-02-12T00:20:29.227+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Ulu Manna"}
+2026-02-12T00:20:29.228+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Bunga Mas"}
+2026-02-12T00:20:29.228+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Selatan", "district": "Pasar Manna"}
+2026-02-12T00:20:29.289+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Utara", "district": "Kota Arga Makmur"}
+2026-02-12T00:20:29.289+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Utara", "district": "Giri Mulya"}
+2026-02-12T00:20:29.328+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Utara", "district": "Marga Sakti Sebelat"}
+2026-02-12T00:20:29.414+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bengkulu Tengah", "district": "Semidang Lagan"}
+2026-02-12T00:20:29.490+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kaur", "district": "Semidang Gumay"}
+2026-02-12T00:20:29.499+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kaur", "district": "Tetap"}
+2026-02-12T00:20:29.662+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Lebong", "district": "Tubei"}
+2026-02-12T00:20:29.839+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kota Administrasi Jakarta Barat", "district": "Pal Merah"}
+2026-02-12T00:20:29.895+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kota Administrasi Jakarta Selatan", "district": "Setiabudi"}
+2026-02-12T00:20:30.118+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kota Administrasi Jakarta Timur", "district": "Pulogadung"}
+2026-02-12T00:20:30.121+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kota Administrasi Jakarta Timur", "district": "Kramatjati"}
+2026-02-12T00:20:30.262+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Gorontalo", "district": "Boliyohuto"}
+2026-02-12T00:20:30.288+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Gorontalo", "district": "Talaga Jaya"}
+2026-02-12T00:20:30.488+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Gorontalo Utara", "district": "Tomilito"}
+2026-02-12T00:20:30.566+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Boalemo", "district": "Botumoito"}
+2026-02-12T00:20:30.639+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pohuwato", "district": "Taluditi"}
+2026-02-12T00:20:30.712+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Jambi Luar Kota"}
+2026-02-12T00:20:30.712+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Sekernan"}
+2026-02-12T00:20:30.713+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Kumpeh"}
+2026-02-12T00:20:30.714+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Maro Sebo"}
+2026-02-12T00:20:30.714+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Mestong"}
+2026-02-12T00:20:30.714+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Kumpeh Ulu"}
+2026-02-12T00:20:30.714+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Sungai Bahar"}
+2026-02-12T00:20:30.715+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Sungai Gelam"}
+2026-02-12T00:20:30.715+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Bahar Utara"}
+2026-02-12T00:20:30.715+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Bahar Selatan"}
+2026-02-12T00:20:30.715+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Muaro Jambi", "district": "Taman Rajo"}
+2026-02-12T00:20:30.897+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Merangin", "district": "Jangkat Timur"}
+2026-02-12T00:20:30.897+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten  Merangin", "district": "Renah Pamenang"}
+2026-02-12T00:20:30.973+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bungo", "district": "Pasar Muaro Bungo"}
+2026-02-12T00:20:30.987+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bungo", "district": "Muko-muko Bathin VII"}
+2026-02-12T00:20:30.990+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bungo", "district": "Batin II Babeko"}
+2026-02-12T00:20:31.103+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kerinci", "district": "Bukit Kerman"}
+2026-02-12T00:20:31.105+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kerinci", "district": "Tanah Cogok"}
+2026-02-12T00:20:31.105+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kerinci", "district": "Danau Kerinci Barat"}
+2026-02-12T00:20:31.179+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sarolangun", "district": "Bathin VIII"}
+2026-02-12T00:20:31.182+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sarolangun", "district": "Cermin Nan Gedang"}
+2026-02-12T00:20:31.182+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sarolangun", "district": "Mandiangin Timur"}
+2026-02-12T00:20:31.325+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bandung", "district": "Cimenyan"}
+2026-02-12T00:20:31.381+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bandung", "district": "Solokanjeruk"}
+2026-02-12T00:20:31.395+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bandung", "district": "Rancabali"}
+2026-02-12T00:20:31.742+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Garut", "district": "Limbangan"}
+2026-02-12T00:20:31.813+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bandung Barat", "district": "Cikalongwetan"}
+2026-02-12T00:20:31.903+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Cianjur", "district": "Bonjogpicung"}
+2026-02-12T00:20:31.939+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Cianjur", "district": "Pagelarang"}
+2026-02-12T00:20:31.941+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Cianjur", "district": "Cubinong"}
+2026-02-12T00:20:31.952+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Cianjur", "district": "Campakamulya"}
+2026-02-12T00:20:32.044+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bekasi", "district": "Karang Bahagia"}
+2026-02-12T00:20:32.064+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bekasi", "district": "Muaragembong"}
+2026-02-12T00:20:32.138+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bogor", "district": "Gunungputri"}
+2026-02-12T00:20:32.156+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bogor", "district": "Gunungsindur"}
+2026-02-12T00:20:32.175+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bogor", "district": "Parungpanjang"}
+2026-02-12T00:20:32.208+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Bogor", "district": "Rancabungur"}
+2026-02-12T00:20:32.311+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Cirebon", "district": "Talun"}
+2026-02-12T00:20:32.324+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Cirebon", "district": "Gunung Jati"}
+2026-02-12T00:20:32.325+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Cirebon", "district": "Kepetakan"}
+2026-02-12T00:20:32.363+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Cirebon", "district": "Greged"}
+2026-02-12T00:20:32.478+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Indramayu", "district": "Terisi"}
+2026-02-12T00:20:32.571+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kuningan", "district": "Kramatmulya"}
+2026-02-12T00:20:32.775+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karawang", "district": "Telagasari"}
+2026-02-12T00:20:32.794+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karawang", "district": "Kota Baru"}
+2026-02-12T00:20:32.870+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Purwakarta", "district": "Tegalwaru"}
+2026-02-12T00:20:33.068+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Palabuhanratu"}
+2026-02-12T00:20:33.084+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Jampangtengah"}
+2026-02-12T00:20:33.091+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Parungkuda"}
+2026-02-12T00:20:33.091+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Bojonggenteng"}
+2026-02-12T00:20:33.091+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Parakansalak"}
+2026-02-12T00:20:33.099+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Kalapanunggal"}
+2026-02-12T00:20:33.103+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Jampangkulon"}
+2026-02-12T00:20:33.145+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukabumi", "district": "Gegerbitung"}
+2026-02-12T00:20:33.494+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Ciamis", "district": "Banjaranyar"}
+2026-02-12T00:20:33.673+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Boyolali", "district": "Tamansari"}
+2026-02-12T00:20:33.674+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Boyolali", "district": "Wonosamodro"}
+2026-02-12T00:20:33.744+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Blora", "district": "Blora"}
+2026-02-12T00:20:33.815+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Banjarnegara", "district": "Purworeja Klampok"}
+2026-02-12T00:20:33.817+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Banjarnegara", "district": "Purwanegara"}
+2026-02-12T00:20:33.826+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Banjarnegara", "district": "Wanadadi"}
+2026-02-12T00:20:33.952+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Banyumas", "district": "Baturraden"}
+2026-02-12T00:20:33.952+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Banyumas", "district": "Kedungbanteng"}
+2026-02-12T00:20:34.138+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kebumen", "district": "Alian"}
+2026-02-12T00:20:34.511+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kota Surakarta", "district": "Laweyan"}
+2026-02-12T00:20:34.511+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kota Surakarta", "district": "Serengan"}
+2026-02-12T00:20:34.512+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kota Surakarta", "district": "Pasar Kliwon"}
+2026-02-12T00:20:34.512+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kota Surakarta", "district": "Jebres"}
+2026-02-12T00:20:34.512+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kota Surakarta", "district": "Banjarsari"}
+2026-02-12T00:20:34.564+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Jatipuro"}
+2026-02-12T00:20:34.564+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Jatiyoso"}
+2026-02-12T00:20:34.564+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Jumapolo"}
+2026-02-12T00:20:34.565+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Jumantono"}
+2026-02-12T00:20:34.565+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Matesih"}
+2026-02-12T00:20:34.565+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Tawangmangu"}
+2026-02-12T00:20:34.566+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Ngargoyoso"}
+2026-02-12T00:20:34.566+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Karangpandan"}
+2026-02-12T00:20:34.566+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Karanganyar"}
+2026-02-12T00:20:34.566+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Tasikmadu"}
+2026-02-12T00:20:34.567+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Jaten"}
+2026-02-12T00:20:34.567+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Colomadu"}
+2026-02-12T00:20:34.567+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Gondangrejo"}
+2026-02-12T00:20:34.567+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Kebakkramat"}
+2026-02-12T00:20:34.568+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Mojogedang"}
+2026-02-12T00:20:34.568+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Kerjo"}
+2026-02-12T00:20:34.568+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Karanganyar", "district": "Jenawi"}
+2026-02-12T00:20:34.617+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Prambanan"}
+2026-02-12T00:20:34.618+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Gantiwarno"}
+2026-02-12T00:20:34.619+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Wedi"}
+2026-02-12T00:20:34.619+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Bayat"}
+2026-02-12T00:20:34.620+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Cawas"}
+2026-02-12T00:20:34.620+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Trucuk"}
+2026-02-12T00:20:34.620+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Kebonarum"}
+2026-02-12T00:20:34.620+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Jogonalan"}
+2026-02-12T00:20:34.621+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Manisrenggo"}
+2026-02-12T00:20:34.621+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Karangnongko"}
+2026-02-12T00:20:34.621+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Ceper"}
+2026-02-12T00:20:34.622+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Pedan"}
+2026-02-12T00:20:34.622+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Karangdowo"}
+2026-02-12T00:20:34.622+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Juwiring"}
+2026-02-12T00:20:34.622+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Wonosari"}
+2026-02-12T00:20:34.623+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Delanggu"}
+2026-02-12T00:20:34.623+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Polanharjo"}
+2026-02-12T00:20:34.624+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Karanganom"}
+2026-02-12T00:20:34.624+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Tulung"}
+2026-02-12T00:20:34.625+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Jatinom"}
+2026-02-12T00:20:34.625+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Kemalang"}
+2026-02-12T00:20:34.625+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Ngawen"}
+2026-02-12T00:20:34.625+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Kalikotes"}
+2026-02-12T00:20:34.626+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Klaten Utara"}
+2026-02-12T00:20:34.628+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Klaten Tengah"}
+2026-02-12T00:20:34.630+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Klaten", "district": "Klaten Selatan"}
+2026-02-12T00:20:34.679+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Kalijambe"}
+2026-02-12T00:20:34.680+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Plupuh"}
+2026-02-12T00:20:34.681+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Masaran"}
+2026-02-12T00:20:34.681+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Kedawung"}
+2026-02-12T00:20:34.681+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Sambirejo"}
+2026-02-12T00:20:34.681+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Gondang"}
+2026-02-12T00:20:34.682+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Sambungmacan"}
+2026-02-12T00:20:34.682+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Ngrampal"}
+2026-02-12T00:20:34.682+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Karangmalang"}
+2026-02-12T00:20:34.682+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Sragen"}
+2026-02-12T00:20:34.683+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Sidoharjo"}
+2026-02-12T00:20:34.683+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Tanon"}
+2026-02-12T00:20:34.683+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Gemolong"}
+2026-02-12T00:20:34.683+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Miri"}
+2026-02-12T00:20:34.684+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Sumberlawang"}
+2026-02-12T00:20:34.685+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Mondokan"}
+2026-02-12T00:20:34.685+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Sukodono"}
+2026-02-12T00:20:34.685+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Gesi"}
+2026-02-12T00:20:34.686+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Tangen"}
+2026-02-12T00:20:34.686+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sragen", "district": "Jenar"}
+2026-02-12T00:20:34.732+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Weru"}
+2026-02-12T00:20:34.732+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Bulu"}
+2026-02-12T00:20:34.733+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Tawangsari"}
+2026-02-12T00:20:34.733+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Sukoharjo"}
+2026-02-12T00:20:34.734+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Nguter"}
+2026-02-12T00:20:34.734+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Bendosari"}
+2026-02-12T00:20:34.735+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Polokarto"}
+2026-02-12T00:20:34.736+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Mojolaban"}
+2026-02-12T00:20:34.736+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Grogol"}
+2026-02-12T00:20:34.737+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Baki"}
+2026-02-12T00:20:34.737+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Gatak"}
+2026-02-12T00:20:34.738+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Sukoharjo", "district": "Kartasura"}
+2026-02-12T00:20:34.785+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Getasan"}
+2026-02-12T00:20:34.785+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Tengaran"}
+2026-02-12T00:20:34.785+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Susukan"}
+2026-02-12T00:20:34.786+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Suruh"}
+2026-02-12T00:20:34.786+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Pabelan"}
+2026-02-12T00:20:34.786+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Tuntang"}
+2026-02-12T00:20:34.787+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Banyubiru"}
+2026-02-12T00:20:34.787+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Jambu"}
+2026-02-12T00:20:34.788+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Sumowono"}
+2026-02-12T00:20:34.788+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Ambarawa"}
+2026-02-12T00:20:34.788+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Bawen"}
+2026-02-12T00:20:34.789+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Bringin"}
+2026-02-12T00:20:34.789+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Bergas"}
+2026-02-12T00:20:34.789+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Pringapus"}
+2026-02-12T00:20:34.790+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Bancak"}
+2026-02-12T00:20:34.790+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Kaliwungu"}
+2026-02-12T00:20:34.790+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Ungaran Barat"}
+2026-02-12T00:20:34.791+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Ungaran Timur"}
+2026-02-12T00:20:34.791+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Semarang", "district": "Bandungan"}
+2026-02-12T00:20:34.839+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Kedung"}
+2026-02-12T00:20:34.840+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Pecangaan"}
+2026-02-12T00:20:34.840+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Welahan"}
+2026-02-12T00:20:34.841+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Mayong"}
+2026-02-12T00:20:34.841+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Batealit"}
+2026-02-12T00:20:34.845+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Jepara"}
+2026-02-12T00:20:34.847+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Mlonggo"}
+2026-02-12T00:20:34.847+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Bangsri"}
+2026-02-12T00:20:34.847+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Keling"}
+2026-02-12T00:20:34.848+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Karimunjawa"}
+2026-02-12T00:20:34.848+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Tahunan"}
+2026-02-12T00:20:34.848+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Nalumsari"}
+2026-02-12T00:20:34.849+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Kalinyamatan"}
+2026-02-12T00:20:34.850+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Kembang"}
+2026-02-12T00:20:34.850+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Pakis Aji"}
+2026-02-12T00:20:34.851+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Jepara", "district": "Donorojo"}
+2026-02-12T00:20:34.899+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kudus", "district": "Kaliwungu"}
+2026-02-12T00:20:34.902+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kudus", "district": "Kota Kudus"}
+2026-02-12T00:20:34.903+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kudus", "district": "Jati"}
+2026-02-12T00:20:34.903+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kudus", "district": "Undaan"}
+2026-02-12T00:20:34.904+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kudus", "district": "Mejobo"}
+2026-02-12T00:20:34.904+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kudus", "district": "Jekulo"}
+2026-02-12T00:20:34.905+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kudus", "district": "Bae"}
+2026-02-12T00:20:34.905+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kudus", "district": "Gebog"}
+2026-02-12T00:20:34.905+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kudus", "district": "Dawe"}
+2026-02-12T00:20:35.015+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Kandangserang"}
+2026-02-12T00:20:35.015+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Paninggaran"}
+2026-02-12T00:20:35.023+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Lebakbarang"}
+2026-02-12T00:20:35.024+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Petungkriyono"}
+2026-02-12T00:20:35.025+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Talun"}
+2026-02-12T00:20:35.025+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Doro"}
+2026-02-12T00:20:35.026+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Karanganyar"}
+2026-02-12T00:20:35.027+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Kajen"}
+2026-02-12T00:20:35.027+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Kesesi"}
+2026-02-12T00:20:35.027+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Sragi"}
+2026-02-12T00:20:35.028+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Bojong"}
+2026-02-12T00:20:35.028+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Wonopringgo"}
+2026-02-12T00:20:35.029+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Kedungwuni"}
+2026-02-12T00:20:35.029+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Buaran"}
+2026-02-12T00:20:35.029+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Tirto"}
+2026-02-12T00:20:35.030+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Wiradesa"}
+2026-02-12T00:20:35.030+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Siwalan"}
+2026-02-12T00:20:35.030+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Karangdadap"}
+2026-02-12T00:20:35.031+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pekalongan", "district": "Wonokerto"}
+2026-02-12T00:20:35.079+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Mranggen"}
+2026-02-12T00:20:35.079+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Karangawen"}
+2026-02-12T00:20:35.080+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Guntur"}
+2026-02-12T00:20:35.081+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Sayung"}
+2026-02-12T00:20:35.081+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Karangtengah"}
+2026-02-12T00:20:35.081+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Wonosalam"}
+2026-02-12T00:20:35.081+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Dempet"}
+2026-02-12T00:20:35.082+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Gajah"}
+2026-02-12T00:20:35.082+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Karanganyar"}
+2026-02-12T00:20:35.082+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Mijen"}
+2026-02-12T00:20:35.082+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Demak"}
+2026-02-12T00:20:35.083+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Bonang"}
+2026-02-12T00:20:35.083+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Wedung"}
+2026-02-12T00:20:35.084+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Demak", "district": "Kebonagung"}
+2026-02-12T00:20:35.131+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Plantungan"}
+2026-02-12T00:20:35.132+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Pageruyung"}
+2026-02-12T00:20:35.132+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Sukorejo"}
+2026-02-12T00:20:35.132+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Patean"}
+2026-02-12T00:20:35.132+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Singorojo"}
+2026-02-12T00:20:35.133+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Limbangan"}
+2026-02-12T00:20:35.133+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Boja"}
+2026-02-12T00:20:35.133+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Kaliwungu"}
+2026-02-12T00:20:35.133+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Brangsong"}
+2026-02-12T00:20:35.134+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Pegandon"}
+2026-02-12T00:20:35.134+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Gemuh"}
+2026-02-12T00:20:35.134+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Weleri"}
+2026-02-12T00:20:35.134+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Cepiring"}
+2026-02-12T00:20:35.135+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Patebon"}
+2026-02-12T00:20:35.135+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Kendal"}
+2026-02-12T00:20:35.135+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Rowosari"}
+2026-02-12T00:20:35.135+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Kangkung"}
+2026-02-12T00:20:35.136+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Ringinarum"}
+2026-02-12T00:20:35.136+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Ngampel"}
+2026-02-12T00:20:35.136+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Kendal", "district": "Kaliwungu Selatan"}
+2026-02-12T00:20:35.186+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Sukolilo"}
+2026-02-12T00:20:35.186+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Kayen"}
+2026-02-12T00:20:35.187+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Tambakromo"}
+2026-02-12T00:20:35.187+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Winong"}
+2026-02-12T00:20:35.187+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Pucakwangi"}
+2026-02-12T00:20:35.187+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Jaken"}
+2026-02-12T00:20:35.188+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Batangan"}
+2026-02-12T00:20:35.188+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Juwana"}
+2026-02-12T00:20:35.188+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Jakenan"}
+2026-02-12T00:20:35.189+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Pati"}
+2026-02-12T00:20:35.190+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Gabus"}
+2026-02-12T00:20:35.190+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Margorejo"}
+2026-02-12T00:20:35.190+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Gembong"}
+2026-02-12T00:20:35.191+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Tlogowungu"}
+2026-02-12T00:20:35.191+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Wedarijaksa"}
+2026-02-12T00:20:35.192+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Margoyoso"}
+2026-02-12T00:20:35.192+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Gunungwungkal"}
+2026-02-12T00:20:35.193+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Cluwak"}
+2026-02-12T00:20:35.194+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Tayu"}
+2026-02-12T00:20:35.196+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Dukuhseti"}
+2026-02-12T00:20:35.197+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pati", "district": "Trangkil"}
+2026-02-12T00:20:35.247+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Moga"}
+2026-02-12T00:20:35.248+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Pulosari"}
+2026-02-12T00:20:35.248+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Belik"}
+2026-02-12T00:20:35.248+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Watukumpul"}
+2026-02-12T00:20:35.249+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Bodeh"}
+2026-02-12T00:20:35.249+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Bantarbolang"}
+2026-02-12T00:20:35.250+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Randudongkal"}
+2026-02-12T00:20:35.250+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Pemalang"}
+2026-02-12T00:20:35.250+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Taman"}
+2026-02-12T00:20:35.250+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Petarukan"}
+2026-02-12T00:20:35.251+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Ampelgading"}
+2026-02-12T00:20:35.251+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Comal"}
+2026-02-12T00:20:35.252+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Ulujami"}
+2026-02-12T00:20:35.253+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Pemalang", "district": "Warungpring"}
+2026-02-12T00:20:35.299+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Kedungjati"}
+2026-02-12T00:20:35.300+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Karangrayung"}
+2026-02-12T00:20:35.300+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Penawangan"}
+2026-02-12T00:20:35.301+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Toroh"}
+2026-02-12T00:20:35.302+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Geyer"}
+2026-02-12T00:20:35.302+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Pulokulon"}
+2026-02-12T00:20:35.303+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Kradenan"}
+2026-02-12T00:20:35.303+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Gabus"}
+2026-02-12T00:20:35.303+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Ngaringan"}
+2026-02-12T00:20:35.304+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Wirosari"}
+2026-02-12T00:20:35.304+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Tawangharjo"}
+2026-02-12T00:20:35.304+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Grobogan"}
+2026-02-12T00:20:35.304+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Purwodadi"}
+2026-02-12T00:20:35.305+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Brati"}
+2026-02-12T00:20:35.305+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Klambu"}
+2026-02-12T00:20:35.306+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Godong"}
+2026-02-12T00:20:35.306+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Gubug"}
+2026-02-12T00:20:35.306+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Tegowanu"}
+2026-02-12T00:20:35.306+0700	WARN	seeder/rajaongkir.go:286	District not matched	{"regency": "Kabupaten Grobogan", "district": "Tanggungharjo"}
+2026-02-12T00:20:35.306+0700	INFO	seeder/rajaongkir.go:317	API limit reached, stopping

@@ -1,0 +1,9 @@
+2026-02-06T15:41:20.664+0700	INFO	repository/product.go:54	Get product by id	{"id": 1}
+2026-02-06T15:41:21.538+0700	ERROR	repository/product.go:70	Failed to get product	{"id": 1, "error": "SKU: unsupported relations for schema Product"}
+2026-02-06T15:41:21.538+0700	ERROR	usecase/product.go:32	Failed to get product	{"id": 1, "error": "SKU: unsupported relations for schema Product"}
+2026-02-06T15:51:49.752+0700	INFO	repository/product.go:54	Get product by id	{"id": 1}
+2026-02-06T15:51:49.773+0700	ERROR	repository/product.go:70	Failed to get product	{"id": 1, "error": "VariantType: unsupported relations for schema Product"}
+2026-02-06T15:51:49.776+0700	ERROR	usecase/product.go:32	Failed to get product	{"id": 1, "error": "VariantType: unsupported relations for schema Product"}
+2026-02-06T15:57:43.024+0700	INFO	repository/product.go:54	Get product by id	{"id": 1}
+2026-02-06T16:29:52.386+0700	INFO	repository/product.go:54	Get product by id	{"id": 1}
+2026-02-06T16:43:33.789+0700	INFO	repository/product.go:54	Get product by id	{"id": 1}

@@ -1,0 +1,48 @@
+2026-02-16T06:44:34.884+0700	INFO	repository/order.go:45	Creating order	{"customer_id": 6}
+2026-02-16T06:44:34.933+0700	INFO	repository/order.go:57	order created successfully	{"id": 18, "customer_id": 6}
+2026-02-16T06:44:34.981+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T06:44:35.040+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 18, "sku_id": 39}
+2026-02-16T06:44:35.290+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 28, "order_id": 18, "sku_id": 39}
+2026-02-16T06:44:35.304+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T06:44:35.332+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 18, "sku_id": 41}
+2026-02-16T06:44:35.334+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 29, "order_id": 18, "sku_id": 41}
+2026-02-16T06:44:35.344+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T06:44:35.363+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 18, "sku_id": 42}
+2026-02-16T06:44:35.366+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 30, "order_id": 18, "sku_id": 42}
+2026-02-16T06:44:35.366+0700	INFO	repository/order.go:91	Creating order payment	{"order_id": 18, "payment_method_id": 1}
+2026-02-16T06:44:35.431+0700	INFO	repository/order.go:105	Order payment created successfully	{"id": 4, "order_id": 18, "payment_method_id": 1}
+2026-02-16T06:44:35.677+0700	INFO	repository/order.go:116	Creating order shipping	{"order_id": 18, "courier_name": "21 Express"}
+2026-02-16T06:44:35.691+0700	INFO	repository/order.go:130	Order shipping created successfully	{"id": 4, "order_id": 18, "courier_name": "21 Express"}
+2026-02-16T06:44:48.751+0700	INFO	repository/order.go:369	Get order by id	{"id": 15}
+2026-02-16T06:44:48.764+0700	WARN	repository/order.go:379	order not found	{"id": 15}
+2026-02-16T06:44:48.765+0700	ERROR	usecase/order.go:652	Failed to get order details	{"error": "order not found", "order id": 15}
+2026-02-16T06:44:53.955+0700	INFO	repository/order.go:369	Get order by id	{"id": 18}
+2026-02-16T06:45:06.774+0700	INFO	repository/order.go:369	Get order by id	{"id": 18}
+2026-02-16T06:47:48.377+0700	INFO	repository/order.go:369	Get order by id	{"id": 18}
+2026-02-16T06:47:48.430+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T06:47:48.477+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T06:47:48.513+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T06:52:48.335+0700	INFO	repository/order.go:45	Creating order	{"customer_id": 6}
+2026-02-16T06:52:48.374+0700	INFO	repository/order.go:57	order created successfully	{"id": 19, "customer_id": 6}
+2026-02-16T06:52:48.474+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T06:52:48.666+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 19, "sku_id": 39}
+2026-02-16T06:52:48.685+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 31, "order_id": 19, "sku_id": 39}
+2026-02-16T06:52:48.706+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T06:52:48.750+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 19, "sku_id": 41}
+2026-02-16T06:52:48.753+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 32, "order_id": 19, "sku_id": 41}
+2026-02-16T06:52:48.766+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T06:52:48.805+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 19, "sku_id": 42}
+2026-02-16T06:52:48.807+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 33, "order_id": 19, "sku_id": 42}
+2026-02-16T06:52:48.807+0700	INFO	repository/order.go:91	Creating order payment	{"order_id": 19, "payment_method_id": 1}
+2026-02-16T06:52:48.824+0700	INFO	repository/order.go:105	Order payment created successfully	{"id": 5, "order_id": 19, "payment_method_id": 1}
+2026-02-16T06:52:49.014+0700	INFO	repository/order.go:116	Creating order shipping	{"order_id": 19, "courier_name": "21 Express"}
+2026-02-16T06:52:49.022+0700	INFO	repository/order.go:130	Order shipping created successfully	{"id": 5, "order_id": 19, "courier_name": "21 Express"}
+2026-02-16T06:53:20.617+0700	ERROR	usecase/order.go:582	Failed to get orders	{"error": "ERROR: invalid input value for enum order_status: \"pending\" (SQLSTATE 22P02)"}
+2026-02-16T06:55:22.829+0700	ERROR	usecase/order.go:582	Failed to get orders	{"error": "ERROR: operator does not exist: order_status ~~ unknown (SQLSTATE 42883)"}
+2026-02-16T06:58:16.228+0700	ERROR	usecase/order.go:582	Failed to get orders	{"error": "ERROR: invalid input value for enum order_status: \"pending\" (SQLSTATE 22P02)"}
+2026-02-16T07:00:54.256+0700	ERROR	usecase/order.go:582	Failed to get orders	{"error": "ERROR: operator does not exist: order_status ~~ unknown (SQLSTATE 42883)"}
+2026-02-16T07:01:40.115+0700	ERROR	usecase/order.go:582	Failed to get orders	{"error": "ERROR: operator does not exist: order_status ~~ unknown (SQLSTATE 42883)"}
+2026-02-16T07:09:52.989+0700	INFO	repository/order.go:383	Get order by id	{"id": 19}
+2026-02-16T07:09:53.171+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T07:09:53.293+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-16T07:09:53.333+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}

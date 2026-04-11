@@ -1,0 +1,69 @@
+2026-03-04T14:04:01.200+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T14:54:51.188+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T14:55:15.016+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-03-04T15:00:00.196+0700	INFO	repository/order.go:273	Mark orders as shipped...
+2026-03-04T15:00:01.128+0700	INFO	repository/order.go:304	Successfully mark orders as shipped
+2026-03-04T15:01:21.591+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-03-04T15:01:27.072+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-03-04T15:02:44.667+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-03-04T15:05:01.686+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-03-04T16:58:21.656+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-03-04T17:11:30.886+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-04T17:11:31.302+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-04T17:11:31.372+0700	ERROR	usecase/checkout.go:110	Failed to get promo	{"error": "ERROR: column promo_products.deleted_at does not exist (SQLSTATE 42703)", "promo_id": 2}
+2026-03-04T17:34:31.402+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-04T17:34:31.867+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-04T17:36:06.059+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-04T17:40:01.234+0700	INFO	repository/order.go:45	Creating order	{"customer_id": 8}
+2026-03-04T17:40:01.501+0700	INFO	repository/order.go:57	order created successfully	{"id": 23, "customer_id": 8}
+2026-03-04T17:40:01.582+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T17:40:01.738+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 23, "sku_id": 48}
+2026-03-04T17:40:01.837+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 40, "order_id": 23, "sku_id": 48}
+2026-03-04T17:40:01.858+0700	INFO	repository/order.go:91	Creating order payment	{"order_id": 23, "payment_method_id": 1}
+2026-03-04T17:40:01.890+0700	INFO	repository/order.go:105	Order payment created successfully	{"id": 9, "order_id": 23, "payment_method_id": 1}
+2026-03-04T17:40:02.412+0700	INFO	repository/order.go:116	Creating order shipping	{"order_id": 23, "courier_name": ""}
+2026-03-04T17:40:02.423+0700	INFO	repository/order.go:130	Order shipping created successfully	{"id": 8, "order_id": 23, "courier_name": ""}
+2026-03-04T17:40:52.885+0700	INFO	repository/order.go:385	Get order by id	{"id": 23}
+2026-03-04T17:41:20.519+0700	INFO	repository/order.go:385	Get order by id	{"id": 23}
+2026-03-04T17:42:45.091+0700	INFO	repository/order.go:385	Get order by id	{"id": 23}
+2026-03-04T17:43:33.074+0700	INFO	repository/order.go:385	Get order by id	{"id": 23}
+2026-03-04T17:44:17.678+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T17:45:25.325+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T17:45:25.418+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 28, "sku_code": "handphone-iphone-10-blue-128GB-1772621125418795100"}
+2026-03-04T17:45:25.488+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 1870, "sku_code": "handphone-iphone-10-blue-128GB-1772621125418795100"}
+2026-03-04T17:45:25.489+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 1870, "variant_value_id": 74}
+2026-03-04T17:45:25.517+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 8596, "sku_id": 1870}
+2026-03-04T17:45:25.517+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 1870, "variant_value_id": 170}
+2026-03-04T17:45:25.519+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 8597, "sku_id": 1870}
+2026-03-04T17:45:25.520+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T17:45:25.550+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 28, "sku_code": "handphone-iphone-10-blue-256GB-1772621125550085200"}
+2026-03-04T17:45:25.552+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 1871, "sku_code": "handphone-iphone-10-blue-256GB-1772621125550085200"}
+2026-03-04T17:45:25.553+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 1871, "variant_value_id": 75}
+2026-03-04T17:45:25.559+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 8598, "sku_id": 1871}
+2026-03-04T17:45:25.561+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 1871, "variant_value_id": 170}
+2026-03-04T17:45:25.563+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 8599, "sku_id": 1871}
+2026-03-04T18:01:57.301+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T18:05:40.007+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "100GB", "variant_type_id": 31}
+2026-03-04T18:05:40.074+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 171, "value": "100GB"}
+2026-03-04T18:05:50.503+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T18:06:23.093+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T18:06:23.195+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 28, "sku_code": "handphone-iphone-10-blue-100GB-1772622383194598700"}
+2026-03-04T18:06:23.262+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 1872, "sku_code": "handphone-iphone-10-blue-100GB-1772622383194598700"}
+2026-03-04T18:06:23.264+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 1872, "variant_value_id": 170}
+2026-03-04T18:06:23.293+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 8600, "sku_id": 1872}
+2026-03-04T18:06:23.294+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 1872, "variant_value_id": 171}
+2026-03-04T18:06:23.296+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 8601, "sku_id": 1872}
+2026-03-04T18:06:23.297+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T18:06:23.364+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 28, "sku_code": "handphone-iphone-10-pink-100GB-1772622383364957400"}
+2026-03-04T18:06:23.421+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 1873, "sku_code": "handphone-iphone-10-pink-100GB-1772622383364957400"}
+2026-03-04T18:06:23.423+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 1873, "variant_value_id": 73}
+2026-03-04T18:06:23.427+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 8602, "sku_id": 1873}
+2026-03-04T18:06:23.428+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 1873, "variant_value_id": 171}
+2026-03-04T18:06:23.430+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 8603, "sku_id": 1873}
+2026-03-04T18:06:23.431+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-04T18:06:23.480+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 28, "sku_code": "handphone-iphone-10-Black-100GB-1772622383480523700"}
+2026-03-04T18:06:23.490+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 1874, "sku_code": "handphone-iphone-10-Black-100GB-1772622383480523700"}
+2026-03-04T18:06:23.491+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 1874, "variant_value_id": 72}
+2026-03-04T18:06:23.493+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 8604, "sku_id": 1874}
+2026-03-04T18:06:23.494+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 1874, "variant_value_id": 171}
+2026-03-04T18:06:23.496+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 8605, "sku_id": 1874}

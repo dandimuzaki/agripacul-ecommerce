@@ -1,0 +1,149 @@
+2026-03-22T21:33:32.586+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "starter-kit-try-reusable-straws-first-time"}
+2026-03-22T21:34:32.967+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "starter-kit-try-reusable-straws-first-time"}
+2026-03-22T21:34:50.091+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "starter-kit-try-reusable-straws-first-time"}
+2026-03-22T21:36:55.869+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "starter-kit-try-reusable-straws-first-time"}
+2026-03-22T21:37:47.707+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "starter-kit-try-reusable-straws-first-time"}
+2026-03-22T21:38:07.999+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "starter-kit-try-reusable-straws-first-time"}
+2026-03-22T21:40:00.178+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "starter-kit-try-reusable-straws-first-time"}
+2026-03-22T21:40:29.406+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "cart"}
+2026-03-23T05:25:46.860+0700	INFO	repository/order.go:359	Mark orders as completed...
+2026-03-23T05:25:46.671+0700	INFO	repository/order.go:322	Mark orders as delivered...
+2026-03-23T05:26:02.897+0700	ERROR	repository/order.go:384	Failed to mark orders as completed
+2026-03-23T05:26:02.948+0700	ERROR	usecase/order.go:889	Failed to update order	{"error": "ERROR: syntax error at or near \"interval\" (SQLSTATE 42601)"}
+2026-03-23T05:26:03.093+0700	ERROR	scheduler/jobs.go:57	cron AutoCompleted failed	{"error": "ERROR: syntax error at or near \"interval\" (SQLSTATE 42601)"}
+2026-03-23T05:26:04.466+0700	INFO	repository/order.go:351	Successfully mark orders as delivered
+2026-03-23T06:02:30.522+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:02:34.587+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:03:46.182+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:03:58.667+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:03:58.836+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:04:39.616+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:04:40.969+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:05:07.800+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:05:07.856+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:05:09.839+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:05:09.987+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:05:15.114+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:06:25.238+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:06:25.262+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:08:14.053+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:08:16.410+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:08:44.885+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:09:52.355+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T06:10:31.625+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T14:42:59.469+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T14:43:02.050+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T14:43:05.613+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T14:44:56.470+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T14:45:48.400+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:00:24.973+0700	INFO	repository/order.go:283	Mark orders as shipped...
+2026-03-23T15:00:25.161+0700	INFO	repository/order.go:314	Successfully mark orders as shipped
+2026-03-23T15:20:13.588+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:20:37.299+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:21:21.438+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:21:22.723+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:21:25.180+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:22:22.735+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:22:53.736+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:23:01.676+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:23:06.601+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:23:09.331+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:23:29.912+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:23:35.232+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:23:45.380+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:23:59.099+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:25:17.276+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:25:42.461+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:25:52.396+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:25:54.706+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:26:42.074+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:26:45.610+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:26:45.644+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:26:56.292+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:27:57.970+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:30:00.963+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:30:04.869+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:43:52.430+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:43:54.382+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:43:54.520+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:45:31.229+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:45:42.226+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:45:43.409+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:46:16.756+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:46:21.922+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:47:39.124+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:48:36.947+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:49:05.969+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:52:05.599+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:54:03.314+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:54:41.490+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:54:54.615+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:54:55.965+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:54:59.814+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:55:12.540+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:55:13.548+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:56:42.821+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:56:52.692+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:56:53.943+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:57:44.402+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:57:45.703+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T15:58:56.854+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T16:00:44.753+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T16:01:05.189+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T16:01:40.386+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T16:03:55.355+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T16:04:27.070+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T16:04:30.935+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T16:04:31.183+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T16:04:39.689+0700	INFO	repository/order.go:44	Creating order	{"customer_id": 1}
+2026-03-23T16:04:39.805+0700	INFO	repository/order.go:56	order created successfully	{"id": 5, "customer_id": 1}
+2026-03-23T16:04:39.881+0700	INFO	repository/product.go:256	Get product by ids	{"id": [44, 14]}
+2026-03-23T16:04:39.963+0700	INFO	repository/order.go:65	Creating order items	{"order_ids": [{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"OrderID":5,"SKUID":153,"Quantity":2,"UnitPrice":35000,"TotalPrice":70000,"ProductSnapshot":{"id":44,"name":"Starter Kit - Try Reusable Straws for the First Time","category":"Straw \u0026 Cutlery","tags":["starter","pemula","trial","first time","beginner","entry level"],"main_image_url":"https://down-id.img.susercontent.com/file/ac1cd9b9c0750b191865430c1cf4cd54@resize_w900_nl.webp"},"SKUSnapshot":{"id":153,"sku_code":"STR-STRT-230-Rfymw","price":35000,"sale_price":null,"variants":[{"name":"Starter Type","value":"Basic Starter - Straight Straw (6mm)"}]},"SKU":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"ProductID":0,"SKUCode":"","price":0,"sale_price":null,"stock":0,"min_stock":0,"status":"","weight_gram":0,"product":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"category_id":0,"name":"","is_published":false,"slug":"","main_image_url":"","main_image_public_id":"","review_count":0,"sold_count":0,"min_price":0,"max_price":0,"category":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"name":"","icon_public_id":""}},"SKUVariantValues":null}},{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"OrderID":5,"SKUID":44,"Quantity":2,"UnitPrice":895000,"TotalPrice":1790000,"ProductSnapshot":{"id":14,"name":"Family 60L Composter - Untuk Rumah dengan Kebun","category":"Gardening Tools","tags":["keluarga","family","garden","kebun","besar","outdoor"],"main_image_url":"https://jubelio-store.s3.ap-southeast-1.amazonaws.com/sustaination/2021/02/31233615/Komposter-Kit-GMI-1-scaled.webp"},"SKUSnapshot":{"id":44,"sku_code":"FAM-fami-010-cnSV3","price":995000,"sale_price":895000,"variants":[{"name":"Model / Material","value":"Stainless Steel (Premium)"}]},"SKU":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"ProductID":0,"SKUCode":"","price":0,"sale_price":null,"stock":0,"min_stock":0,"status":"","weight_gram":0,"product":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"category_id":0,"name":"","is_published":false,"slug":"","main_image_url":"","main_image_public_id":"","review_count":0,"sold_count":0,"min_price":0,"max_price":0,"category":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"name":"","icon_public_id":""}},"SKUVariantValues":null}}]}
+2026-03-23T16:04:40.088+0700	INFO	repository/order.go:76	Order item created successfully
+2026-03-23T16:04:40.098+0700	INFO	repository/order.go:84	Creating order payment	{"order_id": 5, "payment_method_id": 0}
+2026-03-23T16:04:40.131+0700	INFO	repository/order.go:98	Order payment created successfully	{"id": 2, "order_id": 5, "payment_method_id": 0}
+2026-03-23T16:04:40.202+0700	INFO	repository/order.go:109	Creating order shipping	{"order_id": 5, "courier_name": "ID Express"}
+2026-03-23T16:04:40.230+0700	INFO	repository/order.go:123	Order shipping created successfully	{"id": 2, "order_id": 5, "courier_name": "ID Express"}
+2026-03-23T16:04:40.251+0700	INFO	usecase/order.go:47	CreateOrder duration	{"duration": "685.6843ms"}
+2026-03-23T18:13:33.652+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T18:14:47.774+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T18:16:53.834+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T18:41:58.279+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T18:46:47.663+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T18:52:10.032+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T18:52:34.655+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T18:58:16.233+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T18:58:33.446+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T18:58:57.335+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:00:00.324+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:00:55.589+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:01:02.642+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:01:54.968+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:01:58.924+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:02:12.559+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:03:57.374+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:04:13.417+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:05:48.116+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:05:51.187+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:07:13.206+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:07:14.486+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:08:37.042+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:08:38.027+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:08:50.287+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:08:51.552+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:09:23.597+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:10:20.668+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:10:21.868+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:11:41.787+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:11:43.085+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:12:11.788+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:12:30.284+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:12:40.782+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:13:05.879+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:13:28.780+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:13:34.394+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:13:52.269+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:13:53.292+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:13:56.216+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:13:56.540+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}
+2026-03-23T19:14:20.972+0700	INFO	repository/order.go:395	Get order by id	{"id": 5}

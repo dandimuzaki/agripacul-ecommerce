@@ -1,0 +1,78 @@
+2026-03-03T13:34:23.930+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-03T13:46:00.339+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-03-03T13:47:05.039+0700	ERROR	adaptor/cart_handler.go:44	Failed to add item to cart	{"error": "ERROR: duplicate key value violates unique constraint \"idx_carts_customer_id\" (SQLSTATE 23505)"}
+2026-03-03T13:47:40.936+0700	ERROR	adaptor/cart_handler.go:44	Failed to add item to cart	{"error": "ERROR: duplicate key value violates unique constraint \"idx_carts_customer_id\" (SQLSTATE 23505)"}
+2026-03-03T13:52:53.953+0700	ERROR	adaptor/cart_handler.go:44	Failed to add item to cart	{"error": "ERROR: duplicate key value violates unique constraint \"cart_items_cart_sku_unique\" (SQLSTATE 23505)"}
+2026-03-03T14:05:34.415+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-03T14:07:01.708+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-03T14:10:21.835+0700	INFO	repository/order.go:45	Creating order	{"customer_id": 6}
+2026-03-03T14:10:21.928+0700	INFO	repository/order.go:57	order created successfully	{"id": 22, "customer_id": 6}
+2026-03-03T14:10:21.989+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-03-03T14:10:22.084+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 22, "sku_id": 44}
+2026-03-03T14:10:22.238+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 38, "order_id": 22, "sku_id": 44}
+2026-03-03T14:10:22.265+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-03-03T14:10:22.314+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 22, "sku_id": 45}
+2026-03-03T14:10:22.318+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 39, "order_id": 22, "sku_id": 45}
+2026-03-03T14:10:22.326+0700	INFO	repository/order.go:91	Creating order payment	{"order_id": 22, "payment_method_id": 1}
+2026-03-03T14:10:22.374+0700	INFO	repository/order.go:105	Order payment created successfully	{"id": 8, "order_id": 22, "payment_method_id": 1}
+2026-03-03T14:10:23.343+0700	INFO	repository/order.go:116	Creating order shipping	{"order_id": 22, "courier_name": "21 Express"}
+2026-03-03T14:10:23.373+0700	INFO	repository/order.go:130	Order shipping created successfully	{"id": 7, "order_id": 22, "courier_name": "21 Express"}
+2026-03-03T14:13:20.832+0700	INFO	repository/order.go:385	Get order by id	{"id": 22}
+2026-03-03T14:19:18.129+0700	INFO	usecase/category_usecase.go:155	Category created successfully	{"id": 22, "name": "Personal Care"}
+2026-03-03T14:19:18.138+0700	INFO	adaptor/category_handler.go:173	Category created successfully	{"category_id": 22}
+2026-03-03T14:22:13.051+0700	INFO	usecase/category_usecase.go:217	Category updated successfully	{"id": 22}
+2026-03-03T14:22:13.060+0700	INFO	adaptor/category_handler.go:226	Category updated successfully	{"category_id": 0}
+2026-03-03T14:22:42.463+0700	INFO	usecase/category_usecase.go:261	Category deleted successfully	{"id": 22, "name": "Personal Care & Health"}
+2026-03-03T14:22:42.472+0700	INFO	adaptor/category_handler.go:267	Category deleted successfully	{"category_id": 22}
+2026-03-03T14:24:51.512+0700	INFO	repository/product.go:42	Creating product	{"name": "Laptop ACER 12A5", "category_id": 1}
+2026-03-03T14:24:52.139+0700	INFO	repository/product.go:55	Product created successfully	{"id": 33, "name": "Laptop ACER 12A5"}
+2026-03-03T14:24:52.146+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 33}
+2026-03-03T14:24:52.198+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 48, "name": "color"}
+2026-03-03T14:24:52.210+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "black", "variant_type_id": 48}
+2026-03-03T14:24:52.394+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 162, "value": "black"}
+2026-03-03T14:24:52.398+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "grey", "variant_type_id": 48}
+2026-03-03T14:24:52.403+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 163, "value": "grey"}
+2026-03-03T14:24:52.403+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 33}
+2026-03-03T14:24:52.413+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 49, "name": "storage"}
+2026-03-03T14:24:52.414+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "128GB", "variant_type_id": 49}
+2026-03-03T14:24:52.416+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 164, "value": "128GB"}
+2026-03-03T14:24:52.416+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "256GB", "variant_type_id": 49}
+2026-03-03T14:24:52.424+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 165, "value": "256GB"}
+2026-03-03T14:24:52.724+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 33, "sku_code": "ZyEbTC5Hq2"}
+2026-03-03T14:24:52.936+0700	ERROR	repository/sku.go:84	Failed to create SKU	{"sku_code": "ZyEbTC5Hq2", "error": "ERROR: insert or update on table \"skus\" violates foreign key constraint \"fk_products_sk_us\" (SQLSTATE 23503)"}
+2026-03-03T14:24:52.945+0700	ERROR	usecase/product.go:399	Error create SKU	{"error": "ERROR: insert or update on table \"skus\" violates foreign key constraint \"fk_products_sk_us\" (SQLSTATE 23503)"}
+2026-03-03T14:24:52.969+0700	ERROR	usecase/product.go:475	Transaction ensure SKU combination failed	{"error": "ERROR: insert or update on table \"skus\" violates foreign key constraint \"fk_products_sk_us\" (SQLSTATE 23503)"}
+2026-03-03T14:24:52.970+0700	ERROR	usecase/product.go:106	Failed to create SKUs	{"error": "ERROR: insert or update on table \"skus\" violates foreign key constraint \"fk_products_sk_us\" (SQLSTATE 23503)"}
+2026-03-03T14:24:52.980+0700	ERROR	usecase/product.go:114	Transaction create product failed	{"error": "ERROR: insert or update on table \"skus\" violates foreign key constraint \"fk_products_sk_us\" (SQLSTATE 23503)"}
+2026-03-03T14:25:40.401+0700	INFO	repository/product.go:42	Creating product	{"name": "Laptop ACER 12A5", "category_id": 1}
+2026-03-03T14:25:40.436+0700	INFO	repository/product.go:55	Product created successfully	{"id": 34, "name": "Laptop ACER 12A5"}
+2026-03-03T14:25:40.439+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 34}
+2026-03-03T14:25:40.448+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 50, "name": "color"}
+2026-03-03T14:25:40.449+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "black", "variant_type_id": 50}
+2026-03-03T14:25:40.467+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 166, "value": "black"}
+2026-03-03T14:25:40.468+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "grey", "variant_type_id": 50}
+2026-03-03T14:25:40.476+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 167, "value": "grey"}
+2026-03-03T14:25:40.476+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 34}
+2026-03-03T14:25:40.478+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 51, "name": "storage"}
+2026-03-03T14:25:40.478+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "128GB", "variant_type_id": 51}
+2026-03-03T14:25:40.483+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 168, "value": "128GB"}
+2026-03-03T14:25:40.484+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "256GB", "variant_type_id": 51}
+2026-03-03T14:25:40.497+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 169, "value": "256GB"}
+2026-03-03T14:25:40.907+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 34, "sku_code": "Fu8B1lbAGU"}
+2026-03-03T14:25:40.933+0700	ERROR	repository/sku.go:84	Failed to create SKU	{"sku_code": "Fu8B1lbAGU", "error": "ERROR: insert or update on table \"skus\" violates foreign key constraint \"fk_products_sk_us\" (SQLSTATE 23503)"}
+2026-03-03T14:25:40.934+0700	ERROR	usecase/product.go:399	Error create SKU	{"error": "ERROR: insert or update on table \"skus\" violates foreign key constraint \"fk_products_sk_us\" (SQLSTATE 23503)"}
+2026-03-03T14:25:40.934+0700	ERROR	usecase/product.go:475	Transaction ensure SKU combination failed	{"error": "ERROR: insert or update on table \"skus\" violates foreign key constraint \"fk_products_sk_us\" (SQLSTATE 23503)"}
+2026-03-03T14:25:40.935+0700	ERROR	usecase/product.go:106	Failed to create SKUs	{"error": "ERROR: insert or update on table \"skus\" violates foreign key constraint \"fk_products_sk_us\" (SQLSTATE 23503)"}
+2026-03-03T14:25:40.935+0700	ERROR	usecase/product.go:114	Transaction create product failed	{"error": "ERROR: insert or update on table \"skus\" violates foreign key constraint \"fk_products_sk_us\" (SQLSTATE 23503)"}
+2026-03-03T14:26:01.096+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-03-03T14:31:20.537+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-03-03T14:31:29.408+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-03T14:36:10.786+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "blue", "variant_type_id": 30}
+2026-03-03T14:36:10.796+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 170, "value": "blue"}
+2026-03-03T14:39:32.637+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-03-03T14:40:20.902+0700	INFO	repository/product.go:130	Get product by id	{"id": 2}
+2026-03-03T14:45:25.072+0700	INFO	repository/order.go:385	Get order by id	{"id": 22}
+2026-03-03T14:47:31.915+0700	INFO	repository/order.go:385	Get order by id	{"id": 22}
+2026-03-03T14:47:45.029+0700	INFO	repository/order.go:385	Get order by id	{"id": 22}
+2026-03-03T15:00:00.155+0700	INFO	repository/order.go:273	Mark orders as shipped...
+2026-03-03T15:00:00.518+0700	INFO	repository/order.go:304	Successfully mark orders as shipped

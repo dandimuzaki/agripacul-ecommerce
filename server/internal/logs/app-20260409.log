@@ -1,0 +1,98 @@
+2026-04-09T11:17:13.971+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T11:17:14.859+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T11:25:48.528+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T11:25:50.262+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T11:26:01.966+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T11:26:02.097+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T11:28:28.579+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T11:28:29.430+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T11:29:07.745+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T11:29:08.064+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T11:29:40.705+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T11:29:40.787+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T11:30:03.151+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T11:30:03.240+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T11:31:29.343+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T11:31:29.453+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T11:33:27.305+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T11:33:28.836+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T11:33:32.940+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T11:33:33.022+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T12:05:18.977+0700	ERROR	adaptor/customer_handler.go:33	Failed to retrieve request body	{"error": "invalid character '-' in numeric literal"}
+2026-04-09T12:09:36.730+0700	ERROR	adaptor/customer_handler.go:33	Failed to retrieve request body	{"error": "invalid character '-' in numeric literal"}
+2026-04-09T12:13:40.260+0700	ERROR	adaptor/customer_handler.go:33	Failed to retrieve request body	{"error": "invalid character '-' in numeric literal"}
+2026-04-09T12:16:11.672+0700	ERROR	adaptor/customer_handler.go:33	Failed to retrieve request body	{"error": "invalid character '-' in numeric literal"}
+2026-04-09T12:19:31.384+0700	ERROR	adaptor/customer_handler.go:33	Failed to retrieve request body	{"error": "invalid character '-' in numeric literal"}
+2026-04-09T12:19:39.127+0700	ERROR	adaptor/customer_handler.go:33	Failed to retrieve request body	{"error": "invalid character '-' in numeric literal"}
+2026-04-09T12:21:29.521+0700	ERROR	adaptor/customer_handler.go:33	Failed to retrieve request body	{"error": "invalid character '-' in numeric literal"}
+2026-04-09T12:22:37.694+0700	ERROR	adaptor/customer_handler.go:33	Failed to retrieve request body	{"error": "invalid character '-' in numeric literal"}
+2026-04-09T12:26:56.864+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T12:27:00.817+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T17:05:03.009+0700	INFO	repository/order.go:322	Mark orders as shipped...
+2026-04-09T17:05:13.098+0700	INFO	repository/order.go:353	Successfully mark orders as shipped
+2026-04-09T17:54:24.925+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T17:54:25.549+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T17:58:38.613+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T17:58:39.408+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T17:58:44.142+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T17:58:44.222+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T18:06:53.793+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T18:06:55.445+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T18:12:20.507+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T18:12:21.304+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T18:13:50.148+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T18:13:50.435+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T18:14:07.647+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T18:14:07.777+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T18:14:42.128+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T18:14:42.586+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T19:46:44.726+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T19:46:45.518+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T19:50:41.341+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T19:50:42.286+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T19:51:54.479+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T19:51:54.596+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T19:53:56.485+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T19:53:56.834+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:04:15.554+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:04:16.907+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:04:24.229+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:04:24.368+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:05:22.318+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:05:22.865+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:06:20.051+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:06:20.167+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:06:43.840+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:06:44.020+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:12:38.510+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:12:40.946+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:15:48.523+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:15:49.223+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:17:31.225+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:17:31.763+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:18:21.365+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:18:21.578+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:19:00.491+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:19:00.699+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:21:26.656+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T20:21:28.973+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T20:44:19.466+0700	ERROR	usecase/cart.go:47	Error find customer by user id	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)", "user_id": 7}
+2026-04-09T20:44:19.466+0700	ERROR	usecase/customer_usecase.go:85	Failed to get customer profile	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:19.503+0700	ERROR	usecase/customer_usecase.go:85	Failed to get customer profile	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:19.509+0700	ERROR	adaptor/cart_handler.go:28	Failed to get cart	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:20.889+0700	ERROR	usecase/cart.go:47	Error find customer by user id	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)", "user_id": 7}
+2026-04-09T20:44:20.889+0700	ERROR	adaptor/cart_handler.go:28	Failed to get cart	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:20.898+0700	ERROR	usecase/customer_usecase.go:85	Failed to get customer profile	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:22.927+0700	ERROR	usecase/cart.go:47	Error find customer by user id	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)", "user_id": 7}
+2026-04-09T20:44:22.928+0700	ERROR	adaptor/cart_handler.go:28	Failed to get cart	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:23.611+0700	ERROR	usecase/customer_usecase.go:85	Failed to get customer profile	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:24.601+0700	ERROR	usecase/customer_usecase.go:85	Failed to get customer profile	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:25.666+0700	ERROR	usecase/customer_usecase.go:85	Failed to get customer profile	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:26.942+0700	ERROR	usecase/cart.go:47	Error find customer by user id	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)", "user_id": 7}
+2026-04-09T20:44:26.942+0700	ERROR	adaptor/cart_handler.go:28	Failed to get cart	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:28.674+0700	ERROR	usecase/customer_usecase.go:85	Failed to get customer profile	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T20:44:29.822+0700	ERROR	usecase/customer_usecase.go:85	Failed to get customer profile	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-04-09T21:14:16.488+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T21:14:17.224+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-04-09T21:15:38.036+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-04-09T21:15:38.182+0700	ERROR	usecase/shipping.go:103	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}

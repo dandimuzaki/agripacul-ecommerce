@@ -1,0 +1,234 @@
+2026-02-10T20:30:14.663+0700	INFO	utils/email.go:28	SMTP Host not configured, skipping email send	{"to": "dandimuzaki@gmail.com", "subject": "Welcome to Lumoshive", "body_snippet": "Hello Dandi,\n\nYour account has been created succes"}
+2026-02-10T20:34:34.564+0700	ERROR	repository/user.go:62	ERROR: duplicate key value violates unique constraint "idx_users_email" (SQLSTATE 23505)
+2026-02-10T20:36:02.391+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T20:36:27.258+0700	ERROR	usecase/product.go:130	Failed to browse product	{"error": "ERROR: column \"price\" does not exist (SQLSTATE 42703)"}
+2026-02-10T20:38:47.288+0700	ERROR	usecase/product.go:130	Failed to browse product	{"error": "ERROR: column \"rating\" does not exist (SQLSTATE 42703)"}
+2026-02-10T20:50:25.944+0700	INFO	repository/product.go:40	Creating product	{"name": "", "category_id": 0}
+2026-02-10T20:50:26.107+0700	ERROR	repository/product.go:47	Failed to create product	{"name": "", "error": "ERROR: insert or update on table \"products\" violates foreign key constraint \"fk_categories_products\" (SQLSTATE 23503)"}
+2026-02-10T20:50:26.108+0700	ERROR	usecase/product.go:170	Failed to create product	{"error": "ERROR: insert or update on table \"products\" violates foreign key constraint \"fk_categories_products\" (SQLSTATE 23503)"}
+2026-02-10T20:50:26.109+0700	ERROR	usecase/product.go:212	Transaction create product failed	{"error": "ERROR: insert or update on table \"products\" violates foreign key constraint \"fk_categories_products\" (SQLSTATE 23503)"}
+2026-02-10T20:56:29.452+0700	INFO	repository/product.go:40	Creating product	{"name": "", "category_id": 0}
+2026-02-10T20:56:29.474+0700	ERROR	repository/product.go:47	Failed to create product	{"name": "", "error": "ERROR: insert or update on table \"products\" violates foreign key constraint \"fk_categories_products\" (SQLSTATE 23503)"}
+2026-02-10T20:56:29.474+0700	ERROR	usecase/product.go:170	Failed to create product	{"error": "ERROR: insert or update on table \"products\" violates foreign key constraint \"fk_categories_products\" (SQLSTATE 23503)"}
+2026-02-10T20:56:29.475+0700	ERROR	usecase/product.go:212	Transaction create product failed	{"error": "ERROR: insert or update on table \"products\" violates foreign key constraint \"fk_categories_products\" (SQLSTATE 23503)"}
+2026-02-10T21:05:34.532+0700	INFO	repository/product.go:40	Creating product	{"name": "Laptop DELL Inspiron 13", "category_id": 1}
+2026-02-10T21:05:34.627+0700	INFO	repository/product.go:53	Product created successfully	{"id": 11, "name": "Laptop DELL Inspiron 13"}
+2026-02-10T21:05:34.630+0700	INFO	repository/variant_type.go:45	Creating variant type	{"name": "color", "product_id": 11}
+2026-02-10T21:05:34.699+0700	INFO	repository/variant_type.go:58	Variant type created successfully	{"id": 8, "name": "color"}
+2026-02-10T21:05:34.700+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "black", "variant_type_id": 8}
+2026-02-10T21:05:34.754+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 23, "value": "black"}
+2026-02-10T21:05:34.758+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "grey", "variant_type_id": 8}
+2026-02-10T21:05:34.764+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 24, "value": "grey"}
+2026-02-10T21:05:34.765+0700	INFO	repository/variant_type.go:45	Creating variant type	{"name": "storage", "product_id": 11}
+2026-02-10T21:05:34.768+0700	INFO	repository/variant_type.go:58	Variant type created successfully	{"id": 9, "name": "storage"}
+2026-02-10T21:05:34.769+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "128GB", "variant_type_id": 9}
+2026-02-10T21:05:34.783+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 25, "value": "128GB"}
+2026-02-10T21:05:34.784+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "256GB", "variant_type_id": 9}
+2026-02-10T21:05:34.796+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 26, "value": "256GB"}
+2026-02-10T21:10:18.972+0700	INFO	repository/product.go:128	Get product by id	{"id": 11}
+2026-02-10T21:11:16.511+0700	INFO	repository/product.go:128	Get product by id	{"id": 8}
+2026-02-10T21:14:48.668+0700	INFO	repository/product.go:128	Get product by id	{"id": 8}
+2026-02-10T21:15:13.980+0700	INFO	repository/product.go:128	Get product by id	{"id": 11}
+2026-02-10T21:17:56.734+0700	INFO	repository/product.go:128	Get product by id	{"id": 8}
+2026-02-10T21:19:13.706+0700	INFO	repository/product.go:128	Get product by id	{"id": 11}
+2026-02-10T21:25:25.430+0700	INFO	repository/product.go:40	Creating product	{"name": "Laptop DELL Inspiron 13", "category_id": 1}
+2026-02-10T21:25:25.479+0700	ERROR	repository/product.go:47	Failed to create product	{"name": "Laptop DELL Inspiron 13", "error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:25:25.479+0700	ERROR	usecase/product.go:172	Failed to create product	{"error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:25:25.481+0700	ERROR	usecase/product.go:214	Transaction create product failed	{"error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:26:07.404+0700	INFO	repository/product.go:40	Creating product	{"name": "Laptop DELL Inspiron 13 core i5", "category_id": 1}
+2026-02-10T21:26:07.408+0700	ERROR	repository/product.go:47	Failed to create product	{"name": "Laptop DELL Inspiron 13 core i5", "error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:26:07.409+0700	ERROR	usecase/product.go:172	Failed to create product	{"error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:26:07.410+0700	ERROR	usecase/product.go:214	Transaction create product failed	{"error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:26:24.709+0700	INFO	repository/product.go:40	Creating product	{"name": "Laptop DELL Inspiron 13 core i5", "category_id": 1}
+2026-02-10T21:26:24.720+0700	ERROR	repository/product.go:47	Failed to create product	{"name": "Laptop DELL Inspiron 13 core i5", "error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:26:24.721+0700	ERROR	usecase/product.go:172	Failed to create product	{"error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:26:24.722+0700	ERROR	usecase/product.go:214	Transaction create product failed	{"error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:27:30.984+0700	INFO	repository/product.go:40	Creating product	{"name": "Handphone Jadul Nokia Tahan Banting", "category_id": 1}
+2026-02-10T21:27:30.988+0700	ERROR	repository/product.go:47	Failed to create product	{"name": "Handphone Jadul Nokia Tahan Banting", "error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:27:30.988+0700	ERROR	usecase/product.go:172	Failed to create product	{"error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:27:30.989+0700	ERROR	usecase/product.go:214	Transaction create product failed	{"error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:27:48.981+0700	INFO	repository/product.go:40	Creating product	{"name": "Handphone Jadul Nokia Tahan Banting", "category_id": 1}
+2026-02-10T21:27:48.992+0700	ERROR	repository/product.go:47	Failed to create product	{"name": "Handphone Jadul Nokia Tahan Banting", "error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:27:48.993+0700	ERROR	usecase/product.go:172	Failed to create product	{"error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:27:48.995+0700	ERROR	usecase/product.go:214	Transaction create product failed	{"error": "ERROR: duplicate key value violates unique constraint \"idx_products_slug\" (SQLSTATE 23505)"}
+2026-02-10T21:30:51.907+0700	INFO	repository/product.go:40	Creating product	{"name": "Handphone Jadul Nokia Tahan Banting", "category_id": 1}
+2026-02-10T21:30:52.136+0700	INFO	repository/product.go:53	Product created successfully	{"id": 17, "name": "Handphone Jadul Nokia Tahan Banting"}
+2026-02-10T21:30:52.138+0700	INFO	repository/variant_type.go:45	Creating variant type	{"name": "color", "product_id": 17}
+2026-02-10T21:30:52.204+0700	INFO	repository/variant_type.go:58	Variant type created successfully	{"id": 10, "name": "color"}
+2026-02-10T21:30:52.258+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "black", "variant_type_id": 10}
+2026-02-10T21:30:52.269+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 27, "value": "black"}
+2026-02-10T21:30:52.269+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "grey", "variant_type_id": 10}
+2026-02-10T21:30:52.274+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 28, "value": "grey"}
+2026-02-10T21:30:52.275+0700	INFO	repository/variant_type.go:45	Creating variant type	{"name": "storage", "product_id": 17}
+2026-02-10T21:30:52.276+0700	INFO	repository/variant_type.go:58	Variant type created successfully	{"id": 11, "name": "storage"}
+2026-02-10T21:30:52.277+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "128GB", "variant_type_id": 11}
+2026-02-10T21:30:52.279+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 29, "value": "128GB"}
+2026-02-10T21:30:52.280+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "256GB", "variant_type_id": 11}
+2026-02-10T21:30:52.282+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 30, "value": "256GB"}
+2026-02-10T21:31:20.354+0700	INFO	repository/product.go:128	Get product by id	{"id": 17}
+2026-02-10T21:53:46.036+0700	INFO	repository/product.go:40	Creating product	{"name": "Handphone Jadul Nokia Tahan Panas", "category_id": 1}
+2026-02-10T21:53:46.101+0700	INFO	repository/product.go:53	Product created successfully	{"id": 18, "name": "Handphone Jadul Nokia Tahan Panas"}
+2026-02-10T21:53:46.113+0700	INFO	repository/variant_type.go:45	Creating variant type	{"name": "color", "product_id": 18}
+2026-02-10T21:53:46.127+0700	INFO	repository/variant_type.go:58	Variant type created successfully	{"id": 12, "name": "color"}
+2026-02-10T21:53:46.127+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "black", "variant_type_id": 12}
+2026-02-10T21:53:46.135+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 31, "value": "black"}
+2026-02-10T21:53:46.147+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "grey", "variant_type_id": 12}
+2026-02-10T21:53:46.158+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 32, "value": "grey"}
+2026-02-10T21:53:46.162+0700	INFO	repository/variant_type.go:45	Creating variant type	{"name": "storage", "product_id": 18}
+2026-02-10T21:53:46.164+0700	INFO	repository/variant_type.go:58	Variant type created successfully	{"id": 13, "name": "storage"}
+2026-02-10T21:53:46.165+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "128GB", "variant_type_id": 13}
+2026-02-10T21:53:46.166+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 33, "value": "128GB"}
+2026-02-10T21:53:46.167+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "256GB", "variant_type_id": 13}
+2026-02-10T21:53:46.169+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 34, "value": "256GB"}
+2026-02-10T21:53:58.648+0700	INFO	repository/product.go:128	Get product by id	{"id": 18}
+2026-02-10T21:59:49.162+0700	INFO	repository/product.go:40	Creating product	{"name": "Handphone Jadul Nokia Tahan Air", "category_id": 1}
+2026-02-10T21:59:49.191+0700	INFO	repository/product.go:53	Product created successfully	{"id": 19, "name": "Handphone Jadul Nokia Tahan Air"}
+2026-02-10T21:59:49.192+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 19}
+2026-02-10T21:59:49.205+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 14, "name": "color"}
+2026-02-10T21:59:49.205+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "black", "variant_type_id": 14}
+2026-02-10T21:59:49.208+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 35, "value": "black"}
+2026-02-10T21:59:49.208+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "grey", "variant_type_id": 14}
+2026-02-10T21:59:49.210+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 36, "value": "grey"}
+2026-02-10T21:59:49.210+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 19}
+2026-02-10T21:59:49.212+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 15, "name": "storage"}
+2026-02-10T21:59:49.212+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "128GB", "variant_type_id": 15}
+2026-02-10T21:59:49.218+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 37, "value": "128GB"}
+2026-02-10T21:59:49.219+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "256GB", "variant_type_id": 15}
+2026-02-10T21:59:49.224+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 38, "value": "256GB"}
+2026-02-10T22:11:28.304+0700	INFO	repository/product.go:40	Creating product	{"name": "Handphone Jadul Nokia Tahan Marah", "category_id": 1}
+2026-02-10T22:11:28.338+0700	INFO	repository/product.go:53	Product created successfully	{"id": 20, "name": "Handphone Jadul Nokia Tahan Marah"}
+2026-02-10T22:11:28.341+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 20}
+2026-02-10T22:11:28.347+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 16, "name": "color"}
+2026-02-10T22:11:28.348+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "black", "variant_type_id": 16}
+2026-02-10T22:11:28.355+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 39, "value": "black"}
+2026-02-10T22:11:28.356+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "grey", "variant_type_id": 16}
+2026-02-10T22:11:28.358+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 40, "value": "grey"}
+2026-02-10T22:11:28.359+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 20}
+2026-02-10T22:11:28.362+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 17, "name": "storage"}
+2026-02-10T22:11:28.362+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "128GB", "variant_type_id": 17}
+2026-02-10T22:11:28.364+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 41, "value": "128GB"}
+2026-02-10T22:11:28.365+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "256GB", "variant_type_id": 17}
+2026-02-10T22:11:28.366+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 42, "value": "256GB"}
+2026-02-10T22:12:48.326+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T22:17:27.725+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T22:25:44.393+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T22:51:03.945+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "purple", "variant_type_id": 1}
+2026-02-10T22:51:03.956+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 43, "value": "purple"}
+2026-02-10T22:51:32.124+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T22:51:40.406+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T22:52:06.448+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T23:02:38.359+0700	INFO	repository/product.go:40	Creating product	{"name": "Handphone Jadul Nokia Tahan Tawa", "category_id": 1}
+2026-02-10T23:02:38.406+0700	INFO	repository/product.go:53	Product created successfully	{"id": 21, "name": "Handphone Jadul Nokia Tahan Tawa"}
+2026-02-10T23:02:38.406+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 21}
+2026-02-10T23:02:38.411+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 18, "name": "color"}
+2026-02-10T23:02:38.414+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "black", "variant_type_id": 18}
+2026-02-10T23:02:38.418+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 44, "value": "black"}
+2026-02-10T23:02:38.420+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "grey", "variant_type_id": 18}
+2026-02-10T23:02:38.423+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 45, "value": "grey"}
+2026-02-10T23:02:38.423+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 21}
+2026-02-10T23:02:38.424+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 19, "name": "storage"}
+2026-02-10T23:02:38.425+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "128GB", "variant_type_id": 19}
+2026-02-10T23:02:38.440+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 46, "value": "128GB"}
+2026-02-10T23:02:38.441+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "256GB", "variant_type_id": 19}
+2026-02-10T23:02:38.444+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 47, "value": "256GB"}
+2026-02-10T23:05:55.619+0700	INFO	repository/product.go:40	Creating product	{"name": "Handphone Jadul Nokia Tahan Sedih", "category_id": 1}
+2026-02-10T23:05:55.667+0700	INFO	repository/product.go:53	Product created successfully	{"id": 22, "name": "Handphone Jadul Nokia Tahan Sedih"}
+2026-02-10T23:05:55.667+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 22}
+2026-02-10T23:05:55.672+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 20, "name": "color"}
+2026-02-10T23:05:55.673+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "black", "variant_type_id": 20}
+2026-02-10T23:05:55.674+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 48, "value": "black"}
+2026-02-10T23:05:55.675+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "grey", "variant_type_id": 20}
+2026-02-10T23:05:55.686+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 49, "value": "grey"}
+2026-02-10T23:05:55.687+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 22}
+2026-02-10T23:05:55.689+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 21, "name": "storage"}
+2026-02-10T23:05:55.689+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "128GB", "variant_type_id": 21}
+2026-02-10T23:05:55.691+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 50, "value": "128GB"}
+2026-02-10T23:05:55.694+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "256GB", "variant_type_id": 21}
+2026-02-10T23:05:55.696+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 51, "value": "256GB"}
+2026-02-10T23:08:46.116+0700	INFO	repository/product.go:40	Creating product	{"name": "Handphone Jadul Nokia Tahan", "category_id": 1}
+2026-02-10T23:08:46.147+0700	INFO	repository/product.go:53	Product created successfully	{"id": 23, "name": "Handphone Jadul Nokia Tahan"}
+2026-02-10T23:08:46.148+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 23}
+2026-02-10T23:08:46.152+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 22, "name": "color"}
+2026-02-10T23:08:46.153+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "black", "variant_type_id": 22}
+2026-02-10T23:08:46.162+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 52, "value": "black"}
+2026-02-10T23:08:46.162+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "grey", "variant_type_id": 22}
+2026-02-10T23:08:46.164+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 53, "value": "grey"}
+2026-02-10T23:08:46.165+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 23}
+2026-02-10T23:08:46.170+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 23, "name": "storage"}
+2026-02-10T23:08:46.170+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "128GB", "variant_type_id": 23}
+2026-02-10T23:08:46.175+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 54, "value": "128GB"}
+2026-02-10T23:08:46.178+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "256GB", "variant_type_id": 23}
+2026-02-10T23:08:46.182+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 55, "value": "256GB"}
+2026-02-10T23:15:49.172+0700	INFO	repository/product.go:40	Creating product	{"name": "Handphone Jadul Nokia", "category_id": 1}
+2026-02-10T23:15:49.208+0700	INFO	repository/product.go:53	Product created successfully	{"id": 24, "name": "Handphone Jadul Nokia"}
+2026-02-10T23:15:49.208+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 24}
+2026-02-10T23:15:49.214+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 24, "name": "color"}
+2026-02-10T23:15:49.215+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "black", "variant_type_id": 24}
+2026-02-10T23:15:49.224+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 56, "value": "black"}
+2026-02-10T23:15:49.224+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "grey", "variant_type_id": 24}
+2026-02-10T23:15:49.226+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 57, "value": "grey"}
+2026-02-10T23:15:49.226+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 24}
+2026-02-10T23:15:49.228+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 25, "name": "storage"}
+2026-02-10T23:15:49.228+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "128GB", "variant_type_id": 25}
+2026-02-10T23:15:49.231+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 58, "value": "128GB"}
+2026-02-10T23:15:49.231+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "256GB", "variant_type_id": 25}
+2026-02-10T23:15:49.243+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 59, "value": "256GB"}
+2026-02-10T23:15:49.364+0700	INFO	repository/product.go:128	Get product by id	{"id": 24}
+2026-02-10T23:15:49.426+0700	INFO	repository/sku.go:74	Creating SKU	{"product_id": 24, "sku_code": "handphone-jadul-nokia-black-128GB-1770740149426508500"}
+2026-02-10T23:15:49.460+0700	INFO	repository/sku.go:87	SKU created successfully	{"id": 30, "sku_code": "handphone-jadul-nokia-black-128GB-1770740149426508500"}
+2026-02-10T23:15:49.461+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 30, "variant_value_id": 56}
+2026-02-10T23:15:49.472+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 54, "sku_id": 30}
+2026-02-10T23:15:49.472+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 30, "variant_value_id": 58}
+2026-02-10T23:15:49.474+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 55, "sku_id": 30}
+2026-02-10T23:15:49.475+0700	INFO	repository/product.go:128	Get product by id	{"id": 24}
+2026-02-10T23:15:49.510+0700	INFO	repository/sku.go:74	Creating SKU	{"product_id": 24, "sku_code": "handphone-jadul-nokia-black-256GB-1770740149510152100"}
+2026-02-10T23:15:49.513+0700	INFO	repository/sku.go:87	SKU created successfully	{"id": 31, "sku_code": "handphone-jadul-nokia-black-256GB-1770740149510152100"}
+2026-02-10T23:15:49.513+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 31, "variant_value_id": 56}
+2026-02-10T23:15:49.525+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 56, "sku_id": 31}
+2026-02-10T23:15:49.526+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 31, "variant_value_id": 59}
+2026-02-10T23:15:49.530+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 57, "sku_id": 31}
+2026-02-10T23:15:49.538+0700	INFO	repository/product.go:128	Get product by id	{"id": 24}
+2026-02-10T23:15:49.563+0700	INFO	repository/sku.go:74	Creating SKU	{"product_id": 24, "sku_code": "handphone-jadul-nokia-grey-128GB-1770740149563056900"}
+2026-02-10T23:15:49.575+0700	INFO	repository/sku.go:87	SKU created successfully	{"id": 32, "sku_code": "handphone-jadul-nokia-grey-128GB-1770740149563056900"}
+2026-02-10T23:15:49.575+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 32, "variant_value_id": 57}
+2026-02-10T23:15:49.578+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 58, "sku_id": 32}
+2026-02-10T23:15:49.579+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 32, "variant_value_id": 58}
+2026-02-10T23:15:49.591+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 59, "sku_id": 32}
+2026-02-10T23:15:49.592+0700	INFO	repository/product.go:128	Get product by id	{"id": 24}
+2026-02-10T23:15:49.629+0700	INFO	repository/sku.go:74	Creating SKU	{"product_id": 24, "sku_code": "handphone-jadul-nokia-grey-256GB-1770740149629974500"}
+2026-02-10T23:15:49.641+0700	INFO	repository/sku.go:87	SKU created successfully	{"id": 33, "sku_code": "handphone-jadul-nokia-grey-256GB-1770740149629974500"}
+2026-02-10T23:15:49.642+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 33, "variant_value_id": 57}
+2026-02-10T23:15:49.645+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 60, "sku_id": 33}
+2026-02-10T23:15:49.645+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 33, "variant_value_id": 59}
+2026-02-10T23:15:49.646+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 61, "sku_id": 33}
+2026-02-10T23:17:39.565+0700	INFO	repository/variant_value.go:69	Creating variant value	{"value": "yellow", "variant_type_id": 1}
+2026-02-10T23:17:39.571+0700	INFO	repository/variant_value.go:82	Variant value created successfully	{"id": 60, "value": "yellow"}
+2026-02-10T23:17:39.588+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T23:17:39.617+0700	INFO	repository/sku.go:74	Creating SKU	{"product_id": 1, "sku_code": "smartphone-xiaomi-redmi-note-12-128GB-purple-1770740259617776700"}
+2026-02-10T23:17:39.621+0700	INFO	repository/sku.go:87	SKU created successfully	{"id": 34, "sku_code": "smartphone-xiaomi-redmi-note-12-128GB-purple-1770740259617776700"}
+2026-02-10T23:17:39.621+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 34, "variant_value_id": 4}
+2026-02-10T23:17:39.623+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 62, "sku_id": 34}
+2026-02-10T23:17:39.623+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 34, "variant_value_id": 43}
+2026-02-10T23:17:39.625+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 63, "sku_id": 34}
+2026-02-10T23:17:39.626+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T23:17:39.639+0700	INFO	repository/sku.go:74	Creating SKU	{"product_id": 1, "sku_code": "smartphone-xiaomi-redmi-note-12-128GB-yellow-1770740259639882200"}
+2026-02-10T23:17:39.641+0700	INFO	repository/sku.go:87	SKU created successfully	{"id": 35, "sku_code": "smartphone-xiaomi-redmi-note-12-128GB-yellow-1770740259639882200"}
+2026-02-10T23:17:39.642+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 35, "variant_value_id": 4}
+2026-02-10T23:17:39.643+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 64, "sku_id": 35}
+2026-02-10T23:17:39.643+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 35, "variant_value_id": 60}
+2026-02-10T23:17:39.645+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 65, "sku_id": 35}
+2026-02-10T23:17:39.646+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T23:17:39.662+0700	INFO	repository/sku.go:74	Creating SKU	{"product_id": 1, "sku_code": "smartphone-xiaomi-redmi-note-12-256GB-purple-1770740259662187200"}
+2026-02-10T23:17:39.664+0700	INFO	repository/sku.go:87	SKU created successfully	{"id": 36, "sku_code": "smartphone-xiaomi-redmi-note-12-256GB-purple-1770740259662187200"}
+2026-02-10T23:17:39.664+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 36, "variant_value_id": 5}
+2026-02-10T23:17:39.667+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 66, "sku_id": 36}
+2026-02-10T23:17:39.667+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 36, "variant_value_id": 43}
+2026-02-10T23:17:39.670+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 67, "sku_id": 36}
+2026-02-10T23:17:39.671+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}
+2026-02-10T23:17:39.693+0700	INFO	repository/sku.go:74	Creating SKU	{"product_id": 1, "sku_code": "smartphone-xiaomi-redmi-note-12-256GB-yellow-1770740259693029900"}
+2026-02-10T23:17:39.694+0700	INFO	repository/sku.go:87	SKU created successfully	{"id": 37, "sku_code": "smartphone-xiaomi-redmi-note-12-256GB-yellow-1770740259693029900"}
+2026-02-10T23:17:39.694+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 37, "variant_value_id": 5}
+2026-02-10T23:17:39.695+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 68, "sku_id": 37}
+2026-02-10T23:17:39.696+0700	INFO	repository/sku.go:148	Creating SKU	{"sku_id": 37, "variant_value_id": 60}
+2026-02-10T23:17:39.698+0700	INFO	repository/sku.go:161	SKU created successfully	{"id": 69, "sku_id": 37}
+2026-02-10T23:17:46.097+0700	INFO	repository/product.go:128	Get product by id	{"id": 1}

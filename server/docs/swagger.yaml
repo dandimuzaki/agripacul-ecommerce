@@ -1,0 +1,1593 @@
+basePath: /api/v1
+definitions:
+  entity.DiscountType:
+    enum:
+    - amount
+    - percentage
+    type: string
+    x-enum-varnames:
+    - DiscountAmount
+    - DiscountPercentage
+  entity.PromoType:
+    enum:
+    - direct discount
+    - voucher code
+    type: string
+    x-enum-varnames:
+    - DirectDiscount
+    - VoucherCode
+  request.CreatePaymentMethodRequest:
+    properties:
+      icon_url:
+        type: string
+      is_active:
+        type: boolean
+      name:
+        type: string
+    required:
+    - name
+    type: object
+  request.CreateProductRequest:
+    properties:
+      category_id:
+        type: integer
+      description:
+        type: string
+      images:
+        items:
+          type: string
+        type: array
+      name:
+        type: string
+      tags:
+        items:
+          type: string
+        type: array
+      variant_types:
+        items:
+          $ref: '#/definitions/request.CreateVariantTypeRequest'
+        minItems: 1
+        type: array
+    required:
+    - category_id
+    - name
+    type: object
+  request.CreateVariantTypeRequest:
+    properties:
+      name:
+        type: string
+      values:
+        items:
+          type: string
+        minItems: 1
+        type: array
+    required:
+    - name
+    type: object
+  request.PromotionRequest:
+    properties:
+      description:
+        type: string
+      discount_type:
+        allOf:
+        - $ref: '#/definitions/entity.DiscountType'
+        enum:
+        - amount
+        - percentage
+      discount_value:
+        minimum: 0
+        type: number
+      end_date:
+        type: string
+      is_published:
+        type: boolean
+      is_shown:
+        type: boolean
+      maximum_discount:
+        minimum: 0
+        type: number
+      minimum_order_value:
+        minimum: 0
+        type: number
+      name:
+        type: string
+      product_ids:
+        items:
+          type: integer
+        type: array
+      start_date:
+        type: string
+      type:
+        allOf:
+        - $ref: '#/definitions/entity.PromoType'
+        enum:
+        - direct discount
+        - voucher code
+      usage_limit:
+        minimum: 0
+        type: integer
+      voucher_code:
+        type: string
+    required:
+    - discount_type
+    - discount_value
+    - end_date
+    - name
+    - start_date
+    - type
+    type: object
+  request.PromotionUpdateRequest:
+    properties:
+      description:
+        type: string
+      discount_type:
+        allOf:
+        - $ref: '#/definitions/entity.DiscountType'
+        enum:
+        - amount
+        - percentage
+      discount_value:
+        minimum: 0
+        type: number
+      end_date:
+        type: string
+      is_published:
+        type: boolean
+      is_shown:
+        type: boolean
+      maximum_discount:
+        minimum: 0
+        type: number
+      minimum_order_value:
+        minimum: 0
+        type: number
+      name:
+        type: string
+      product_ids:
+        items:
+          type: integer
+        type: array
+      start_date:
+        type: string
+      type:
+        allOf:
+        - $ref: '#/definitions/entity.PromoType'
+        enum:
+        - direct discount
+        - voucher code
+      usage_limit:
+        minimum: 0
+        type: integer
+      voucher_code:
+        type: string
+    type: object
+  request.UpdatePaymentMethodRequest:
+    properties:
+      icon_url:
+        type: string
+      is_active:
+        type: boolean
+      name:
+        type: string
+    type: object
+  request.UpdateProductRequest:
+    properties:
+      category_id:
+        type: integer
+      description:
+        type: string
+      images:
+        items:
+          type: string
+        type: array
+      name:
+        type: string
+      variants:
+        items:
+          $ref: '#/definitions/request.UpdateVariantTypeRequest'
+        type: array
+    type: object
+  request.UpdatePublishRequest:
+    properties:
+      is_published:
+        type: boolean
+    type: object
+  request.UpdateSKURequest:
+    properties:
+      id:
+        type: integer
+      images:
+        items:
+          type: string
+        type: array
+      min_stock:
+        type: integer
+      price:
+        type: number
+      sale_price:
+        type: number
+      sku_code:
+        type: string
+      status:
+        enum:
+        - active
+        - inactive
+        - archived
+        type: string
+      stock:
+        type: integer
+      weight:
+        type: number
+    type: object
+  request.UpdateVariantTypeRequest:
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+      status:
+        enum:
+        - clean
+        - created
+        - updated
+        - deleted
+        type: string
+      values:
+        items:
+          $ref: '#/definitions/request.UpdateVariantValueRequest'
+        type: array
+    type: object
+  request.UpdateVariantValueRequest:
+    properties:
+      id:
+        type: integer
+      status:
+        enum:
+        - clean
+        - created
+        - updated
+        - deleted
+        type: string
+      value:
+        type: string
+    type: object
+  utils.Response:
+    properties:
+      data: {}
+      errors: {}
+      fields: {}
+      message:
+        type: string
+      status:
+        type: boolean
+    type: object
+host: localhost:8080
+info:
+  contact: {}
+  description: E-commerce backend API
+  title: Debian API
+  version: "1.0"
+paths:
+  /admin/categories:
+    post:
+      consumes:
+      - multipart/form-data
+      description: Create a new product category
+      parameters:
+      - description: Category Name
+        in: formData
+        name: name
+        required: true
+        type: string
+      - description: Category Icon
+        in: formData
+        name: icon
+        type: file
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Create a new category
+      tags:
+      - Categories
+  /admin/categories/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete category by ID
+      parameters:
+      - description: Category ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Delete category
+      tags:
+      - Categories
+    put:
+      consumes:
+      - multipart/form-data
+      description: Update existing category
+      parameters:
+      - description: Category ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Category Name
+        in: formData
+        name: name
+        required: true
+        type: string
+      - description: Category Icon
+        in: formData
+        name: icon
+        type: file
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Update category
+      tags:
+      - Categories
+  /admin/orders:
+    get:
+      consumes:
+      - application/json
+      description: Get all orders
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+      summary: Get order list
+      tags:
+      - Orders
+  /admin/products:
+    get:
+      consumes:
+      - application/json
+      description: Get list of products with pagination, sorting, and search
+      parameters:
+      - default: 1
+        description: Page number
+        in: query
+        name: page
+        type: integer
+      - default: 10
+        description: Items per page
+        in: query
+        name: limit
+        type: integer
+      - description: Search by name
+        in: query
+        name: search
+        type: string
+      - description: Filter by category
+        in: query
+        name: category_id
+        type: integer
+      - description: Filter with minimum price
+        in: query
+        name: min_price
+        type: integer
+      - description: Filter with maximum price
+        in: query
+        name: max_price
+        type: integer
+      - description: Filter with minimum rating
+        in: query
+        name: min_rating
+        type: integer
+      - default: created_at
+        description: Sort field (id, name, created_at, price, average_rating, sold_count)
+        in: query
+        name: sort_by
+        type: string
+      - default: desc
+        description: Sort order (asc, desc)
+        in: query
+        name: sort_order
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      summary: Get all products by admin
+      tags:
+      - Products
+    post:
+      consumes:
+      - application/json
+      description: Create a new product
+      parameters:
+      - description: Product data
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/request.CreateProductRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Create a new product
+      tags:
+      - Products
+  /admin/products/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete product by ID
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Delete product
+      tags:
+      - Products
+    post:
+      consumes:
+      - multipart/form-data
+      description: Upload main image of product
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Product Main Image
+        in: formData
+        name: image
+        type: file
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Upload product main image
+      tags:
+      - Products
+  /admin/products/{id}/gallery:
+    post:
+      consumes:
+      - multipart/form-data
+      description: Upload collection of product images
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Product Images
+        in: formData
+        name: images
+        type: file
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Upload product gallery
+      tags:
+      - Products
+  /admin/products/{id}/gallery/{imageID}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete product image by ID
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Image ID
+        in: path
+        name: imageID
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Delete product image
+      tags:
+      - Products
+  /admin/products/{id}/publish:
+    put:
+      consumes:
+      - application/json
+      description: Update product to be published or unpublished
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Product is published or unpublished
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/request.UpdatePublishRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Publish or unpublish product
+      tags:
+      - Products
+  /admin/products/{id}/sku:
+    get:
+      consumes:
+      - application/json
+      description: Get stock keeping units of product by product ID
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Get product SKUs
+      tags:
+      - Products
+    put:
+      consumes:
+      - application/json
+      description: Update stock keeping units of product by product ID
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Product SKUs data
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/request.UpdateSKURequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Update product SKUs
+      tags:
+      - Products
+  /api/payment-methods/{id}:
+    put:
+      consumes:
+      - application/json
+      description: Update payment method by ID
+      parameters:
+      - description: Payment Method ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Payment method update data
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/request.UpdatePaymentMethodRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "422":
+          description: Unprocessable Entity
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Update payment method
+      tags:
+      - Payment Method
+  /categories:
+    get:
+      consumes:
+      - application/json
+      description: Get list of categories with pagination, sorting, and search
+      parameters:
+      - default: 1
+        description: Page number
+        in: query
+        name: page
+        type: integer
+      - default: 10
+        description: Items per page
+        in: query
+        name: limit
+        type: integer
+      - description: Search by name
+        in: query
+        name: search
+        type: string
+      - default: created_at
+        description: Sort field (id, name, created_at, updated_at)
+        in: query
+        name: sort_by
+        type: string
+      - default: desc
+        description: Sort order (asc, desc)
+        in: query
+        name: sort_order
+        type: string
+      - default: false
+        description: Include product count
+        in: query
+        name: with_product_count
+        type: boolean
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      summary: Get all categories
+      tags:
+      - Categories
+  /categories/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get category details by ID
+      parameters:
+      - description: Category ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - default: false
+        description: Include product count
+        in: query
+        name: with_product_count
+        type: boolean
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      summary: Get category by ID
+      tags:
+      - Categories
+  /payment-methods:
+    get:
+      consumes:
+      - application/json
+      description: Get list of payment methods with pagination and filters
+      parameters:
+      - default: 1
+        description: Page number
+        in: query
+        name: page
+        type: integer
+      - default: 10
+        description: Items per page
+        in: query
+        name: limit
+        type: integer
+      - description: Search by name
+        in: query
+        name: search
+        type: string
+      - description: Filter by active status
+        in: query
+        name: is_active
+        type: boolean
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Get all payment methods
+      tags:
+      - Payment Method
+    post:
+      consumes:
+      - application/json
+      description: Create a new payment method
+      parameters:
+      - description: Payment method data
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/request.CreatePaymentMethodRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "422":
+          description: Unprocessable Entity
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Create payment method
+      tags:
+      - Payment Method
+  /payment-methods/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete payment method by ID (soft delete)
+      parameters:
+      - description: Payment Method ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Delete payment method
+      tags:
+      - Payment Method
+    get:
+      consumes:
+      - application/json
+      description: Get payment method details by ID
+      parameters:
+      - description: Payment Method ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Get payment method by ID
+      tags:
+      - Payment Method
+  /payment-methods/{id}/toggle:
+    patch:
+      consumes:
+      - application/json
+      description: Activate or deactivate payment method
+      parameters:
+      - description: Payment Method ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Toggle payment method active status
+      tags:
+      - Payment Method
+  /products:
+    get:
+      consumes:
+      - application/json
+      description: Get list of products with pagination, sorting, and search
+      parameters:
+      - default: 1
+        description: Page number
+        in: query
+        name: page
+        type: integer
+      - default: 10
+        description: Items per page
+        in: query
+        name: limit
+        type: integer
+      - description: Search by name
+        in: query
+        name: search
+        type: string
+      - description: Filter by category
+        in: query
+        name: category_id
+        type: integer
+      - description: Filter with minimum price
+        in: query
+        name: min_price
+        type: integer
+      - description: Filter with maximum price
+        in: query
+        name: max_price
+        type: integer
+      - description: Filter with minimum rating
+        in: query
+        name: min_rating
+        type: integer
+      - default: created_at
+        description: Sort field (id, name, created_at, price, average_rating, sold_count)
+        in: query
+        name: sort_by
+        type: string
+      - default: desc
+        description: Sort order (asc, desc)
+        in: query
+        name: sort_order
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      summary: Get product list
+      tags:
+      - Products
+  /products/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get product details by ID
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      summary: Get product by ID
+      tags:
+      - Products
+    put:
+      consumes:
+      - application/json
+      description: Update existing product
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Product data
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/request.UpdateProductRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/utils.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.Response'
+      security:
+      - BearerAuth: []
+      summary: Update product
+      tags:
+      - Products
+  /promotions:
+    get:
+      consumes:
+      - application/json
+      description: Get paginated list of promotions with optional filters
+      parameters:
+      - description: Promotion name
+        in: query
+        name: name
+        type: string
+      - description: Promotion type
+        enum:
+        - direct discount
+        - voucher code
+        in: query
+        name: type
+        type: string
+      - description: Is published
+        in: query
+        name: is_published
+        type: boolean
+      - description: Start date from (ISO 8601)
+        in: query
+        name: start_date_from
+        type: string
+      - description: Start date to (ISO 8601)
+        in: query
+        name: start_date_to
+        type: string
+      - description: End date from (ISO 8601)
+        in: query
+        name: end_date_from
+        type: string
+      - description: End date to (ISO 8601)
+        in: query
+        name: end_date_to
+        type: string
+      - description: Voucher code
+        in: query
+        name: voucher_code
+        type: string
+      - default: 1
+        description: Page number
+        in: query
+        name: page
+        type: integer
+      - default: 10
+        description: Items per page
+        in: query
+        name: limit
+        type: integer
+      - default: created_at
+        description: Sort by field
+        in: query
+        name: sort_by
+        type: string
+      - default: desc
+        description: Sort order
+        in: query
+        name: sort_order
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: Get promotion list with filters
+      tags:
+      - Promotions
+    post:
+      consumes:
+      - application/json
+      description: Create a new promotion with products
+      parameters:
+      - description: Promotion data
+        in: body
+        name: promotion
+        required: true
+        schema:
+          $ref: '#/definitions/request.PromotionRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: Create a new promotion
+      tags:
+      - Promotions
+  /promotions/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete promotion by ID
+      parameters:
+      - description: Promotion ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: Delete promotion
+      tags:
+      - Promotions
+    get:
+      consumes:
+      - application/json
+      description: Get promotion details by ID
+      parameters:
+      - description: Promotion ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: Get promotion by ID
+      tags:
+      - Promotions
+    put:
+      consumes:
+      - application/json
+      description: Update promotion details
+      parameters:
+      - description: Promotion ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Promotion update data
+        in: body
+        name: promotion
+        required: true
+        schema:
+          $ref: '#/definitions/request.PromotionUpdateRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: Update promotion
+      tags:
+      - Promotions
+swagger: "2.0"

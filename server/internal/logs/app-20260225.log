@@ -1,0 +1,46 @@
+2026-02-25T16:06:17.349+0700	ERROR	adaptor/cart_handler.go:28	Failed to get cart	{"error": "ERROR: invalid reference to FROM-clause entry for table \"skus\" (SQLSTATE 42P01)"}
+2026-02-25T16:57:37.668+0700	ERROR	repository/product.go:121	Error query get product list	{"error": "SKU: unsupported relations for schema Product"}
+2026-02-25T16:57:37.697+0700	ERROR	usecase/product.go:54	Failed to browse product	{"error": "SKU: unsupported relations for schema Product"}
+2026-02-25T17:00:19.057+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-02-25T17:01:26.237+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-02-25T17:03:58.372+0700	ERROR	repository/cart.go:117	Error query update cart item	{"error": "ERROR: column \"customer_id\" does not exist (SQLSTATE 42703)"}
+2026-02-25T17:03:58.373+0700	ERROR	usecase/cart.go:275	Failed to update item
+2026-02-25T17:03:58.375+0700	ERROR	adaptor/cart_handler.go:125	Failed to remove cart item	{"error": "ERROR: column \"customer_id\" does not exist (SQLSTATE 42703)"}
+2026-02-25T17:05:37.298+0700	ERROR	repository/cart.go:117	Error query update cart item	{"error": "ERROR: missing FROM-clause entry for table \"c\" (SQLSTATE 42P01)"}
+2026-02-25T17:05:37.299+0700	ERROR	usecase/cart.go:275	Failed to update item
+2026-02-25T17:05:37.300+0700	ERROR	adaptor/cart_handler.go:125	Failed to remove cart item	{"error": "ERROR: missing FROM-clause entry for table \"c\" (SQLSTATE 42P01)"}
+2026-02-25T17:06:53.991+0700	ERROR	repository/cart.go:117	Error query update cart item	{"error": "ERROR: missing FROM-clause entry for table \"carts\" (SQLSTATE 42P01)"}
+2026-02-25T17:06:53.997+0700	ERROR	usecase/cart.go:275	Failed to update item
+2026-02-25T17:06:54.003+0700	ERROR	adaptor/cart_handler.go:125	Failed to remove cart item	{"error": "ERROR: missing FROM-clause entry for table \"carts\" (SQLSTATE 42P01)"}
+2026-02-25T17:10:29.112+0700	ERROR	repository/cart.go:117	Error query update cart item	{"error": "ERROR: missing FROM-clause entry for table \"c\" (SQLSTATE 42P01)"}
+2026-02-25T17:10:29.138+0700	ERROR	usecase/cart.go:275	Failed to update item
+2026-02-25T17:10:29.140+0700	ERROR	adaptor/cart_handler.go:125	Failed to remove cart item	{"error": "ERROR: missing FROM-clause entry for table \"c\" (SQLSTATE 42P01)"}
+2026-02-25T17:13:43.003+0700	ERROR	repository/cart.go:117	Error query update cart item	{"error": "ERROR: missing FROM-clause entry for table \"c\" (SQLSTATE 42P01)"}
+2026-02-25T17:13:43.011+0700	ERROR	usecase/cart.go:275	Failed to update item
+2026-02-25T17:13:43.012+0700	ERROR	adaptor/cart_handler.go:125	Failed to select or unselect cart item	{"error": "ERROR: missing FROM-clause entry for table \"c\" (SQLSTATE 42P01)"}
+2026-02-25T17:22:01.286+0700	ERROR	adaptor/address_handler.go:138	Failed to get addresses	{"error": "ERROR: column addresses.deleted_at does not exist (SQLSTATE 42703)"}
+2026-02-25T17:24:29.063+0700	ERROR	adaptor/address_handler.go:50	Failed to create address	{"error": "ERROR: column \"created_at\" of relation \"addresses\" does not exist (SQLSTATE 42703)"}
+2026-02-25T17:25:14.382+0700	ERROR	adaptor/address_handler.go:50	Failed to create address	{"error": "ERROR: column \"recipient_name\" of relation \"addresses\" does not exist (SQLSTATE 42703)"}
+2026-02-25T17:29:05.432+0700	ERROR	adaptor/address_handler.go:138	Failed to get addresses	{"error": "ERROR: cached plan must not change result type (SQLSTATE 0A000)"}
+2026-02-25T17:33:59.846+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-25T17:34:45.007+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-25T17:35:35.315+0700	INFO	repository/order.go:45	Creating order	{"customer_id": 6}
+2026-02-25T17:35:35.334+0700	INFO	repository/order.go:57	order created successfully	{"id": 21, "customer_id": 6}
+2026-02-25T17:35:35.351+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-02-25T17:35:35.385+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 21, "sku_id": 46}
+2026-02-25T17:35:35.469+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 36, "order_id": 21, "sku_id": 46}
+2026-02-25T17:35:35.479+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-02-25T17:35:35.507+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 21, "sku_id": 43}
+2026-02-25T17:35:35.510+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 37, "order_id": 21, "sku_id": 43}
+2026-02-25T17:35:35.512+0700	INFO	repository/order.go:91	Creating order payment	{"order_id": 21, "payment_method_id": 1}
+2026-02-25T17:35:35.525+0700	INFO	repository/order.go:105	Order payment created successfully	{"id": 7, "order_id": 21, "payment_method_id": 1}
+2026-02-25T17:35:35.768+0700	INFO	repository/order.go:116	Creating order shipping	{"order_id": 21, "courier_name": "21 Express"}
+2026-02-25T17:35:35.778+0700	INFO	repository/order.go:130	Order shipping created successfully	{"id": 6, "order_id": 21, "courier_name": "21 Express"}
+2026-02-25T17:36:50.395+0700	INFO	repository/order.go:385	Get order by id	{"id": 21}
+2026-02-25T17:37:57.520+0700	INFO	repository/order.go:385	Get order by id	{"id": 21}
+2026-02-25T17:40:07.987+0700	INFO	repository/order.go:385	Get order by id	{"id": 21}
+2026-02-25T17:40:16.395+0700	INFO	repository/order.go:385	Get order by id	{"id": 21}
+2026-02-25T17:40:16.415+0700	ERROR	usecase/order.go:377	Payment already paid
+2026-02-25T17:40:16.416+0700	ERROR	usecase/order.go:398	Transaction pay order failed	{"error": "order is already paid"}
+2026-02-25T17:41:09.044+0700	INFO	repository/order.go:385	Get order by id	{"id": 21}
+2026-02-25T17:41:48.784+0700	INFO	repository/order.go:385	Get order by id	{"id": 21}

@@ -1,0 +1,291 @@
+2026-03-23T20:18:58.803+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "starter-kit-try-reusable-straws-first-time"}
+2026-03-23T20:19:20.647+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:19:21.113+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:19:21.176+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:19:21.238+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:19:34.422+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:19:34.744+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:20:10.089+0700	INFO	repository/order.go:44	Creating order	{"customer_id": 1}
+2026-03-23T20:20:10.124+0700	INFO	repository/order.go:56	order created successfully	{"id": 6, "customer_id": 1}
+2026-03-23T20:20:10.159+0700	INFO	repository/product.go:256	Get product by ids	{"id": [44]}
+2026-03-23T20:20:10.187+0700	INFO	repository/order.go:65	Creating order items	{"order_ids": [{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"OrderID":6,"SKUID":154,"Quantity":1,"UnitPrice":37000,"TotalPrice":37000,"ProductSnapshot":{"id":44,"name":"Starter Kit - Try Reusable Straws for the First Time","category":"Straw \u0026 Cutlery","tags":["starter","pemula","trial","first time","beginner","entry level"],"main_image_url":"https://down-id.img.susercontent.com/file/ac1cd9b9c0750b191865430c1cf4cd54@resize_w900_nl.webp"},"SKUSnapshot":{"id":154,"sku_code":"STR-STRT-236-L1tfQ","price":37000,"sale_price":null,"variants":[{"name":"Starter Type","value":"Basic Starter - Bent Straw (6mm)"}]},"SKU":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"ProductID":0,"SKUCode":"","price":0,"sale_price":null,"stock":0,"min_stock":0,"status":"","weight_gram":0,"product":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"category_id":0,"name":"","is_published":false,"slug":"","main_image_url":"","main_image_public_id":"","review_count":0,"sold_count":0,"min_price":0,"max_price":0,"category":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"name":"","icon_public_id":""}},"SKUVariantValues":null}}]}
+2026-03-23T20:20:10.214+0700	INFO	repository/order.go:76	Order item created successfully
+2026-03-23T20:20:10.220+0700	INFO	repository/order.go:84	Creating order payment	{"order_id": 6, "payment_method_id": 0}
+2026-03-23T20:20:10.252+0700	INFO	repository/order.go:98	Order payment created successfully	{"id": 3, "order_id": 6, "payment_method_id": 0}
+2026-03-23T20:20:10.282+0700	INFO	repository/order.go:109	Creating order shipping	{"order_id": 6, "courier_name": "21 Express"}
+2026-03-23T20:20:10.323+0700	INFO	repository/order.go:123	Order shipping created successfully	{"id": 3, "order_id": 6, "courier_name": "21 Express"}
+2026-03-23T20:20:10.336+0700	INFO	usecase/order.go:47	CreateOrder duration	{"duration": "299.5579ms"}
+2026-03-23T20:20:25.405+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:20:25.407+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:20:25.504+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:20:25.506+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:20:26.242+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:20:26.257+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:20:26.306+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:20:26.325+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:20:41.003+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:20:41.010+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:20:41.066+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:20:41.076+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:20:44.488+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "starter-kit-try-reusable-straws-first-time"}
+2026-03-23T20:20:54.978+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:20:55.039+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:20:55.069+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:20:55.123+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:21:00.436+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "starter-kit-try-reusable-straws-first-time"}
+2026-03-23T20:22:00.541+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:22:00.689+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:22:00.724+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:22:00.782+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:22:51.551+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:22:51.669+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:26:06.051+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:26:08.268+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:26:28.888+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:26:29.204+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:27:18.216+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:27:18.313+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:27:51.300+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:27:51.380+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:28:00.132+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:28:00.217+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-23T20:29:09.978+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:29:10.042+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:29:22.453+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:29:22.594+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:29:22.647+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:29:22.696+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:29:49.050+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:29:49.114+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:30:46.108+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:30:46.196+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:31:11.301+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:31:11.400+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:31:37.816+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:31:37.914+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:32:09.048+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:32:09.118+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:32:27.766+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:32:27.857+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:32:37.705+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:32:37.790+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:33:13.425+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:33:13.498+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:33:43.693+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:33:43.760+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:33:54.929+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:33:55.004+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:33:55.101+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:33:55.167+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:34:21.707+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:34:21.778+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:34:21.829+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:34:21.897+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:34:48.988+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:34:49.061+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:34:52.896+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:34:52.961+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:35:50.736+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:35:50.814+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:38:51.749+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:38:52.579+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:39:23.081+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:39:23.166+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:39:35.430+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:39:35.494+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:39:35.550+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:39:35.612+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:40:05.353+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:40:05.457+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:40:29.409+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:40:29.833+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:40:30.497+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:40:30.567+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:40:58.384+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:40:58.461+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:41:41.602+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:41:41.673+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:49:23.288+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:49:25.405+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:50:55.779+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:50:56.053+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:53:17.371+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:53:17.558+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:56:06.621+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:56:08.892+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-23T20:56:09.454+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-23T20:56:09.580+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 429"}
+2026-03-24T05:10:30.677+0700	INFO	repository/order.go:322	Mark orders as delivered...
+2026-03-24T05:10:30.709+0700	INFO	repository/order.go:359	Mark orders as completed...
+2026-03-24T05:10:34.906+0700	ERROR	repository/order.go:384	Failed to mark orders as completed
+2026-03-24T05:10:34.921+0700	ERROR	usecase/order.go:889	Failed to update order	{"error": "ERROR: syntax error at or near \"interval\" (SQLSTATE 42601)"}
+2026-03-24T05:10:34.958+0700	ERROR	scheduler/jobs.go:57	cron AutoCompleted failed	{"error": "ERROR: syntax error at or near \"interval\" (SQLSTATE 42601)"}
+2026-03-24T05:10:35.419+0700	INFO	repository/order.go:351	Successfully mark orders as delivered
+2026-03-24T05:28:28.676+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:28:29.067+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:28:29.134+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:28:29.193+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:29:08.896+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:29:10.886+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:29:16.578+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:29:31.008+0700	INFO	repository/order.go:44	Creating order	{"customer_id": 1}
+2026-03-24T05:29:31.047+0700	INFO	repository/order.go:56	order created successfully	{"id": 7, "customer_id": 1}
+2026-03-24T05:29:31.079+0700	INFO	repository/product.go:256	Get product by ids	{"id": [44]}
+2026-03-24T05:29:31.100+0700	INFO	repository/order.go:65	Creating order items	{"order_ids": [{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"OrderID":7,"SKUID":153,"Quantity":1,"UnitPrice":35000,"TotalPrice":35000,"ProductSnapshot":{"id":44,"name":"Starter Kit - Try Reusable Straws for the First Time","category":"Straw \u0026 Cutlery","tags":["starter","pemula","trial","first time","beginner","entry level"],"main_image_url":"https://down-id.img.susercontent.com/file/ac1cd9b9c0750b191865430c1cf4cd54@resize_w900_nl.webp"},"SKUSnapshot":{"id":153,"sku_code":"STR-STRT-230-Rfymw","price":35000,"sale_price":null,"variants":[{"name":"Starter Type","value":"Basic Starter - Straight Straw (6mm)"}]},"SKU":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"ProductID":0,"SKUCode":"","price":0,"sale_price":null,"stock":0,"min_stock":0,"status":"","weight_gram":0,"product":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"category_id":0,"name":"","is_published":false,"slug":"","main_image_url":"","main_image_public_id":"","review_count":0,"sold_count":0,"min_price":0,"max_price":0,"category":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"name":"","icon_public_id":""}},"SKUVariantValues":null}}]}
+2026-03-24T05:29:31.130+0700	INFO	repository/order.go:76	Order item created successfully
+2026-03-24T05:29:31.132+0700	INFO	repository/order.go:84	Creating order payment	{"order_id": 7, "payment_method_id": 0}
+2026-03-24T05:29:31.150+0700	INFO	repository/order.go:98	Order payment created successfully	{"id": 4, "order_id": 7, "payment_method_id": 0}
+2026-03-24T05:29:31.158+0700	INFO	repository/order.go:109	Creating order shipping	{"order_id": 7, "courier_name": "21 Express"}
+2026-03-24T05:29:31.167+0700	INFO	repository/order.go:123	Order shipping created successfully	{"id": 4, "order_id": 7, "courier_name": "21 Express"}
+2026-03-24T05:29:31.172+0700	INFO	usecase/order.go:47	CreateOrder duration	{"duration": "361.8141ms"}
+2026-03-24T05:30:34.934+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:30:34.935+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:30:35.047+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:30:35.070+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:30:43.999+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:30:44.118+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:30:44.220+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:30:44.315+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:31:09.752+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "home-pack-tray-ramah-lingkungan-keluarga"}
+2026-03-24T05:31:28.173+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:31:28.284+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:31:28.338+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:31:28.428+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:31:33.845+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:31:34.295+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:31:39.118+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:31:42.593+0700	INFO	repository/order.go:44	Creating order	{"customer_id": 1}
+2026-03-24T05:31:42.603+0700	INFO	repository/order.go:56	order created successfully	{"id": 8, "customer_id": 1}
+2026-03-24T05:31:42.641+0700	INFO	repository/product.go:256	Get product by ids	{"id": [35]}
+2026-03-24T05:31:42.661+0700	INFO	repository/order.go:65	Creating order items	{"order_ids": [{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"OrderID":8,"SKUID":112,"Quantity":1,"UnitPrice":85000,"TotalPrice":85000,"ProductSnapshot":{"id":35,"name":"Home Pack - 25 Tray Ramah Lingkungan untuk Keluarga","category":"Food Packaging","tags":["home","keluarga","rumah tangga","bekal","sekolah","arisan","murah"],"main_image_url":"https://ecolipak.com/cdn/shop/files/14-in-disposable-cutting-resistant-compostable-traysbpi-certified-pfas-free-7092684.jpg?v=1762583270\u0026width=1024"},"SKUSnapshot":{"id":112,"sku_code":"HOME-Bag-009-ZHYFs","price":85000,"sale_price":null,"variants":[{"name":"Material","value":"Bagasse (Tebu) - 25 pcs"}]},"SKU":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"ProductID":0,"SKUCode":"","price":0,"sale_price":null,"stock":0,"min_stock":0,"status":"","weight_gram":0,"product":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"category_id":0,"name":"","is_published":false,"slug":"","main_image_url":"","main_image_public_id":"","review_count":0,"sold_count":0,"min_price":0,"max_price":0,"category":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"name":"","icon_public_id":""}},"SKUVariantValues":null}}]}
+2026-03-24T05:31:42.666+0700	INFO	repository/order.go:76	Order item created successfully
+2026-03-24T05:31:42.668+0700	INFO	repository/order.go:84	Creating order payment	{"order_id": 8, "payment_method_id": 0}
+2026-03-24T05:31:42.670+0700	INFO	repository/order.go:98	Order payment created successfully	{"id": 5, "order_id": 8, "payment_method_id": 0}
+2026-03-24T05:31:42.677+0700	INFO	repository/order.go:109	Creating order shipping	{"order_id": 8, "courier_name": "21 Express"}
+2026-03-24T05:31:42.682+0700	INFO	repository/order.go:123	Order shipping created successfully	{"id": 5, "order_id": 8, "courier_name": "21 Express"}
+2026-03-24T05:31:42.688+0700	INFO	usecase/order.go:47	CreateOrder duration	{"duration": "302.8094ms"}
+2026-03-24T05:43:51.323+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "institutional-trays-program-makan-bergizi-gratis"}
+2026-03-24T05:47:59.936+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:48:00.952+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "home-pack-tray-ramah-lingkungan-keluarga"}
+2026-03-24T05:48:01.136+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:48:06.668+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "institutional-trays-program-makan-bergizi-gratis"}
+2026-03-24T05:48:17.691+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "sample-pack-coba-semua-varian-tray"}
+2026-03-24T05:48:31.936+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:48:32.009+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:48:32.036+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:48:32.089+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T05:48:44.252+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:48:44.531+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:48:50.671+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:49:10.138+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:49:23.140+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T05:49:33.793+0700	INFO	repository/order.go:44	Creating order	{"customer_id": 1}
+2026-03-24T05:49:33.820+0700	INFO	repository/order.go:56	order created successfully	{"id": 9, "customer_id": 1}
+2026-03-24T05:49:33.850+0700	INFO	repository/product.go:256	Get product by ids	{"id": [37]}
+2026-03-24T05:49:33.871+0700	INFO	repository/order.go:65	Creating order items	{"order_ids": [{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"OrderID":9,"SKUID":118,"Quantity":1,"UnitPrice":65000,"TotalPrice":65000,"ProductSnapshot":{"id":37,"name":"Sample Pack - Coba Semua Varian Tray Ramah Lingkungan","category":"Food Packaging","tags":["sample","trial","coba","starter","mixed","varian"],"main_image_url":"https://ecolipak.com/cdn/shop/files/14-in-disposable-cutting-resistant-compostable-traysbpi-certified-pfas-free-4713263.jpg?v=1762583270\u0026width=1024"},"SKUSnapshot":{"id":118,"sku_code":"SMP-MIX-463-yrxSA","price":65000,"sale_price":null,"variants":[{"name":"Sample Type","value":"Mixed Material Sampler - 10 trays"}]},"SKU":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"ProductID":0,"SKUCode":"","price":0,"sale_price":null,"stock":0,"min_stock":0,"status":"","weight_gram":0,"product":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"category_id":0,"name":"","is_published":false,"slug":"","main_image_url":"","main_image_public_id":"","review_count":0,"sold_count":0,"min_price":0,"max_price":0,"category":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"name":"","icon_public_id":""}},"SKUVariantValues":null}}]}
+2026-03-24T05:49:33.891+0700	INFO	repository/order.go:76	Order item created successfully
+2026-03-24T05:49:33.893+0700	INFO	repository/order.go:84	Creating order payment	{"order_id": 9, "payment_method_id": 0}
+2026-03-24T05:49:33.906+0700	INFO	repository/order.go:98	Order payment created successfully	{"id": 6, "order_id": 9, "payment_method_id": 0}
+2026-03-24T05:49:33.920+0700	INFO	repository/order.go:109	Creating order shipping	{"order_id": 9, "courier_name": "21 Express"}
+2026-03-24T05:49:33.925+0700	INFO	repository/order.go:123	Order shipping created successfully	{"id": 6, "order_id": 9, "courier_name": "21 Express"}
+2026-03-24T05:49:33.928+0700	INFO	usecase/order.go:47	CreateOrder duration	{"duration": "165.9438ms"}
+2026-03-24T09:41:37.603+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:41:38.469+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:41:38.633+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:41:38.763+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:42:10.554+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:42:10.749+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:42:39.690+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:42:39.902+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:42:50.985+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:42:51.162+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:43:19.809+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:43:19.898+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:43:19.947+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:43:20.004+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:43:59.067+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:43:59.192+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:45:01.355+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:45:01.774+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:45:01.927+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:45:01.997+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:45:08.522+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:45:08.605+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:45:08.699+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:45:08.776+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:57:05.086+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:57:05.414+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:57:05.505+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:57:05.563+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:57:14.391+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:57:14.545+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:57:17.736+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:57:17.800+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:57:17.849+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:57:17.908+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:57:57.730+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:57:57.793+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:57:57.817+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:57:57.879+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:58:16.692+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:58:16.766+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:58:30.659+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:58:31.688+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:58:42.170+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:58:42.230+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:58:42.275+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:58:42.329+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:59:00.951+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:59:01.131+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:59:05.094+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:59:05.171+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:59:05.202+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:59:05.258+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:59:18.210+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:59:18.339+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:59:18.379+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:59:18.445+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:59:28.884+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:59:29.223+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:59:34.092+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:59:34.217+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:59:34.309+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:59:34.377+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:59:50.917+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:59:50.986+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T09:59:51.040+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T09:59:51.396+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:00:14.995+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:00:15.064+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:00:15.096+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:00:15.157+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:00:53.380+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:00:53.581+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:01:53.074+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:01:53.137+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:01:53.175+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:01:53.258+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:02:00.451+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:02:00.575+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:02:07.110+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:02:07.180+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:02:07.233+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:02:07.296+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:04:33.380+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:04:34.377+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:05:14.105+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:05:14.241+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:15:58.212+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:15:59.600+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:20:26.158+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:20:29.206+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:22:09.977+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:22:10.440+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:27:57.454+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:27:58.136+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:27:58.303+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:27:58.438+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:28:04.289+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:28:04.455+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}
+2026-03-24T10:38:08.721+0700	ERROR	usecase/shipping.go:36	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-24T10:38:09.393+0700	ERROR	usecase/shipping.go:101	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 422"}

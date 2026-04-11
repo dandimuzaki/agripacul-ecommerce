@@ -1,0 +1,115 @@
+2026-02-18T14:27:49.726+0700	INFO	repository/product.go:42	Creating product	{"name": "Handphone Oppo J9", "category_id": 1}
+2026-02-18T14:27:52.132+0700	INFO	repository/product.go:55	Product created successfully	{"id": 27, "name": "Handphone Oppo J9"}
+2026-02-18T14:27:52.139+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 27}
+2026-02-18T14:27:52.295+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 28, "name": "color"}
+2026-02-18T14:27:52.298+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "black", "variant_type_id": 28}
+2026-02-18T14:27:52.360+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 68, "value": "black"}
+2026-02-18T14:27:52.365+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "pink", "variant_type_id": 28}
+2026-02-18T14:27:52.373+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 69, "value": "pink"}
+2026-02-18T14:27:52.374+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 27}
+2026-02-18T14:27:52.383+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 29, "name": "storage"}
+2026-02-18T14:27:52.385+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "128GB", "variant_type_id": 29}
+2026-02-18T14:27:52.395+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 70, "value": "128GB"}
+2026-02-18T14:27:52.396+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "256GB", "variant_type_id": 29}
+2026-02-18T14:27:52.408+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 71, "value": "256GB"}
+2026-02-18T14:27:52.504+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-02-18T14:27:52.634+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 27, "sku_code": "handphone-oppo-j9-black-128GB-1771399672632159500"}
+2026-02-18T14:27:52.724+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 43, "sku_code": "handphone-oppo-j9-black-128GB-1771399672632159500"}
+2026-02-18T14:27:52.724+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 43, "variant_value_id": 68}
+2026-02-18T14:27:52.799+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 80, "sku_id": 43}
+2026-02-18T14:27:52.799+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 43, "variant_value_id": 70}
+2026-02-18T14:27:52.815+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 81, "sku_id": 43}
+2026-02-18T14:27:52.818+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-02-18T14:27:52.892+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 27, "sku_code": "handphone-oppo-j9-black-256GB-1771399672892644500"}
+2026-02-18T14:27:52.899+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 44, "sku_code": "handphone-oppo-j9-black-256GB-1771399672892644500"}
+2026-02-18T14:27:52.901+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 44, "variant_value_id": 68}
+2026-02-18T14:27:52.903+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 82, "sku_id": 44}
+2026-02-18T14:27:52.910+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 44, "variant_value_id": 71}
+2026-02-18T14:27:52.911+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 83, "sku_id": 44}
+2026-02-18T14:27:52.911+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-02-18T14:27:52.987+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 27, "sku_code": "handphone-oppo-j9-pink-128GB-1771399672987725100"}
+2026-02-18T14:27:52.989+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 45, "sku_code": "handphone-oppo-j9-pink-128GB-1771399672987725100"}
+2026-02-18T14:27:52.990+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 45, "variant_value_id": 69}
+2026-02-18T14:27:52.991+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 84, "sku_id": 45}
+2026-02-18T14:27:52.992+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 45, "variant_value_id": 70}
+2026-02-18T14:27:52.993+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 85, "sku_id": 45}
+2026-02-18T14:27:52.994+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-02-18T14:27:53.026+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 27, "sku_code": "handphone-oppo-j9-pink-256GB-1771399673026019600"}
+2026-02-18T14:27:53.029+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 46, "sku_code": "handphone-oppo-j9-pink-256GB-1771399673026019600"}
+2026-02-18T14:27:53.029+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 46, "variant_value_id": 69}
+2026-02-18T14:27:53.030+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 86, "sku_id": 46}
+2026-02-18T14:27:53.031+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 46, "variant_value_id": 71}
+2026-02-18T14:27:53.032+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 87, "sku_id": 46}
+2026-02-18T14:43:13.722+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-02-18T14:44:01.859+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-18T14:44:56.108+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-02-18T14:46:36.752+0700	ERROR	adaptor/address_handler.go:138	Failed to get addresses	{"error": "ERROR: relation \"addresses\" does not exist (SQLSTATE 42P01)"}
+2026-02-18T14:47:43.667+0700	ERROR	usecase/shipping.go:23	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-18T14:47:43.683+0700	ERROR	usecase/shipping.go:40	Failed to get customer address	{"error": "ERROR: relation \"addresses\" does not exist (SQLSTATE 42P01)"}
+2026-02-18T14:47:43.685+0700	ERROR	usecase/checkout.go:41	Error fetch shipping options	{"error": "ERROR: relation \"addresses\" does not exist (SQLSTATE 42P01)"}
+2026-02-18T14:47:51.610+0700	ERROR	usecase/shipping.go:23	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-18T14:47:51.627+0700	ERROR	usecase/shipping.go:40	Failed to get customer address	{"error": "ERROR: relation \"addresses\" does not exist (SQLSTATE 42P01)"}
+2026-02-18T14:47:51.628+0700	ERROR	usecase/checkout.go:41	Error fetch shipping options	{"error": "ERROR: relation \"addresses\" does not exist (SQLSTATE 42P01)"}
+2026-02-18T14:47:57.000+0700	ERROR	usecase/shipping.go:23	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-18T14:47:57.019+0700	ERROR	usecase/shipping.go:40	Failed to get customer address	{"error": "ERROR: relation \"addresses\" does not exist (SQLSTATE 42P01)"}
+2026-02-18T14:47:57.019+0700	ERROR	usecase/checkout.go:41	Error fetch shipping options	{"error": "ERROR: relation \"addresses\" does not exist (SQLSTATE 42P01)"}
+2026-02-18T14:48:43.548+0700	INFO	repository/order.go:45	Creating order	{"customer_id": 6}
+2026-02-18T14:48:43.636+0700	INFO	repository/order.go:57	order created successfully	{"id": 20, "customer_id": 6}
+2026-02-18T14:48:43.686+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-18T14:48:43.741+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 20, "sku_id": 39}
+2026-02-18T14:48:43.941+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 34, "order_id": 20, "sku_id": 39}
+2026-02-18T14:48:43.999+0700	INFO	repository/product.go:130	Get product by id	{"id": 27}
+2026-02-18T14:48:44.031+0700	INFO	repository/order.go:66	Creating order item	{"order_id": 20, "sku_id": 46}
+2026-02-18T14:48:44.038+0700	INFO	repository/order.go:80	Order item created successfully	{"id": 35, "order_id": 20, "sku_id": 46}
+2026-02-18T14:48:44.041+0700	INFO	repository/order.go:91	Creating order payment	{"order_id": 20, "payment_method_id": 1}
+2026-02-18T14:48:44.069+0700	INFO	repository/order.go:105	Order payment created successfully	{"id": 6, "order_id": 20, "payment_method_id": 1}
+2026-02-18T14:48:44.399+0700	ERROR	usecase/order.go:313	Error get address	{"error": "ERROR: relation \"addresses\" does not exist (SQLSTATE 42P01)", "customerID": 6}
+2026-02-18T14:48:44.401+0700	ERROR	usecase/order.go:346	Transaction create order failed	{"error": "ERROR: relation \"addresses\" does not exist (SQLSTATE 42P01)"}
+2026-02-18T14:49:16.965+0700	ERROR	adaptor/address_handler.go:50	Failed to create address	{"error": "ERROR: relation \"addresses\" does not exist (SQLSTATE 42P01)"}
+2026-02-18T15:00:00.079+0700	INFO	repository/order.go:273	Mark orders as shipped...
+2026-02-18T15:00:02.308+0700	INFO	repository/order.go:304	Successfully mark orders as shipped
+2026-02-18T15:02:16.002+0700	INFO	repository/product.go:42	Creating product	{"name": "Handphone Iphone 10", "category_id": 1}
+2026-02-18T15:02:16.178+0700	INFO	repository/product.go:55	Product created successfully	{"id": 28, "name": "Handphone Iphone 10"}
+2026-02-18T15:02:16.179+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 28}
+2026-02-18T15:02:16.217+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 30, "name": "color"}
+2026-02-18T15:02:16.217+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "black", "variant_type_id": 30}
+2026-02-18T15:02:16.251+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 72, "value": "black"}
+2026-02-18T15:02:16.254+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "pink", "variant_type_id": 30}
+2026-02-18T15:02:16.258+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 73, "value": "pink"}
+2026-02-18T15:02:16.258+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 28}
+2026-02-18T15:02:16.260+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 31, "name": "storage"}
+2026-02-18T15:02:16.261+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "128GB", "variant_type_id": 31}
+2026-02-18T15:02:16.268+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 74, "value": "128GB"}
+2026-02-18T15:02:16.268+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "256GB", "variant_type_id": 31}
+2026-02-18T15:02:16.272+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 75, "value": "256GB"}
+2026-02-18T15:02:16.390+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-02-18T15:02:16.462+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 28, "sku_code": "handphone-iphone-10-black-128GB-1771401736461093500"}
+2026-02-18T15:02:16.478+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 47, "sku_code": "handphone-iphone-10-black-128GB-1771401736461093500"}
+2026-02-18T15:02:16.478+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 47, "variant_value_id": 72}
+2026-02-18T15:02:16.493+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 88, "sku_id": 47}
+2026-02-18T15:02:16.494+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 47, "variant_value_id": 74}
+2026-02-18T15:02:16.506+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 89, "sku_id": 47}
+2026-02-18T15:02:16.506+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-02-18T15:02:16.554+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 28, "sku_code": "handphone-iphone-10-black-256GB-1771401736554795800"}
+2026-02-18T15:02:16.558+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 48, "sku_code": "handphone-iphone-10-black-256GB-1771401736554795800"}
+2026-02-18T15:02:16.558+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 48, "variant_value_id": 72}
+2026-02-18T15:02:16.570+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 90, "sku_id": 48}
+2026-02-18T15:02:16.570+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 48, "variant_value_id": 75}
+2026-02-18T15:02:16.575+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 91, "sku_id": 48}
+2026-02-18T15:02:16.576+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-02-18T15:02:16.637+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 28, "sku_code": "handphone-iphone-10-pink-128GB-1771401736637886600"}
+2026-02-18T15:02:16.640+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 49, "sku_code": "handphone-iphone-10-pink-128GB-1771401736637886600"}
+2026-02-18T15:02:16.640+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 49, "variant_value_id": 73}
+2026-02-18T15:02:16.646+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 92, "sku_id": 49}
+2026-02-18T15:02:16.646+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 49, "variant_value_id": 74}
+2026-02-18T15:02:16.651+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 93, "sku_id": 49}
+2026-02-18T15:02:16.651+0700	INFO	repository/product.go:130	Get product by id	{"id": 28}
+2026-02-18T15:02:16.698+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 28, "sku_code": "handphone-iphone-10-pink-256GB-1771401736698645900"}
+2026-02-18T15:02:16.704+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 50, "sku_code": "handphone-iphone-10-pink-256GB-1771401736698645900"}
+2026-02-18T15:02:16.704+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 50, "variant_value_id": 73}
+2026-02-18T15:02:16.705+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 94, "sku_id": 50}
+2026-02-18T15:02:16.706+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 50, "variant_value_id": 75}
+2026-02-18T15:02:16.707+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 95, "sku_id": 50}
+2026-02-18T15:53:29.036+0700	ERROR	repository/sku.go:68	Error query get sku	{"error": "record not found"}
+2026-02-18T15:53:29.057+0700	ERROR	usecase/inventory.go:76	Failed to get SKU
+2026-02-18T15:53:29.064+0700	ERROR	usecase/inventory.go:109	Error create inventory log transaction	{"error": "record not found"}

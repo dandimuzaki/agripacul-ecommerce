@@ -1,0 +1,111 @@
+{
+  "info": {
+    "_postman_id": "c09da466-23f4-4b15-9e9e-987160472acf",
+    "name": "Flash Sale",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Event",
+      "id": "4fc175ca-3cf3-45c2-84a2-42d5965d3ba3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Hari Ulang Tahun Dandi\",\r\n    \"description\": \"Hari Ulang Tahun Dandi\",\r\n    \"sale_start_time\": \"2026-04-12T15:00\",\r\n    \"sale_end_time\": \"2026-04-12T18:00\",\r\n    \"event_time\": \"2026-04-12T20:00\",\r\n    \"duration_minute\": 120\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{BaseURL}}events",
+          "host": [
+            "{{BaseURL}}events"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Events",
+      "id": "8823bd28-9635-467b-8859-4520228981d3",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{BaseURL}}events",
+          "host": [
+            "{{BaseURL}}events"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Ticket",
+      "id": "a348f5fa-097e-44b7-ab28-e4f7da82fd5a",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Special 6\",\r\n    \"stock\": 10,\r\n    \"price\": 100000\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{BaseURL}}events/1/tickets",
+          "host": [
+            "{{BaseURL}}events"
+          ],
+          "path": [
+            "1",
+            "tickets"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Purchase Ticket",
+      "id": "34777426-bcef-4aab-8349-f726e2b3c95f",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"user_id\": 1,\r\n    \"quantity\": 1\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{BaseURL}}purchase/7",
+          "host": [
+            "{{BaseURL}}purchase"
+          ],
+          "path": [
+            "7"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "id": "02101d8d-c7c2-4e6f-ad7e-efee9e82fe17",
+      "key": "BaseURL",
+      "value": "",
+      "type": "default"
+    }
+  ]
+}

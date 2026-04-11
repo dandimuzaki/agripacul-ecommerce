@@ -1,0 +1,1884 @@
+{
+  "info": {
+    "_postman_id": "0100c398-5912-4cbc-95e6-4524a4d9a759",
+    "name": "Debian E-commerce",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Client",
+      "item": [
+        {
+          "name": "Authentication",
+          "item": [
+            {
+              "name": "Register",
+              "id": "af4368b6-9c32-465b-b6d5-b22f08e053ee",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"full_name\": \"Integer\",\r\n    \"email\": \"integer@gmail.com\",\r\n    \"password\": \"Password123\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}auth/register",
+                  "host": [
+                    "{{BaseURL}}auth"
+                  ],
+                  "path": [
+                    "register"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Login",
+              "id": "7be9c78b-18a7-4854-b675-2229e20d3396",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"email\": \"customer1@example.com\",\r\n    \"password\": \"Customer123!\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}auth/login",
+                  "host": [
+                    "{{BaseURL}}auth"
+                  ],
+                  "path": [
+                    "login"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "6c5a937d-ae5f-451c-a85e-890c98cc9df0"
+        },
+        {
+          "name": "Product",
+          "item": [
+            {
+              "name": "Get Products with Limit",
+              "id": "699ef0d7-cad1-4414-8fc6-38fe7f48d84d",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}products?limit=5&page=9",
+                  "host": [
+                    "{{BaseURL}}products"
+                  ],
+                  "query": [
+                    {
+                      "key": "limit",
+                      "value": "5",
+                      "uuid": "c8fa2509-fec6-4c90-ae76-8639a1245ec0"
+                    },
+                    {
+                      "key": "page",
+                      "value": "9",
+                      "uuid": "7169d990-0edc-485e-b2b0-92b6a9b820dd"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Product By ID",
+              "id": "34bcd141-4920-4af9-bdbd-5a41ecbd969b",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}products/46",
+                  "host": [
+                    "{{BaseURL}}products"
+                  ],
+                  "path": [
+                    "46"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Products with Filter Category",
+              "id": "e9585691-23b5-4979-a2c1-ab7e4c1d8632",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}products?category_id=2",
+                  "host": [
+                    "{{BaseURL}}products"
+                  ],
+                  "query": [
+                    {
+                      "key": "category_id",
+                      "value": "2",
+                      "uuid": "6ffa08c2-acd5-401f-9cbc-1dec94482bdb"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Products with Search Keyword",
+              "id": "aab9a54c-baaf-4213-ad3d-d1f688e6d1bb",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}products?search=laptop",
+                  "host": [
+                    "{{BaseURL}}products"
+                  ],
+                  "query": [
+                    {
+                      "key": "search",
+                      "value": "laptop",
+                      "uuid": "d701716c-e7cd-4982-a160-d2cfc9d6cc07"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Products with Price Range",
+              "id": "befb0ee1-45e1-4433-9706-74915d49bb0a",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}products?min_price=10000&max_price=10000000&sort_by=price&sort_order=asc",
+                  "host": [
+                    "{{BaseURL}}products"
+                  ],
+                  "query": [
+                    {
+                      "key": "min_price",
+                      "value": "10000",
+                      "uuid": "56917c41-0ae5-47a3-a8f4-53de0997df59"
+                    },
+                    {
+                      "key": "max_price",
+                      "value": "10000000",
+                      "uuid": "3c952118-5218-452e-9616-3bf34f8064bb"
+                    },
+                    {
+                      "key": "sort_by",
+                      "value": "price",
+                      "uuid": "e7c39de6-fb7f-4f70-a423-9d4af0b6922b"
+                    },
+                    {
+                      "key": "sort_order",
+                      "value": "asc",
+                      "uuid": "c2b4ad38-836f-4cef-9752-256f4b301a46"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Best Selling Products",
+              "id": "3be9f56a-cb73-4b1d-804e-45f8468d5a8c",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}products?sort_by=sold&sort_order=asc",
+                  "host": [
+                    "{{BaseURL}}products"
+                  ],
+                  "query": [
+                    {
+                      "key": "sort_by",
+                      "value": "sold",
+                      "uuid": "a9fccd1d-4cd9-4a0e-8cbc-af3e3a90c31f"
+                    },
+                    {
+                      "key": "sort_order",
+                      "value": "asc",
+                      "uuid": "d59b1c81-3630-4961-b715-b1aa04a197ee"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Product By Slug",
+              "id": "3f14ca23-0beb-472f-afe4-70916a64e0a0",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}products/details/bamboo-cotton-blend-bags-eco-luxe-set-of-4",
+                  "host": [
+                    "{{BaseURL}}products"
+                  ],
+                  "path": [
+                    "details",
+                    "bamboo-cotton-blend-bags-eco-luxe-set-of-4"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "67b52f2b-101e-4ce6-96ce-aa72fd8b7ea9"
+        },
+        {
+          "name": "Order",
+          "item": [
+            {
+              "name": "Create Order",
+              "id": "fee506eb-27a9-4488-899b-cf911c896f75",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"shipping_address_id\": 1,\r\n    \"selected_shipping_option\": {\r\n                \"name\": \"21 Express\",\r\n                \"code\": \"dse\",\r\n                \"service\": \"DARAT2019\",\r\n                \"description\": \"Darat2019\",\r\n                \"cost\": 22500,\r\n                \"etd\": \"4-5 day\"\r\n            }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}orders",
+                  "host": [
+                    "{{BaseURL}}orders"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Order History",
+              "id": "b3a0e079-ab96-47e0-9a89-297420134ba0",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}orders",
+                  "host": [
+                    "{{BaseURL}}orders"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Order By ID",
+              "id": "09fb423d-cf5c-45b5-bd46-25634c095afd",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}orders/33",
+                  "host": [
+                    "{{BaseURL}}orders"
+                  ],
+                  "path": [
+                    "33"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Pay Order",
+              "id": "3bc9e5da-f287-4549-8f03-42b4ab3bf8fb",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}orders/33/pay",
+                  "host": [
+                    "{{BaseURL}}orders"
+                  ],
+                  "path": [
+                    "33",
+                    "pay"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Cancel Order",
+              "id": "dbb046cd-3831-474e-acb8-8d729437210d",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"cancel_reason\": \"Trial\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}orders/28/cancel",
+                  "host": [
+                    "{{BaseURL}}orders"
+                  ],
+                  "path": [
+                    "28",
+                    "cancel"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "2f039e25-922b-4526-9754-82dea8eb3b5d"
+        },
+        {
+          "name": "Address",
+          "item": [
+            {
+              "name": "Create Address",
+              "id": "4db2ed9e-8075-4ebe-9dc0-91247b8b3196",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"recipient_name\": \"Fulan\",\r\n    \"label\": \"Home\",\r\n    \"phone_number\": \"081235469870\",\r\n    \"province_id\": 2,\r\n    \"regency_id\": 24,\r\n    \"district_id\": 291,\r\n    \"subdistrict_id\": 63405,\r\n    \"detail_address\": \"\",\r\n    \"is_default\": true\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}address",
+                  "host": [
+                    "{{BaseURL}}address"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get My Address",
+              "id": "f4b9617e-4b5d-4c94-9c46-34f8b7beb3d6",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}address",
+                  "host": [
+                    "{{BaseURL}}address"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Provinces",
+              "id": "7fbb2009-69b1-4e5f-9136-35dba9848203",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}provinces",
+                  "host": [
+                    "{{BaseURL}}provinces"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Regencies",
+              "id": "c9330dbb-384c-4df8-9900-c8c0857adfe7",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}regencies/2",
+                  "host": [
+                    "{{BaseURL}}regencies"
+                  ],
+                  "path": [
+                    "2"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Districts",
+              "id": "883088aa-88af-4441-88e1-be6c3e023b7f",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}districts/24",
+                  "host": [
+                    "{{BaseURL}}districts"
+                  ],
+                  "path": [
+                    "24"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Subdistricts",
+              "id": "6ec99782-c8e6-4565-8db0-90b507c6398a",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}subdistricts/292",
+                  "host": [
+                    "{{BaseURL}}subdistricts"
+                  ],
+                  "path": [
+                    "292"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Edit Address",
+              "id": "352509d8-28f9-4a63-8d59-d9905694ea75",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"recipient_name\": \"Dandi\",\r\n    \"label\": \"Home\",\r\n    \"province_id\": 2,\r\n    \"regency_id\": 24,\r\n    \"district_id\": 291,\r\n    \"subdistrict_id\": 63401,\r\n    \"detail_address\": \"Jl. Jalan\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}address/3",
+                  "host": [
+                    "{{BaseURL}}address"
+                  ],
+                  "path": [
+                    "3"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Address By ID",
+              "id": "4de01e35-f1de-4da4-9935-6b90ecce4710",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}address/1",
+                  "host": [
+                    "{{BaseURL}}address"
+                  ],
+                  "path": [
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Set Default Address",
+              "id": "64754265-fb4d-4a92-aecc-2b94afd86631",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}address/1/default",
+                  "host": [
+                    "{{BaseURL}}address"
+                  ],
+                  "path": [
+                    "1",
+                    "default"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "918f23ec-9201-492e-bff2-99bc2bc4982b"
+        },
+        {
+          "name": "Checkout",
+          "item": [
+            {
+              "name": "Preview Checkout",
+              "id": "875fd7e6-6d33-482b-8b91-e43370304771",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"shipping_address_id\": 1,\r\n    \"selected_promotion_id\": 2\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}checkout/preview",
+                  "host": [
+                    "{{BaseURL}}checkout"
+                  ],
+                  "path": [
+                    "preview"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "8e2de3f7-48f6-47c0-818e-43bfd41099dd"
+        },
+        {
+          "name": "Cart",
+          "item": [
+            {
+              "name": "Get Cart",
+              "id": "54e875f4-78f7-4616-89b4-ed01e5ba9ef5",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}cart",
+                  "host": [
+                    "{{BaseURL}}cart"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Add Item",
+              "id": "48684ecf-4c8c-4315-b43f-0ef00e1b93e0",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"sku_id\": 1,\r\n    \"quantity\": 2\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}cart/items",
+                  "host": [
+                    "{{BaseURL}}cart"
+                  ],
+                  "path": [
+                    "items"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Update Quantity",
+              "id": "85eb956f-066e-40f4-ab76-5bd8812e9dbb",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"quantity\": 1\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}cart/items/10",
+                  "host": [
+                    "{{BaseURL}}cart"
+                  ],
+                  "path": [
+                    "items",
+                    "10"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Select Cart Item",
+              "id": "8ca431d0-b34e-453f-90dc-d2ece6d3db76",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"is_selected\": false\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}cart/items/10",
+                  "host": [
+                    "{{BaseURL}}cart"
+                  ],
+                  "path": [
+                    "items",
+                    "10"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "1a2fc86e-8d99-4be2-8782-3424c9c8390b"
+        },
+        {
+          "name": "Review",
+          "item": [
+            {
+              "name": "Get Reviews By Product ID",
+              "id": "4c35f7db-b418-4cd4-bb09-63cb2cc75b45",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}products/1/reviews",
+                  "host": [
+                    "{{BaseURL}}products"
+                  ],
+                  "path": [
+                    "1",
+                    "reviews"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Review Details",
+              "id": "39bcd78f-7077-4e64-8df8-be25ba31abaf",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}reviews/1",
+                  "host": [
+                    "{{BaseURL}}reviews"
+                  ],
+                  "path": [
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Create Review",
+              "id": "66ef8434-1632-48eb-b058-8559a2ec06c3",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"product_id\": 26,\r\n    \"order_id\": 14,\r\n    \"rating\": 4,\r\n    \"comment\": \"Mantap luar biasa\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}reviews",
+                  "host": [
+                    "{{BaseURL}}reviews"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Update Review",
+              "id": "882b56b7-c392-477f-a053-7c46187ba14b",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"comment\": \"Mantap luar biasa banget\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}reviews/2",
+                  "host": [
+                    "{{BaseURL}}reviews"
+                  ],
+                  "path": [
+                    "2"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Review",
+              "id": "2f49b890-d28c-4d1d-a8b5-c5f519c361e6",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}reviews/2",
+                  "host": [
+                    "{{BaseURL}}reviews"
+                  ],
+                  "path": [
+                    "2"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "88272d38-b1c2-4190-b5e2-6a9be91c830f"
+        },
+        {
+          "name": "Category",
+          "item": [
+            {
+              "name": "Get Category List",
+              "id": "6960c133-a4f1-4b30-b0c5-61d9756cf703",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}categories",
+                  "host": [
+                    "{{BaseURL}}categories"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "30a133ad-602a-48a1-a86d-f70b392a4e7a"
+        },
+        {
+          "name": "Payment Method",
+          "item": [
+            {
+              "name": "Get Payment Methods",
+              "id": "acfca204-d8f9-476f-9756-1cb82497c379",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}payment-methods",
+                  "host": [
+                    "{{BaseURL}}payment-methods"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "e73120a0-0762-4326-8e58-c40ff5f1e76d"
+        }
+      ],
+      "id": "d77ec674-08d9-4b2e-9b90-06ec9e342b22",
+      "auth": {
+        "type": "bearer",
+        "bearer": [
+          {
+            "key": "token",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo3LCJyb2xlIjoiY3VzdG9tZXIiLCJ0eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzczMjA4MDIzLCJpYXQiOjE3NzMxMjE2MjN9.HLWB1ViDvJx0KfLGJQ1CFOd-kdtF108CSoHG_cByQ90",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Admin Dashboard",
+      "item": [
+        {
+          "name": "Authentication",
+          "item": [
+            {
+              "name": "Login",
+              "id": "4bc38a72-bdf8-4acd-ac83-e892d75f0158",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"email\": \"admin1@example.com\",\r\n    \"password\": \"Admin123!\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/auth/login",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "auth",
+                    "login"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "0f430f35-b32b-4dbd-9129-ac606956ccf1"
+        },
+        {
+          "name": "Product",
+          "item": [
+            {
+              "name": "Get Product List",
+              "id": "178d6f57-d853-4811-bba1-7e9df3ed297a",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/products",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "products"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Create Product",
+              "id": "3ba20d2e-dd19-4f4d-89db-5ad967ee7679",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"name\": \"Laptop ASUS 124A\",\r\n    \"description\": \"Laptop tahan banting\",\r\n    \"category_id\": 1,\r\n    \"tags\": [\"hp\", \"mobile\", \"iphone\"],\r\n    \"variant_types\": [\r\n        {\r\n            \"name\": \"color\", \r\n            \"values\": [\"black\", \"grey\"]\r\n        },\r\n        {\r\n            \"name\": \"storage\",\r\n            \"values\": [\"128GB\", \"256GB\"]\r\n        }\r\n    ]\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/products",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "products"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Product By ID",
+              "id": "a73c1f9d-a8d2-4c7b-81df-6a2f6593a410",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/products/47",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "products",
+                    "47"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get SKU By Product ID",
+              "id": "a3c71749-9b15-4e55-bb79-02b52b6374e1",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/products/47/sku",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "products",
+                    "47",
+                    "sku"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Batch Update SKU",
+              "id": "7acc693f-dc0d-4397-bd37-c0d39fef7357",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "    [\r\n        {\r\n            \"id\": 49,\r\n            \"product_id\": 28,\r\n            \"sku_code\": \"handphone-iphone-10-pink-128GB-1771401736637886600\",\r\n            \"price\": 5000000,\r\n            \"stock\": 10,\r\n            \"min_stock\": 1,\r\n            \"status\": \"active\",\r\n            \"weight\": 1000,\r\n            \"variants\": [\r\n                {\r\n                    \"name\": \"color\",\r\n                    \"value\": \"pink\"\r\n                },\r\n                {\r\n                    \"name\": \"storage\",\r\n                    \"value\": \"128GB\"\r\n                }\r\n            ],\r\n            \"images\": null\r\n        },\r\n        {\r\n            \"id\": 50,\r\n            \"product_id\": 28,\r\n            \"sku_code\": \"handphone-iphone-10-pink-256GB-1771401736698645900\",\r\n            \"price\": 5100000,\r\n            \"stock\": 10,\r\n            \"min_stock\": 0,\r\n            \"status\": \"active\",\r\n            \"weight\": 1000,\r\n            \"variants\": [\r\n                {\r\n                    \"name\": \"color\",\r\n                    \"value\": \"pink\"\r\n                },\r\n                {\r\n                    \"name\": \"storage\",\r\n                    \"value\": \"256GB\"\r\n                }\r\n            ],\r\n            \"images\": null\r\n        },\r\n        {\r\n            \"id\": 47,\r\n            \"product_id\": 28,\r\n            \"sku_code\": \"handphone-iphone-10-black-128GB-1771401736461093500\",\r\n            \"price\": 5200000,\r\n            \"stock\": 10,\r\n            \"min_stock\": 0,\r\n            \"status\": \"active\",\r\n            \"weight\": 1000,\r\n            \"variants\": [\r\n                {\r\n                    \"name\": \"color\",\r\n                    \"value\": \"black\"\r\n                },\r\n                {\r\n                    \"name\": \"storage\",\r\n                    \"value\": \"128GB\"\r\n                }\r\n            ],\r\n            \"images\": null\r\n        },\r\n        {\r\n            \"id\": 48,\r\n            \"product_id\": 28,\r\n            \"sku_code\": \"handphone-iphone-10-black-256GB-1771401736554795800\",\r\n            \"price\": 5150000,\r\n            \"stock\": 10,\r\n            \"min_stock\": 0,\r\n            \"status\": \"active\",\r\n            \"weight\": 1000,\r\n            \"variants\": [\r\n                {\r\n                    \"name\": \"color\",\r\n                    \"value\": \"black\"\r\n                },\r\n                {\r\n                    \"name\": \"storage\",\r\n                    \"value\": \"256GB\"\r\n                }\r\n            ],\r\n            \"images\": null\r\n        }\r\n    ]",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/products/28/sku",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "products",
+                    "28",
+                    "sku"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Update Product",
+              "id": "45aeffe3-c570-426c-b1f7-20c2ea4900a1",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"variants\": [\r\n            {\r\n                \"id\": 74,\r\n                \"name\": \"Color\",\r\n                \"status\": \"updated\",\r\n                \"values\": [\r\n                    {\r\n                        \"id\": 161,\r\n                        \"value\": \"black\"\r\n                    },\r\n                    {\r\n                        \"id\": 162,\r\n                        \"value\": \"grey\"\r\n                    },\r\n                    {\r\n                        \"value\": \"navy\",\r\n                        \"status\": \"created\"\r\n                    }\r\n                ]\r\n            },\r\n            {\r\n                \"id\": 75,\r\n                \"name\": \"storage\",\r\n                \"values\": [\r\n                    {\r\n                        \"id\": 163,\r\n                        \"value\": \"128GB\"\r\n                    },\r\n                    {\r\n                        \"id\": 164,\r\n                        \"value\": \"256GB\"\r\n                    }\r\n                ]\r\n            }\r\n        ]\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/products/47",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "products",
+                    "47"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Upload Main Image",
+              "id": "a72122d9-267e-4f64-b092-5c26ab2cfe94",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "image",
+                      "type": "file",
+                      "uuid": "0ff24159-07a6-4cf4-95bb-88676a8f3ccc",
+                      "src": [
+                        "/C:/Users/User/Downloads/salad2-Photoroom.png"
+                      ]
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/products/28",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "products",
+                    "28"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Upload Gallery Image",
+              "id": "fe8b5c0a-c17f-420f-8e3a-3b1aaf8175a7",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "images",
+                      "type": "file",
+                      "uuid": "164506ac-6673-4965-a9d2-baeb1353301f",
+                      "src": [
+                        "/C:/Users/User/Downloads/salad2-Photoroom.png",
+                        "/C:/Users/User/Downloads/pngwing.com (1).png"
+                      ]
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/products/26/gallery",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "products",
+                    "26",
+                    "gallery"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Product",
+              "id": "5f3a4cce-f41e-4031-990d-939113e543c3",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/products/2",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "products",
+                    "2"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "e14bc93a-d622-4fb2-9f59-3262b080e0fe"
+        },
+        {
+          "name": "Inventory",
+          "item": [
+            {
+              "name": "Get Inventory",
+              "id": "3ea9aac5-f3c8-42ac-bb97-98e32956afa8",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/inventories",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "inventories"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Inventory Logs",
+              "id": "f8fe3fe2-8afd-4550-aa64-9abc40f8dc90",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/inventories/logs",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "inventories",
+                    "logs"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Restock",
+              "id": "b7b822f9-6971-4109-863f-d55735c2f315",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"action\": \"restock\",\r\n    \"sku_id\": 1873,\r\n    \"quantity_change\": 5\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/inventories",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "inventories"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Adjust Stock",
+              "id": "eb5bf1bc-fdf1-46a0-b46c-1766c1206be8",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"action\": \"adjustment\",\r\n    \"quantity_change\": -1,\r\n    \"sku_id\": 47,\r\n    \"notes\": \"ada barang rusak\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/inventories",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "inventories"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Inventory By SKU ID",
+              "id": "51e5538d-abe4-44f2-92da-94eda2c044fe",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/inventories/1",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "inventories",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "b29a0f88-9d98-4443-8fd3-9b1e43cb83b1"
+        },
+        {
+          "name": "Category",
+          "item": [
+            {
+              "name": "Get Category List",
+              "id": "5bd3c91e-bf1a-4678-b04a-235d41c52bfe",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/categories",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "categories"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Create Category",
+              "id": "6e953b61-9cbf-4dc5-9a1f-ee656b284c28",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "name",
+                      "value": "Personal Care",
+                      "type": "text",
+                      "uuid": "9dca4153-4b85-4171-8884-58105bfff35b"
+                    },
+                    {
+                      "key": "icon",
+                      "type": "file",
+                      "uuid": "e22a9ba8-7b94-4e6e-ba63-b6b5c0e59e40",
+                      "src": [
+                        "/C:/Users/User/Downloads/top-view-caesar-salad-oval-plate-green-white-checkered-tablecloth-dark-red-background.png"
+                      ]
+                    }
+                  ],
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/categories",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "categories"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Update Category",
+              "id": "65f3658d-6031-4047-a94a-88465ab8d1b3",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "name",
+                      "value": "Personal Care & Health",
+                      "type": "text",
+                      "uuid": "d183a5ba-6f83-4ddc-b207-a06b6456e672"
+                    },
+                    {
+                      "key": "icon",
+                      "type": "file",
+                      "uuid": "4b2a2b4b-5a20-4fab-82bb-278b39d9c664",
+                      "src": [
+                        "/C:/Users/User/Downloads/keerthi-e-jHcVGmHYCmI-unsplash-Photoroom.png"
+                      ]
+                    }
+                  ],
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/categories/22",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "categories",
+                    "22"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Category",
+              "id": "73e360b8-30d3-47b3-8a6b-bd25c2177b83",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/categories/22",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "categories",
+                    "22"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "7e38a9c7-3e88-413d-a563-92fff4dc9131"
+        },
+        {
+          "name": "Order",
+          "item": [
+            {
+              "name": "Get Order List",
+              "id": "10dd3969-522d-443e-a637-68e2459ebbb4",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/orders",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "orders"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Order By ID",
+              "id": "eb36882f-e0ed-4e56-9508-c27590d29a00",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/orders/22",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "orders",
+                    "22"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Confirm Order",
+              "id": "c93d3a7d-0dbc-4fd1-8efd-97136944387a",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/orders/23/confirm",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "orders",
+                    "23",
+                    "confirm"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Complete Order",
+              "id": "bd5a510b-4e47-4cd2-baba-77e18c5ca033",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/orders/14/complete",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "orders",
+                    "14",
+                    "complete"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Cancel Order By Admin",
+              "id": "e25b35d8-4b2d-44f5-97fb-e4c88dd91e40",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"cancel_reason\": \"Trial\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/orders/19/cancel",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "orders",
+                    "19",
+                    "cancel"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "137b3525-bdf1-4fc2-bf09-1eda2b3c0619"
+        },
+        {
+          "name": "Promotion",
+          "item": [
+            {
+              "name": "Get Promotion List",
+              "id": "d33a6b26-d0fc-4105-aefb-1eb29e2e21a8",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/promotions",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "promotions"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Create Promotion",
+              "id": "de3ce290-6d0e-4d0b-929b-be6d0b03b482",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"name\": \"Hari Lebaran\",\r\n    \"start_date\": \"2026-03-14T18:07:54.714301+07:00\",\r\n    \"end_date\": \"2026-04-28T18:07:54.714301+07:00\",\r\n    \"type\": \"direct discount\",\r\n    \"description\": \"Diskon 50% untuk semua produk selama periode valentine\",\r\n    \"is_published\": true,\r\n    \"discount_type\": \"percentage\",\r\n    \"discount_value\": 50,\r\n    \"minimum_order_value\": 100000,\r\n    \"maximum_discount\": 500000,\r\n    \"usage_limit\": 2\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/promotions",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "promotions"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Promotion By ID",
+              "id": "2265e045-c01e-4c6c-ada6-fcc33a8bdb24",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/promotions/1",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "promotions",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Update Promotion",
+              "id": "97df75ec-323d-4338-b123-411369f29945",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"name\": \"Hari Lebaran\",\r\n    \"start_date\": \"2026-02-14T18:07:54.714301+07:00\",\r\n    \"end_date\": \"2026-02-28T18:07:54.714301+07:00\",\r\n    \"type\": \"direct discount\",\r\n    \"description\": \"Diskon 60% untuk semua produk selama periode lebaran\",\r\n    \"is_published\": true,\r\n    \"discount_type\": \"percentage\",\r\n    \"discount_value\": 60,\r\n    \"minimum_order_value\": 100000,\r\n    \"maximum_discount\": 500000,\r\n    \"usage_limit\": 2\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/promotions/12",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "promotions",
+                    "12"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Promotion",
+              "id": "b05e7968-5cc4-4259-93da-f430b9dde7f6",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/promotions/12",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "promotions",
+                    "12"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "7d03f016-8a78-4b2b-9c0c-511fdd6848a2"
+        },
+        {
+          "name": "Banner",
+          "item": [
+            {
+              "name": "Get Banner List",
+              "id": "cce16143-b268-4515-ae5b-a6a978f250d5",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/banners",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "banners"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Banner By ID",
+              "id": "dc1bd06c-c648-4a75-93c6-9711df7363ac",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/banners/321",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "banners",
+                    "321"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Create Banner",
+              "id": "0d18c7a2-0858-4ac2-9e51-d1b8b8369349",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"name\": \"Hari Valentine\",\r\n    \"target_url\": \"https://valentine.com\",\r\n    \"image_url\": \"https://valentine.com\",\r\n    \"start_date\": \"2026-02-14T11:27:52.682499+07:00\",\r\n    \"end_date\": \"2026-02-28T11:27:52.682499+07:00\",\r\n    \"type\": \"main\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/banners",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "banners"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Update Banner",
+              "id": "9ca62839-9597-4f74-a84b-4d6f83f262ab",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"name\": \"Hari Valentine\",\r\n    \"target_url\": \"https://valentine.com\",\r\n    \"image_url\": \"https://valentine.com\",\r\n    \"start_date\": \"2026-02-14T11:27:52.682499+07:00\",\r\n    \"end_date\": \"2026-03-31T11:27:52.682499+07:00\",\r\n    \"type\": \"main\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/banners/331",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "banners",
+                    "331"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Banner",
+              "id": "47c30c61-b6d3-42e8-bd2b-03500b886891",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/banners/331",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "banners",
+                    "331"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "bec5c837-3d77-4383-855a-9f4ae5bf3193"
+        },
+        {
+          "name": "Report",
+          "item": [
+            {
+              "name": "Get Sales Report",
+              "id": "0e83b7ed-5d78-4570-bccf-4b858516dcf9",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/report/sales",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "report",
+                    "sales"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Revenue Report",
+              "id": "ed4bbd6f-8242-4d2c-b483-4b8850e298e9",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/report/revenue",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "report",
+                    "revenue"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Product Performance",
+              "id": "86297c1d-7d56-4870-84f9-b9793b750e2a",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/report/product",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "report",
+                    "product"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Loyal Customer",
+              "id": "15bc495a-0f4d-4a65-9a48-1914173c1abc",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/report/customer/loyal",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "report",
+                    "customer",
+                    "loyal"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Customer Report",
+              "id": "cdce8b27-a3b3-42cb-b76d-c56a5bfd3d40",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/report/customer",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "report",
+                    "customer"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "7adea818-352c-49e6-a42e-e2671fc0db3d"
+        },
+        {
+          "name": "Employee Management",
+          "item": [
+            {
+              "name": "Create Employee",
+              "id": "ad459f75-ebad-4254-94b3-15a430e2ab11",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"full_name\": \"Keprofesian\",\r\n    \"email\": \"keprofesian2023@gmail.com\",\r\n    \"role\": \"admin\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{BaseURL}}admin/employees",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "employees"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Employee List",
+              "id": "30dd6e64-651c-4c2d-8bdb-26f721911bd6",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{BaseURL}}admin/employess",
+                  "host": [
+                    "{{BaseURL}}admin"
+                  ],
+                  "path": [
+                    "employess"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "20484ebc-06ae-46e5-8cef-7bae10cb9b41"
+        }
+      ],
+      "id": "db62942a-006d-4add-9bcf-349299f709cc",
+      "auth": {
+        "type": "bearer",
+        "bearer": [
+          {
+            "key": "token",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJyb2xlIjoiYWRtaW4iLCJ0eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzczNjM3Nzc4LCJpYXQiOjE3NzM1NTEzNzh9.CrOA3RHhRbNL5ybtJ0snVaQLyv9e0yjn8d8iU8XaLak",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "id": "38b244a0-f97f-411c-86b0-8080796c38e3",
+      "key": "BaseURL",
+      "value": ""
+    }
+  ]
+}

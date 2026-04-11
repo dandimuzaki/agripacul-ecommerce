@@ -1,0 +1,12 @@
+2026-03-15T11:52:28.538+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "bamboo-cotton-blend-bags-eco-luxe-set-of-4"}
+2026-03-15T11:52:29.204+0700	ERROR	repository/product.go:299	Failed to get product	{"slug": "bamboo-cotton-blend-bags-eco-luxe-set-of-4", "error": "ERROR: column \"bamboo\" does not exist (SQLSTATE 42703)"}
+2026-03-15T11:52:29.205+0700	ERROR	usecase/product.go:150	Failed to get product	{"slug": "bamboo-cotton-blend-bags-eco-luxe-set-of-4", "error": "ERROR: column \"bamboo\" does not exist (SQLSTATE 42703)"}
+2026-03-15T12:00:01.329+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "bamboo-cotton-blend-bags-eco-luxe-set-of-4"}
+2026-03-15T12:00:01.378+0700	ERROR	repository/product.go:299	Failed to get product	{"slug": "bamboo-cotton-blend-bags-eco-luxe-set-of-4", "error": "VariantType: unsupported relations for schema Product"}
+2026-03-15T12:00:01.380+0700	ERROR	usecase/product.go:150	Failed to get product	{"slug": "bamboo-cotton-blend-bags-eco-luxe-set-of-4", "error": "VariantType: unsupported relations for schema Product"}
+2026-03-15T12:00:17.601+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "bamboo-cotton-blend-bags-eco-luxe-set-of-4"}
+2026-03-15T12:00:17.611+0700	ERROR	repository/product.go:299	Failed to get product	{"slug": "bamboo-cotton-blend-bags-eco-luxe-set-of-4", "error": "VariantType: unsupported relations for schema Product"}
+2026-03-15T12:00:17.613+0700	ERROR	usecase/product.go:150	Failed to get product	{"slug": "bamboo-cotton-blend-bags-eco-luxe-set-of-4", "error": "VariantType: unsupported relations for schema Product"}
+2026-03-15T12:07:24.156+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "bamboo-cotton-blend-bags-eco-luxe-set-of-4"}
+2026-03-15T15:00:01.444+0700	INFO	repository/order.go:283	Mark orders as shipped...
+2026-03-15T15:00:03.238+0700	INFO	repository/order.go:314	Successfully mark orders as shipped

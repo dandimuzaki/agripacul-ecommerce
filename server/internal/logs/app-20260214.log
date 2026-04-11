@@ -1,0 +1,299 @@
+2026-02-14T00:15:07.133+0700	INFO	repository/product.go:41	Creating product	{"name": "Handphone Samsung A9", "category_id": 1}
+2026-02-14T00:15:07.282+0700	INFO	repository/product.go:54	Product created successfully	{"id": 25, "name": "Handphone Samsung A9"}
+2026-02-14T03:10:13.155+0700	ERROR	repository/inventory.go:90	Error query get inventory	{"error": "invalid field found for struct debian-ecommerce/internal/dto/response.InventoryResponse's field Variants: define a valid foreign key for relations or implement the Valuer/Scanner interface; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax"}
+2026-02-14T03:10:13.171+0700	ERROR	usecase/inventory.go:125	Error get inventory	{"error": "invalid field found for struct debian-ecommerce/internal/dto/response.InventoryResponse's field Variants: define a valid foreign key for relations or implement the Valuer/Scanner interface; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax"}
+2026-02-14T03:12:54.921+0700	ERROR	repository/inventory.go:90	Error query get inventory	{"error": "sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax"}
+2026-02-14T03:12:54.942+0700	ERROR	usecase/inventory.go:125	Error get inventory	{"error": "sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax; sql: Scan error on column index 5, name \"availability\": converting driver.Value type string (\"in stock\") to a int: invalid syntax"}
+2026-02-14T03:15:17.961+0700	ERROR	usecase/inventory.go:37	Error get inventory logs service	{"error": "ERROR: relation \"inventory_logs\" does not exist (SQLSTATE 42P01)"}
+2026-02-14T03:18:54.924+0700	INFO	usecase/category_usecase.go:143	Category created successfully	{"id": 21, "name": "Alat Pertanian"}
+2026-02-14T03:18:54.933+0700	INFO	adaptor/category_handler.go:173	Category created successfully	{"category_id": 21}
+2026-02-14T03:19:57.591+0700	INFO	usecase/category_usecase.go:176	Category updated successfully	{"id": 21}
+2026-02-14T03:19:57.594+0700	INFO	adaptor/category_handler.go:226	Category updated successfully	{"category_id": 21}
+2026-02-14T03:20:22.415+0700	INFO	usecase/category_usecase.go:210	Category deleted successfully	{"id": 21, "name": "alat pertanian"}
+2026-02-14T03:20:22.415+0700	INFO	adaptor/category_handler.go:267	Category deleted successfully	{"category_id": 21}
+2026-02-14T03:20:27.822+0700	WARN	usecase/category_usecase.go:156	Category not found	{"id": 21}
+2026-02-14T03:20:27.824+0700	ERROR	adaptor/category_handler.go:220	Failed to update category	{"category_id": 21, "error": "category not found"}
+2026-02-14T03:21:22.620+0700	ERROR	repository/order.go:203	Error query get order list	{"error": "Category: unsupported relations for schema Order"}
+2026-02-14T03:21:22.620+0700	ERROR	usecase/order.go:527	Failed to get orders	{"error": "Category: unsupported relations for schema Order"}
+2026-02-14T03:24:13.788+0700	ERROR	repository/order.go:203	Error query get order list	{"error": "ERROR: column order_items.deleted_at does not exist (SQLSTATE 42703)"}
+2026-02-14T03:24:13.819+0700	ERROR	usecase/order.go:527	Failed to get orders	{"error": "ERROR: column order_items.deleted_at does not exist (SQLSTATE 42703)"}
+2026-02-14T03:42:05.597+0700	ERROR	repository/order.go:203	Error query get order list	{"error": "Product: unsupported relations for schema OrderItem"}
+2026-02-14T03:42:05.607+0700	ERROR	usecase/order.go:527	Failed to get orders	{"error": "Product: unsupported relations for schema OrderItem"}
+2026-02-14T03:45:54.576+0700	ERROR	repository/order.go:203	Error query get order list	{"error": "SKU: unsupported relations for schema OrderItem"}
+2026-02-14T03:45:55.049+0700	ERROR	usecase/order.go:527	Failed to get orders	{"error": "SKU: unsupported relations for schema OrderItem"}
+2026-02-14T03:50:24.414+0700	ERROR	repository/order.go:203	Error query get order list	{"error": "Product: unsupported relations for schema Order"}
+2026-02-14T03:50:24.424+0700	ERROR	usecase/order.go:527	Failed to get orders	{"error": "Product: unsupported relations for schema Order"}
+2026-02-14T04:02:02.541+0700	ERROR	usecase/order.go:535	Failed to get order summary	{"error": "json: Unmarshal(non-pointer entity.ProductSnapshot)"}
+2026-02-14T04:18:59.661+0700	ERROR	usecase/order.go:535	Failed to get order summary	{"error": "json: Unmarshal(non-pointer entity.ProductSnapshot)"}
+2026-02-14T04:23:05.538+0700	INFO	repository/order.go:212	Get order by id	{"id": 1}
+2026-02-14T04:23:05.743+0700	ERROR	repository/order.go:225	Failed to get order	{"id": 1, "error": "OrderItems: unsupported relations for schema Order"}
+2026-02-14T04:23:05.743+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "OrderItems: unsupported relations for schema Order", "order id": 1}
+2026-02-14T04:25:59.166+0700	INFO	repository/order.go:212	Get order by id	{"id": 1}
+2026-02-14T04:25:59.184+0700	ERROR	repository/order.go:225	Failed to get order	{"id": 1, "error": "ERROR: column order_payments.deleted_at does not exist (SQLSTATE 42703)"}
+2026-02-14T04:25:59.185+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "ERROR: column order_payments.deleted_at does not exist (SQLSTATE 42703)", "order id": 1}
+2026-02-14T04:28:57.390+0700	INFO	repository/order.go:212	Get order by id	{"id": 1}
+2026-02-14T04:28:57.476+0700	ERROR	repository/order.go:225	Failed to get order	{"id": 1, "error": "User: unsupported relations for schema Order"}
+2026-02-14T04:28:57.479+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "User: unsupported relations for schema Order", "order id": 1}
+2026-02-14T04:33:00.219+0700	INFO	repository/order.go:212	Get order by id	{"id": 1}
+2026-02-14T04:33:00.221+0700	ERROR	repository/order.go:225	Failed to get order	{"id": 1, "error": "invalid field found for struct debian-ecommerce/internal/data/entity.Order's field Promotion: define a valid foreign key for relations or implement the Valuer/Scanner interface"}
+2026-02-14T04:33:00.222+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "invalid field found for struct debian-ecommerce/internal/data/entity.Order's field Promotion: define a valid foreign key for relations or implement the Valuer/Scanner interface", "order id": 1}
+2026-02-14T04:34:07.527+0700	INFO	repository/order.go:212	Get order by id	{"id": 1}
+2026-02-14T04:34:07.566+0700	ERROR	repository/order.go:225	Failed to get order	{"id": 1, "error": "User: unsupported relations for schema Order"}
+2026-02-14T04:34:07.568+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "User: unsupported relations for schema Order", "order id": 1}
+2026-02-14T04:36:03.225+0700	INFO	repository/order.go:212	Get order by id	{"id": 1}
+2026-02-14T04:36:03.311+0700	ERROR	repository/order.go:225	Failed to get order	{"id": 1, "error": "User: unsupported relations for schema Order"}
+2026-02-14T04:36:03.314+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "User: unsupported relations for schema Order", "order id": 1}
+2026-02-14T04:37:45.329+0700	INFO	repository/order.go:212	Get order by id	{"id": 1}
+2026-02-14T04:46:21.282+0700	INFO	repository/order.go:212	Get order by id	{"id": 1}
+2026-02-14T05:06:09.246+0700	INFO	repository/order.go:212	Get order by id	{"id": 8}
+2026-02-14T05:20:12.538+0700	ERROR	usecase/shipping.go:28	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T05:20:12.549+0700	ERROR	usecase/checkout.go:38	Error fetch shipping options	{"error": "record not found"}
+2026-02-14T05:26:47.753+0700	ERROR	adaptor/address_handler.go:50	Failed to create address	{"error": "ERROR: column \"created_at\" of relation \"addresses\" does not exist (SQLSTATE 42703)"}
+2026-02-14T05:29:49.531+0700	ERROR	adaptor/address_handler.go:50	Failed to create address	{"error": "ERROR: insert or update on table \"addresses\" violates foreign key constraint \"addresses_subdistrict_id_fkey\" (SQLSTATE 23503)"}
+2026-02-14T05:35:55.001+0700	ERROR	usecase/shipping.go:28	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T05:35:55.012+0700	ERROR	usecase/checkout.go:40	Error fetch shipping options	{"error": "record not found"}
+2026-02-14T05:38:10.800+0700	ERROR	usecase/shipping.go:28	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T05:40:44.801+0700	ERROR	usecase/shipping.go:28	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T05:43:00.911+0700	ERROR	usecase/shipping.go:28	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T05:43:01.803+0700	ERROR	usecase/shipping.go:104	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 400"}
+2026-02-14T05:46:47.358+0700	ERROR	usecase/shipping.go:28	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T05:46:47.680+0700	ERROR	usecase/shipping.go:104	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 400"}
+2026-02-14T05:47:12.500+0700	ERROR	usecase/shipping.go:28	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T05:47:12.583+0700	ERROR	usecase/shipping.go:104	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 400"}
+2026-02-14T05:51:07.583+0700	ERROR	repository/sku.go:255	Error lock sku row	{"error": "Category: unsupported relations for schema SKU", "sku_id": 1}
+2026-02-14T05:51:07.589+0700	ERROR	usecase/order.go:58	Error get sku	{"error": "Category: unsupported relations for schema SKU"}
+2026-02-14T05:51:07.600+0700	ERROR	usecase/order.go:309	Transaction create order failed	{"error": "Category: unsupported relations for schema SKU"}
+2026-02-14T05:52:56.913+0700	ERROR	usecase/order.go:64	SKU is not active	{"sku_id": 1}
+2026-02-14T05:53:13.153+0700	ERROR	usecase/shipping.go:28	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T05:53:13.468+0700	ERROR	usecase/shipping.go:104	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 400"}
+2026-02-14T05:57:36.243+0700	ERROR	usecase/shipping.go:29	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T05:57:36.453+0700	ERROR	usecase/shipping.go:109	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 400"}
+2026-02-14T06:01:34.575+0700	ERROR	usecase/shipping.go:29	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T06:01:35.232+0700	ERROR	usecase/shipping.go:109	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 400"}
+2026-02-14T06:06:48.350+0700	ERROR	usecase/shipping.go:29	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T06:06:48.866+0700	ERROR	usecase/shipping.go:109	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 400"}
+2026-02-14T06:08:55.851+0700	ERROR	usecase/shipping.go:29	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T06:08:56.336+0700	ERROR	usecase/shipping.go:109	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 400"}
+2026-02-14T06:17:43.472+0700	ERROR	adaptor/cart_handler.go:34	Failed to get cart	{"error": "ERROR: insert or update on table \"carts\" violates foreign key constraint \"fk_customers_cart\" (SQLSTATE 23503)"}
+2026-02-14T06:18:51.023+0700	ERROR	adaptor/cart_handler.go:34	Failed to get cart	{"error": "ERROR: insert or update on table \"carts\" violates foreign key constraint \"fk_customers_cart\" (SQLSTATE 23503)"}
+2026-02-14T06:22:31.505+0700	ERROR	adaptor/cart_handler.go:56	Failed to add item to cart	{"error": "ERROR: insert or update on table \"carts\" violates foreign key constraint \"fk_customers_cart\" (SQLSTATE 23503)"}
+2026-02-14T06:48:56.606+0700	ERROR	usecase/shipping.go:22	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T06:48:58.515+0700	ERROR	usecase/shipping.go:85	Error decode shipping options	{"error": "failed fetch https://rajaongkir.komerce.id/api/v1/calculate/district/domestic-cost: status 400"}
+2026-02-14T07:02:39.110+0700	INFO	repository/order.go:212	Get order by id	{"id": 19}
+2026-02-14T07:02:39.395+0700	WARN	repository/order.go:222	order not found	{"id": 19}
+2026-02-14T07:02:39.395+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "order not found", "order id": 19}
+2026-02-14T07:02:45.654+0700	INFO	repository/order.go:212	Get order by id	{"id": 18}
+2026-02-14T07:02:45.658+0700	WARN	repository/order.go:222	order not found	{"id": 18}
+2026-02-14T07:02:45.659+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "order not found", "order id": 18}
+2026-02-14T07:02:49.159+0700	INFO	repository/order.go:212	Get order by id	{"id": 1}
+2026-02-14T07:02:54.417+0700	INFO	repository/order.go:212	Get order by id	{"id": 7}
+2026-02-14T07:02:57.718+0700	INFO	repository/order.go:212	Get order by id	{"id": 8}
+2026-02-14T07:03:00.586+0700	INFO	repository/order.go:212	Get order by id	{"id": 9}
+2026-02-14T07:03:00.588+0700	WARN	repository/order.go:222	order not found	{"id": 9}
+2026-02-14T07:03:00.588+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "order not found", "order id": 9}
+2026-02-14T07:03:04.116+0700	INFO	repository/order.go:212	Get order by id	{"id": 10}
+2026-02-14T07:03:04.118+0700	WARN	repository/order.go:222	order not found	{"id": 10}
+2026-02-14T07:03:04.119+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "order not found", "order id": 10}
+2026-02-14T07:03:06.226+0700	INFO	repository/order.go:212	Get order by id	{"id": 11}
+2026-02-14T07:03:06.227+0700	WARN	repository/order.go:222	order not found	{"id": 11}
+2026-02-14T07:03:06.227+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "order not found", "order id": 11}
+2026-02-14T07:03:08.184+0700	INFO	repository/order.go:212	Get order by id	{"id": 12}
+2026-02-14T07:03:08.186+0700	WARN	repository/order.go:222	order not found	{"id": 12}
+2026-02-14T07:03:08.187+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "order not found", "order id": 12}
+2026-02-14T07:03:10.374+0700	INFO	repository/order.go:212	Get order by id	{"id": 13}
+2026-02-14T07:03:10.376+0700	WARN	repository/order.go:222	order not found	{"id": 13}
+2026-02-14T07:03:10.376+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "order not found", "order id": 13}
+2026-02-14T07:03:12.965+0700	INFO	repository/order.go:212	Get order by id	{"id": 14}
+2026-02-14T07:03:12.968+0700	WARN	repository/order.go:222	order not found	{"id": 14}
+2026-02-14T07:03:12.970+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "order not found", "order id": 14}
+2026-02-14T07:03:14.879+0700	INFO	repository/order.go:212	Get order by id	{"id": 15}
+2026-02-14T07:03:14.883+0700	WARN	repository/order.go:222	order not found	{"id": 15}
+2026-02-14T07:03:14.886+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "order not found", "order id": 15}
+2026-02-14T07:03:17.146+0700	INFO	repository/order.go:212	Get order by id	{"id": 16}
+2026-02-14T07:03:17.149+0700	WARN	repository/order.go:222	order not found	{"id": 16}
+2026-02-14T07:03:17.149+0700	ERROR	usecase/order.go:591	Failed to get order details	{"error": "order not found", "order id": 16}
+2026-02-14T07:04:20.764+0700	ERROR	usecase/order.go:64	SKU is not active	{"sku_id": 2}
+2026-02-14T10:00:46.466+0700	ERROR	repository/sku.go:273	Error query get SKUs	{"error": "record not found"}
+2026-02-14T10:00:46.475+0700	ERROR	usecase/product.go:252	Failed to get SKUs	{"id": 25, "error": "record not found"}
+2026-02-14T10:06:20.769+0700	INFO	repository/product.go:42	Creating product	{"name": "Handphone Samsung A6", "category_id": 1}
+2026-02-14T10:06:21.859+0700	INFO	repository/product.go:55	Product created successfully	{"id": 26, "name": "Handphone Samsung A6"}
+2026-02-14T10:06:21.863+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "color", "product_id": 26}
+2026-02-14T10:06:21.953+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 26, "name": "color"}
+2026-02-14T10:06:21.955+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "black", "variant_type_id": 26}
+2026-02-14T10:06:22.020+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 61, "value": "black"}
+2026-02-14T10:06:22.020+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "pink", "variant_type_id": 26}
+2026-02-14T10:06:22.033+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 62, "value": "pink"}
+2026-02-14T10:06:22.034+0700	INFO	repository/variant_type.go:47	Creating variant type	{"name": "storage", "product_id": 26}
+2026-02-14T10:06:22.040+0700	INFO	repository/variant_type.go:60	Variant type created successfully	{"id": 27, "name": "storage"}
+2026-02-14T10:06:22.041+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "128GB", "variant_type_id": 27}
+2026-02-14T10:06:22.043+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 63, "value": "128GB"}
+2026-02-14T10:06:22.044+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "256GB", "variant_type_id": 27}
+2026-02-14T10:06:22.045+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 64, "value": "256GB"}
+2026-02-14T10:06:22.223+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-14T10:06:22.354+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 26, "sku_code": "handphone-samsung-a6-black-128GB-1771038382354194000"}
+2026-02-14T10:06:22.427+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 38, "sku_code": "handphone-samsung-a6-black-128GB-1771038382354194000"}
+2026-02-14T10:06:22.428+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 38, "variant_value_id": 61}
+2026-02-14T10:06:22.524+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 70, "sku_id": 38}
+2026-02-14T10:06:22.524+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 38, "variant_value_id": 63}
+2026-02-14T10:06:22.526+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 71, "sku_id": 38}
+2026-02-14T10:06:22.526+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-14T10:06:22.568+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 26, "sku_code": "handphone-samsung-a6-black-256GB-1771038382568153400"}
+2026-02-14T10:06:22.576+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 39, "sku_code": "handphone-samsung-a6-black-256GB-1771038382568153400"}
+2026-02-14T10:06:22.577+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 39, "variant_value_id": 61}
+2026-02-14T10:06:22.584+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 72, "sku_id": 39}
+2026-02-14T10:06:22.584+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 39, "variant_value_id": 64}
+2026-02-14T10:06:22.588+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 73, "sku_id": 39}
+2026-02-14T10:06:22.588+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-14T10:06:22.620+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 26, "sku_code": "handphone-samsung-a6-pink-128GB-1771038382620714000"}
+2026-02-14T10:06:22.624+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 40, "sku_code": "handphone-samsung-a6-pink-128GB-1771038382620714000"}
+2026-02-14T10:06:22.624+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 40, "variant_value_id": 62}
+2026-02-14T10:06:22.632+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 74, "sku_id": 40}
+2026-02-14T10:06:22.633+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 40, "variant_value_id": 63}
+2026-02-14T10:06:22.641+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 75, "sku_id": 40}
+2026-02-14T10:06:22.641+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-14T10:06:22.692+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 26, "sku_code": "handphone-samsung-a6-pink-256GB-1771038382692671700"}
+2026-02-14T10:06:22.697+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 41, "sku_code": "handphone-samsung-a6-pink-256GB-1771038382692671700"}
+2026-02-14T10:06:22.697+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 41, "variant_value_id": 62}
+2026-02-14T10:06:22.703+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 76, "sku_id": 41}
+2026-02-14T10:06:22.703+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 41, "variant_value_id": 64}
+2026-02-14T10:06:22.705+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 77, "sku_id": 41}
+2026-02-14T10:06:41.387+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-14T10:16:42.884+0700	ERROR	repository/product.go:253	Error query get product	{"error": "sql: Scan error on column index 0, name \"min_price\": converting driver.Value type string (\"1000000.00\") to a int64: invalid syntax"}
+2026-02-14T10:16:42.932+0700	ERROR	usecase/product.go:629	Failed to update product	{"error": "sql: Scan error on column index 0, name \"min_price\": converting driver.Value type string (\"1000000.00\") to a int64: invalid syntax"}
+2026-02-14T10:16:42.934+0700	ERROR	usecase/product.go:637	Error transaction update SKUs	{"error": "sql: Scan error on column index 0, name \"min_price\": converting driver.Value type string (\"1000000.00\") to a int64: invalid syntax"}
+2026-02-14T10:23:31.561+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-14T10:28:39.875+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "brown", "variant_type_id": 26}
+2026-02-14T10:28:40.000+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 65, "value": "brown"}
+2026-02-14T10:28:40.384+0700	ERROR	repository/sku.go:239	Error batch archive SKUs	{"error": "ERROR: syntax error at or near \"$5\" (SQLSTATE 42601)"}
+2026-02-14T10:28:40.387+0700	ERROR	usecase/product.go:432	Failed to batch deactivate SKUs	{"error": "ERROR: syntax error at or near \"$5\" (SQLSTATE 42601)"}
+2026-02-14T10:28:40.391+0700	ERROR	usecase/product.go:446	Transaction update product failed	{"error": "ERROR: syntax error at or near \"$5\" (SQLSTATE 42601)"}
+2026-02-14T10:28:40.392+0700	ERROR	usecase/product.go:290	Failed to update SKUs	{"error": "ERROR: syntax error at or near \"$5\" (SQLSTATE 42601)"}
+2026-02-14T10:28:40.401+0700	ERROR	usecase/product.go:303	Transaction update product failed	{"error": "ERROR: syntax error at or near \"$5\" (SQLSTATE 42601)"}
+2026-02-14T10:33:32.793+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "brown", "variant_type_id": 26}
+2026-02-14T10:33:32.837+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 66, "value": "brown"}
+2026-02-14T10:33:33.040+0700	ERROR	repository/sku.go:175	Error query delete SKU	{"error": "ERROR: invalid input syntax for type bigint: \"*gin.Context.WithValue(infra.txKey, *gorm.DB)\" (SQLSTATE 22P02)"}
+2026-02-14T10:33:33.040+0700	ERROR	usecase/product.go:438	Failed to batch delete SKU - variant value	{"error": "ERROR: invalid input syntax for type bigint: \"*gin.Context.WithValue(infra.txKey, *gorm.DB)\" (SQLSTATE 22P02)"}
+2026-02-14T10:33:33.051+0700	ERROR	usecase/product.go:446	Transaction update product failed	{"error": "ERROR: invalid input syntax for type bigint: \"*gin.Context.WithValue(infra.txKey, *gorm.DB)\" (SQLSTATE 22P02)"}
+2026-02-14T10:33:33.060+0700	ERROR	usecase/product.go:290	Failed to update SKUs	{"error": "ERROR: invalid input syntax for type bigint: \"*gin.Context.WithValue(infra.txKey, *gorm.DB)\" (SQLSTATE 22P02)"}
+2026-02-14T10:33:33.072+0700	ERROR	usecase/product.go:303	Transaction update product failed	{"error": "ERROR: invalid input syntax for type bigint: \"*gin.Context.WithValue(infra.txKey, *gorm.DB)\" (SQLSTATE 22P02)"}
+2026-02-14T10:38:37.862+0700	INFO	repository/variant_value.go:91	Creating variant value	{"value": "brown", "variant_type_id": 26}
+2026-02-14T10:38:37.900+0700	INFO	repository/variant_value.go:104	Variant value created successfully	{"id": 67, "value": "brown"}
+2026-02-14T10:38:38.071+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-14T10:38:38.099+0700	INFO	repository/sku.go:77	Creating SKU	{"product_id": 26, "sku_code": "handphone-samsung-a6-256GB-brown-1771040318099847400"}
+2026-02-14T10:38:38.109+0700	INFO	repository/sku.go:90	SKU created successfully	{"id": 42, "sku_code": "handphone-samsung-a6-256GB-brown-1771040318099847400"}
+2026-02-14T10:38:38.109+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 42, "variant_value_id": 64}
+2026-02-14T10:38:38.115+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 78, "sku_id": 42}
+2026-02-14T10:38:38.116+0700	INFO	repository/sku.go:151	Creating SKU	{"sku_id": 42, "variant_value_id": 67}
+2026-02-14T10:38:38.118+0700	INFO	repository/sku.go:164	SKU created successfully	{"id": 79, "sku_id": 42}
+2026-02-14T10:44:04.920+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-14T10:44:25.561+0700	ERROR	repository/order.go:199	Error query get order list	{"error": "ERROR: for SELECT DISTINCT, ORDER BY expressions must appear in select list (SQLSTATE 42P10)"}
+2026-02-14T10:44:25.562+0700	ERROR	usecase/order.go:529	Failed to get orders	{"error": "ERROR: for SELECT DISTINCT, ORDER BY expressions must appear in select list (SQLSTATE 42P10)"}
+2026-02-14T10:47:14.875+0700	INFO	repository/order.go:208	Get order by id	{"id": 8}
+2026-02-14T10:58:15.991+0700	INFO	repository/order.go:229	Get order by id	{"id": 8}
+2026-02-14T10:59:10.591+0700	ERROR	usecase/order.go:529	Failed to get orders	{"error": "ERROR: for SELECT DISTINCT, ORDER BY expressions must appear in select list (SQLSTATE 42P10)"}
+2026-02-14T11:06:49.893+0700	ERROR	usecase/order.go:529	Failed to get orders	{"error": "ERROR: for SELECT DISTINCT, ORDER BY expressions must appear in select list (SQLSTATE 42P10)"}
+2026-02-14T11:09:54.079+0700	INFO	repository/order.go:255	Get order by id	{"id": 8}
+2026-02-14T11:12:09.531+0700	INFO	repository/product.go:130	Get product by id	{"id": 26}
+2026-02-14T11:13:22.391+0700	ERROR	usecase/shipping.go:22	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T11:14:45.145+0700	ERROR	repository/sku.go:256	Error lock sku row	{"error": "record not found", "sku_id": 2}
+2026-02-14T11:14:45.152+0700	ERROR	usecase/order.go:58	Error get sku	{"error": "record not found"}
+2026-02-14T11:14:45.154+0700	ERROR	usecase/order.go:311	Transaction create order failed	{"error": "record not found"}
+2026-02-14T11:15:15.192+0700	INFO	repository/order.go:42	Creating order	{"customer_id": 6}
+2026-02-14T11:15:15.204+0700	ERROR	repository/order.go:48	Failed to create order	{"customer_id": 6, "error": "ERROR: column \"cancelled_at\" of relation \"orders\" does not exist (SQLSTATE 42703)"}
+2026-02-14T11:15:15.205+0700	ERROR	usecase/order.go:191	Error create order	{"error": "ERROR: column \"cancelled_at\" of relation \"orders\" does not exist (SQLSTATE 42703)"}
+2026-02-14T11:15:15.218+0700	ERROR	usecase/order.go:311	Transaction create order failed	{"error": "ERROR: column \"cancelled_at\" of relation \"orders\" does not exist (SQLSTATE 42703)"}
+2026-02-14T11:18:13.084+0700	INFO	repository/order.go:42	Creating order	{"customer_id": 6}
+2026-02-14T11:18:13.163+0700	ERROR	repository/order.go:48	Failed to create order	{"customer_id": 6, "error": "ERROR: null value in column \"payment_method_id\" of relation \"orders\" violates not-null constraint (SQLSTATE 23502)"}
+2026-02-14T11:18:13.163+0700	ERROR	usecase/order.go:191	Error create order	{"error": "ERROR: null value in column \"payment_method_id\" of relation \"orders\" violates not-null constraint (SQLSTATE 23502)"}
+2026-02-14T11:18:13.177+0700	ERROR	usecase/order.go:311	Transaction create order failed	{"error": "ERROR: null value in column \"payment_method_id\" of relation \"orders\" violates not-null constraint (SQLSTATE 23502)"}
+2026-02-14T11:20:35.088+0700	INFO	repository/order.go:42	Creating order	{"customer_id": 6}
+2026-02-14T11:20:35.229+0700	INFO	repository/order.go:54	order created successfully	{"id": 10, "customer_id": 6}
+2026-02-14T11:24:22.893+0700	ERROR	usecase/shipping.go:22	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T11:27:52.678+0700	INFO	repository/order.go:42	Creating order	{"customer_id": 6}
+2026-02-14T11:27:52.775+0700	INFO	repository/order.go:54	order created successfully	{"id": 11, "customer_id": 6}
+2026-02-14T11:27:52.877+0700	INFO	repository/order.go:63	Creating order item	{"order_id": 11, "sku_id": 39}
+2026-02-14T11:27:52.950+0700	INFO	repository/order.go:77	Order item created successfully	{"id": 19, "order_id": 11, "sku_id": 39}
+2026-02-14T11:27:52.959+0700	INFO	repository/order.go:63	Creating order item	{"order_id": 11, "sku_id": 41}
+2026-02-14T11:27:52.963+0700	INFO	repository/order.go:77	Order item created successfully	{"id": 20, "order_id": 11, "sku_id": 41}
+2026-02-14T11:27:52.967+0700	INFO	repository/order.go:63	Creating order item	{"order_id": 11, "sku_id": 42}
+2026-02-14T11:27:53.003+0700	INFO	repository/order.go:77	Order item created successfully	{"id": 21, "order_id": 11, "sku_id": 42}
+2026-02-14T11:27:53.009+0700	INFO	repository/order.go:88	Creating order payment	{"order_id": 11, "payment_method_id": 1}
+2026-02-14T11:27:53.123+0700	INFO	repository/order.go:102	Order payment created successfully	{"id": 1, "order_id": 11, "payment_method_id": 1}
+2026-02-14T11:27:54.862+0700	INFO	repository/order.go:113	Creating order shipping	{"order_id": 11, "courier_name": "21 Express"}
+2026-02-14T11:27:55.035+0700	INFO	repository/order.go:127	Order shipping created successfully	{"id": 1, "order_id": 11, "courier_name": "21 Express"}
+2026-02-14T11:28:38.383+0700	INFO	repository/order.go:255	Get order by id	{"id": 11}
+2026-02-14T11:38:59.572+0700	INFO	repository/order.go:255	Get order by id	{"id": 11}
+2026-02-14T11:39:29.903+0700	INFO	repository/order.go:255	Get order by id	{"id": 11}
+2026-02-14T11:39:29.962+0700	ERROR	usecase/order.go:375	Cannot confirm unpaid order	{"orderID": 11}
+2026-02-14T11:39:29.968+0700	ERROR	usecase/order.go:393	Transaction confirm order failed	{"error": "order is unpaid"}
+2026-02-14T11:44:06.912+0700	ERROR	repository/banner.go:55	record not found
+2026-02-14T11:44:06.913+0700	ERROR	usecase/banner.go:68	failed to get banner by id	{"error": "record not found"}
+2026-02-14T11:49:00.600+0700	ERROR	repository/banner.go:35	ERROR: invalid input value for enum banner_types: "" (SQLSTATE 22P02)
+2026-02-14T11:49:00.602+0700	ERROR	usecase/banner.go:50	failed to create banner	{"error": "ERROR: invalid input value for enum banner_types: \"\" (SQLSTATE 22P02)"}
+2026-02-14T11:53:22.908+0700	INFO	repository/order.go:255	Get order by id	{"id": 11}
+2026-02-14T11:53:22.963+0700	ERROR	usecase/order.go:328	Payment expired
+2026-02-14T11:53:22.964+0700	ERROR	usecase/order.go:355	Transaction pay order failed	{"error": "payment expired"}
+2026-02-14T11:53:58.207+0700	INFO	repository/order.go:42	Creating order	{"customer_id": 6}
+2026-02-14T11:53:58.245+0700	ERROR	repository/order.go:48	Failed to create order	{"customer_id": 6, "error": "ERROR: new row for relation \"orders\" violates check constraint \"orders_total_calculation_valid\" (SQLSTATE 23514)"}
+2026-02-14T11:53:58.246+0700	ERROR	usecase/order.go:191	Error create order	{"error": "ERROR: new row for relation \"orders\" violates check constraint \"orders_total_calculation_valid\" (SQLSTATE 23514)"}
+2026-02-14T11:53:58.248+0700	ERROR	usecase/order.go:313	Transaction create order failed	{"error": "ERROR: new row for relation \"orders\" violates check constraint \"orders_total_calculation_valid\" (SQLSTATE 23514)"}
+2026-02-14T11:56:55.570+0700	INFO	repository/order.go:42	Creating order	{"customer_id": 6}
+2026-02-14T11:56:55.588+0700	ERROR	repository/order.go:48	Failed to create order	{"customer_id": 6, "error": "ERROR: new row for relation \"orders\" violates check constraint \"orders_total_calculation_valid\" (SQLSTATE 23514)"}
+2026-02-14T11:56:55.593+0700	ERROR	usecase/order.go:191	Error create order	{"error": "ERROR: new row for relation \"orders\" violates check constraint \"orders_total_calculation_valid\" (SQLSTATE 23514)"}
+2026-02-14T11:56:55.602+0700	ERROR	usecase/order.go:313	Transaction create order failed	{"error": "ERROR: new row for relation \"orders\" violates check constraint \"orders_total_calculation_valid\" (SQLSTATE 23514)"}
+2026-02-14T11:58:06.219+0700	INFO	repository/order.go:42	Creating order	{"customer_id": 6}
+2026-02-14T11:58:06.503+0700	INFO	repository/order.go:54	order created successfully	{"id": 14, "customer_id": 6}
+2026-02-14T11:58:06.853+0700	INFO	repository/order.go:63	Creating order item	{"order_id": 14, "sku_id": 39}
+2026-02-14T11:58:08.018+0700	INFO	repository/order.go:77	Order item created successfully	{"id": 22, "order_id": 14, "sku_id": 39}
+2026-02-14T11:58:08.051+0700	INFO	repository/order.go:63	Creating order item	{"order_id": 14, "sku_id": 41}
+2026-02-14T11:58:08.061+0700	INFO	repository/order.go:77	Order item created successfully	{"id": 23, "order_id": 14, "sku_id": 41}
+2026-02-14T11:58:08.076+0700	INFO	repository/order.go:63	Creating order item	{"order_id": 14, "sku_id": 42}
+2026-02-14T11:58:08.077+0700	INFO	repository/order.go:77	Order item created successfully	{"id": 24, "order_id": 14, "sku_id": 42}
+2026-02-14T11:58:08.091+0700	INFO	repository/order.go:88	Creating order payment	{"order_id": 14, "payment_method_id": 1}
+2026-02-14T11:58:08.258+0700	INFO	repository/order.go:102	Order payment created successfully	{"id": 2, "order_id": 14, "payment_method_id": 1}
+2026-02-14T11:58:09.049+0700	INFO	repository/order.go:113	Creating order shipping	{"order_id": 14, "courier_name": "21 Express"}
+2026-02-14T11:58:09.080+0700	INFO	repository/order.go:127	Order shipping created successfully	{"id": 2, "order_id": 14, "courier_name": "21 Express"}
+2026-02-14T11:59:44.154+0700	INFO	repository/order.go:255	Get order by id	{"id": 14}
+2026-02-14T11:59:54.067+0700	INFO	repository/order.go:255	Get order by id	{"id": 11}
+2026-02-14T11:59:54.085+0700	ERROR	usecase/order.go:375	Cannot confirm unpaid order	{"orderID": 11}
+2026-02-14T11:59:54.087+0700	ERROR	usecase/order.go:393	Transaction confirm order failed	{"error": "order is unpaid"}
+2026-02-14T12:00:15.447+0700	INFO	repository/order.go:255	Get order by id	{"id": 14}
+2026-02-14T12:00:15.567+0700	ERROR	repository/order.go:286	Error query update order	{"error": "ERROR: invalid input value for enum order_status: \"processing\" (SQLSTATE 22P02)"}
+2026-02-14T12:00:15.567+0700	ERROR	usecase/order.go:385	Failed to update order	{"error": "ERROR: invalid input value for enum order_status: \"processing\" (SQLSTATE 22P02)", "orderID": 14}
+2026-02-14T12:00:15.575+0700	ERROR	usecase/order.go:393	Transaction confirm order failed	{"error": "ERROR: invalid input value for enum order_status: \"processing\" (SQLSTATE 22P02)"}
+2026-02-14T12:02:47.601+0700	INFO	repository/order.go:255	Get order by id	{"id": 14}
+2026-02-14T12:03:20.315+0700	INFO	repository/order.go:255	Get order by id	{"id": 14}
+2026-02-14T12:03:20.334+0700	ERROR	usecase/order.go:499	Cannot complete undelivered order	{"orderID": 14}
+2026-02-14T12:03:20.339+0700	ERROR	usecase/order.go:522	Transaction complete order failed	{"error": "invalid order status transition"}
+2026-02-14T12:07:37.927+0700	INFO	repository/order.go:255	Get order by id	{"id": 14}
+2026-02-14T12:07:38.024+0700	ERROR	usecase/order.go:499	Cannot complete undelivered order	{"orderID": 14}
+2026-02-14T12:07:38.031+0700	ERROR	usecase/order.go:522	Transaction complete order failed	{"error": "invalid order status transition"}
+2026-02-14T13:25:35.008+0700	ERROR	usecase/shipping.go:23	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T13:25:36.200+0700	ERROR	usecase/checkout.go:72	Error fetch promotions	{"error": "ERROR: column \"is_active\" does not exist (SQLSTATE 42703)"}
+2026-02-14T13:32:08.766+0700	ERROR	usecase/shipping.go:23	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T13:32:09.883+0700	ERROR	usecase/checkout.go:72	Error fetch promotions	{"error": "ERROR: column \"minimum_order_value\" does not exist (SQLSTATE 42703)"}
+2026-02-14T13:34:33.621+0700	ERROR	usecase/shipping.go:23	Failed to get shipping origin address	{"error": "record not found"}
+2026-02-14T16:02:55.450+0700	INFO	repository/order.go:255	Get order by id	{"id": 14}
+2026-02-14T16:04:34.965+0700	ERROR	repository/review.go:133	ERROR: column "product_id" does not exist (SQLSTATE 42703)
+2026-02-14T16:20:28.988+0700	ERROR	repository/report.go:253	Error get product performance	{"error": "ERROR: syntax error at or near \"ORDER\" (SQLSTATE 42601)"}
+2026-02-14T16:20:29.002+0700	ERROR	usecase/report.go:125	Error get product performance	{"error": "ERROR: syntax error at or near \"ORDER\" (SQLSTATE 42601)"}
+2026-02-14T16:30:47.971+0700	ERROR	repository/report.go:253	Error get product performance	{"error": "ERROR: column oi.product_id does not exist (SQLSTATE 42703)"}
+2026-02-14T16:30:47.985+0700	ERROR	usecase/report.go:125	Error get product performance	{"error": "ERROR: column oi.product_id does not exist (SQLSTATE 42703)"}
+2026-02-14T16:30:55.036+0700	ERROR	repository/report.go:253	Error get product performance	{"error": "ERROR: column oi.product_id does not exist (SQLSTATE 42703)"}
+2026-02-14T16:30:55.036+0700	ERROR	usecase/report.go:125	Error get product performance	{"error": "ERROR: column oi.product_id does not exist (SQLSTATE 42703)"}
+2026-02-14T17:31:14.870+0700	ERROR	repository/report.go:265	Error get product performance	{"error": "ERROR: column \"products.min_price\" must appear in the GROUP BY clause or be used in an aggregate function (SQLSTATE 42803)"}
+2026-02-14T17:31:14.926+0700	ERROR	usecase/report.go:125	Error get product performance	{"error": "ERROR: column \"products.min_price\" must appear in the GROUP BY clause or be used in an aggregate function (SQLSTATE 42803)"}
+2026-02-14T17:33:04.713+0700	ERROR	repository/report.go:267	Error get product performance	{"error": "ERROR: subquery uses ungrouped column \"products.id\" from outer query (SQLSTATE 42803)"}
+2026-02-14T17:33:04.734+0700	ERROR	usecase/report.go:125	Error get product performance	{"error": "ERROR: subquery uses ungrouped column \"products.id\" from outer query (SQLSTATE 42803)"}
+2026-02-14T17:33:12.991+0700	ERROR	repository/report.go:267	Error get product performance	{"error": "ERROR: subquery uses ungrouped column \"products.id\" from outer query (SQLSTATE 42803)"}
+2026-02-14T17:33:12.992+0700	ERROR	usecase/report.go:125	Error get product performance	{"error": "ERROR: subquery uses ungrouped column \"products.id\" from outer query (SQLSTATE 42803)"}
+2026-02-14T17:42:45.866+0700	ERROR	repository/report.go:297	Error get loyal customer	{"error": "ERROR: missing FROM-clause entry for table \"customers\" (SQLSTATE 42P01)"}
+2026-02-14T17:42:45.943+0700	ERROR	usecase/report.go:134	Error get loyal customer	{"error": "ERROR: missing FROM-clause entry for table \"customers\" (SQLSTATE 42P01)"}
+2026-02-14T17:47:04.716+0700	ERROR	repository/report.go:299	Error get loyal customer	{"error": "ERROR: column customers.name does not exist (SQLSTATE 42703)"}
+2026-02-14T17:47:04.746+0700	ERROR	usecase/report.go:134	Error get loyal customer	{"error": "ERROR: column customers.name does not exist (SQLSTATE 42703)"}
+2026-02-14T18:14:11.203+0700	ERROR	repository/report.go:299	Error get loyal customer	{"error": "ERROR: column customers.phone_number does not exist (SQLSTATE 42703)"}
+2026-02-14T18:14:11.288+0700	ERROR	usecase/report.go:134	Error get loyal customer	{"error": "ERROR: column customers.phone_number does not exist (SQLSTATE 42703)"}
+2026-02-14T18:16:53.861+0700	ERROR	repository/report.go:299	Error get loyal customer	{"error": "ERROR: column orders.total_price does not exist (SQLSTATE 42703)"}
+2026-02-14T18:16:53.871+0700	ERROR	usecase/report.go:134	Error get loyal customer	{"error": "ERROR: column orders.total_price does not exist (SQLSTATE 42703)"}
+2026-02-14T18:20:35.492+0700	ERROR	repository/report.go:299	Error get loyal customer	{"error": "ERROR: column customers.name does not exist (SQLSTATE 42703)"}
+2026-02-14T18:20:35.507+0700	ERROR	usecase/report.go:134	Error get loyal customer	{"error": "ERROR: column customers.name does not exist (SQLSTATE 42703)"}

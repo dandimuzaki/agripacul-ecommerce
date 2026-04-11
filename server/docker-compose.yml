@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: debian_e-commerce
+    ports:
+      - "2026:2026"
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - postgres
+
+  migrate:
+    build: .
+    command: ["sh", "-c", "sleep 5 && goose up"]
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+
+  seed:
+    build: .
+    command: ["./seed"]
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: golangdb2
+      POSTGRES_USER: golanguser2
+      POSTGRES_PASSWORD: tw1nMK2glLFrFGvI
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

@@ -1,0 +1,20 @@
+2026-03-25T10:22:01.563+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T10:22:54.607+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T10:22:57.703+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T10:23:12.260+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T10:23:13.164+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T10:23:13.861+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T10:31:53.645+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T10:51:34.205+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T10:51:35.809+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T11:06:01.278+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T11:06:03.039+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T11:06:04.977+0700	ERROR	usecase/shipping.go:38	Failed to get shipping origin address	{"error": "record not found"}
+2026-03-25T12:03:36.547+0700	INFO	repository/order.go:395	Get order by id	{"id": 9}
+2026-03-25T12:03:59.019+0700	INFO	repository/order.go:395	Get order by id	{"id": 9}
+2026-03-25T12:04:05.570+0700	INFO	repository/order.go:395	Get order by id	{"id": 9}
+2026-03-25T15:00:00.036+0700	INFO	repository/order.go:283	Mark orders as shipped...
+2026-03-25T15:00:01.298+0700	INFO	repository/order.go:314	Successfully mark orders as shipped
+2026-03-25T16:38:41.356+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "add"}
+2026-03-25T16:39:01.468+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "add"}
+2026-03-25T16:39:52.250+0700	INFO	repository/product.go:283	Get product by slug	{"slug": "add"}

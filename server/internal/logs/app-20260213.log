@@ -1,0 +1,4 @@
+2026-02-13T21:53:13.969+0700	ERROR	repository/user.go:35	ERROR: duplicate key value violates unique constraint "idx_users_email" (SQLSTATE 23505)
+2026-02-13T21:59:58.734+0700	INFO	repository/product.go:126	Get product by id	{"id": 5}
+2026-02-13T22:12:33.023+0700	ERROR	repository/product.go:120	Error query get product list	{"error": "ERROR: column \"price\" does not exist (SQLSTATE 42703)"}
+2026-02-13T22:12:33.041+0700	ERROR	usecase/product.go:132	Failed to browse product	{"error": "ERROR: column \"price\" does not exist (SQLSTATE 42703)"}
