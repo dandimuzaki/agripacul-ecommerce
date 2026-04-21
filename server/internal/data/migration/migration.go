@@ -26,6 +26,7 @@ func AutoMigrate(db *gorm.DB) error {
 		&entity.Campaign{},
 		&entity.CampaignProduct{},
 
+		&entity.PaymentType{},
 		&entity.PaymentMethod{},
 		&entity.Promotion{},
 		&entity.PromoProduct{},
