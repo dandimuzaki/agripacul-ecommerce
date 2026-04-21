@@ -28,7 +28,7 @@ const AfterCheckout = () => {
       {status === "success" && (
         <Card className="bg-gray-200 text-center max-w-lg">
           <CardContent className="bg-transparent">
-          <div className="text-primary text-[120px]/30 mb-2">
+          <div className="text-primary text-[60px]/30 md:text-[90px]/30 lg:text-[120px]/30 mb-2">
             <CheckCircle fontSize="inherit" />
           </div>
           <h2 className="font-semibold text-2xl mb-2">Your order has been placed successfully!</h2>
