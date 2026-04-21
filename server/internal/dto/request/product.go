@@ -183,7 +183,7 @@ func (r UpdateProductRequest) UpdateProduct() *entity.Product {
 		product.Name = *r.Name
 	}
 	if r.Description != nil {
-		product.Name = *r.Description
+		product.Description = *r.Description
 	}
 	if r.CategoryID != nil {
 		product.CategoryID = *r.CategoryID

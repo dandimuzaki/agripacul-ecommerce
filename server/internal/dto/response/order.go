@@ -20,6 +20,7 @@ type OrderDetails struct {
 	Totals Totals `json:"totals"`
 	Notes string `json:"notes"`
 	TrackingNumber string `json:"tracking_number,omitempty"`
+	CanReview bool `json:"can_review"`
 }
 
 type BillingAddress struct {
@@ -146,6 +147,7 @@ type OrderSummary struct {
 	ShippingCourier string `json:"shipping_courier"`
 	ETD int `json:"etd"`
 	PaymentMethod string `json:"payment_method"`
+	CanReview bool `json:"can_review"`
 }
 
 type Customer struct {

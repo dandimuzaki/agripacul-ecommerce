@@ -14,9 +14,9 @@ type PaymentMethodRepository interface {
 	Update(ctx context.Context, paymentMethod *entity.PaymentMethod) error
 	Delete(ctx context.Context, id uint) error
 	FindByID(ctx context.Context, id uint) (*entity.PaymentMethod, error)
-	FindAll(ctx context.Context, page, limit int, search string, isActive *bool) ([]entity.PaymentMethod, int64, error)
+	FindAll(ctx context.Context, page, limit int, search string, isActive *bool) ([]entity.PaymentType, int64, error)
 	CheckNameExists(ctx context.Context, name string, excludeID uint) (bool, error)
-	GetAll(ctx context.Context) ([]entity.PaymentMethod, error)
+	GetAll(ctx context.Context) ([]entity.PaymentType, error)
 }
 
 type paymentMethodRepository struct {
@@ -85,21 +85,21 @@ func (r *paymentMethodRepository) FindByID(ctx context.Context, id uint) (*entit
 }
 
 // FindAll retrieves all payment methods with pagination and filters
-func (r *paymentMethodRepository) FindAll(ctx context.Context, page, limit int, search string, isActive *bool) ([]entity.PaymentMethod, int64, error) {
-	var paymentMethods []entity.PaymentMethod
+func (r *paymentMethodRepository) FindAll(ctx context.Context, page, limit int, search string, isActive *bool) ([]entity.PaymentType, int64, error) {
+	var paymentTypes []entity.PaymentType
 	var total int64
 
-	db := infra.GetDB(ctx, r.DB).Model(&entity.PaymentMethod{})
+	db := infra.GetDB(ctx, r.DB).Model(&entity.PaymentType{}).Joins("JOIN payment_methods pm ON payment_types.id = pm.payment_type_id").Preload("Methods")
 
 	// Apply search filter
 	if search != "" {
 		searchTerm := "%" + search + "%"
-		db = db.Where("LOWER(name) LIKE LOWER(?)", searchTerm)
+		db = db.Where("LOWER(pm.name) LIKE LOWER(?)", searchTerm)
 	}
 
 	// Apply is_active filter
 	if isActive != nil {
-		db = db.Where("is_active = ?", *isActive)
+		db = db.Where("pm.is_active = ?", *isActive)
 	}
 
 	// Get total count
@@ -114,28 +114,30 @@ func (r *paymentMethodRepository) FindAll(ctx context.Context, page, limit int, 
 		Order("created_at DESC").
 		Limit(limit).
 		Offset(offset).
-		Find(&paymentMethods).Error; err != nil {
+		Find(&paymentTypes).Error; err != nil {
 		r.Log.Error("failed to find payment methods", zap.Error(err))
 		return nil, 0, err
 	}
 
-	return paymentMethods, total, nil
+	return paymentTypes, total, nil
 }
 
 // GetAll retrieves all payment methods
-func (r *paymentMethodRepository) GetAll(ctx context.Context) ([]entity.PaymentMethod, error) {
-	var paymentMethods []entity.PaymentMethod
-	db := infra.GetDB(ctx, r.DB).Model(&entity.PaymentMethod{})
+func (r *paymentMethodRepository) GetAll(ctx context.Context) ([]entity.PaymentType, error) {
+	var paymentTypes []entity.PaymentType
+	db := infra.GetDB(ctx, r.DB).Model(&entity.PaymentType{})
 
 	if err := db.
-		Order("created_at DESC").
-		Where("is_active = ?", true).
-		Find(&paymentMethods).Error; err != nil {
+		Preload("Methods").
+		Joins("JOIN payment_methods pm ON payment_types.id = pm.payment_type_id").
+		Order("name ASC").
+		Where("pm.is_active = ?", true).
+		Find(&paymentTypes).Error; err != nil {
 		r.Log.Error("failed to find payment methods", zap.Error(err))
 		return nil, err
 	}
 
-	return paymentMethods, nil
+	return paymentTypes, nil
 }
 
 // CheckNameExists checks if payment method name already exists

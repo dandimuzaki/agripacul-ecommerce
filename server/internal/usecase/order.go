@@ -1032,6 +1032,7 @@ func (s *orderService) GetAll(ctx context.Context, req request.OrderQueryParams)
 		}
 		summary.DisplayStatus = BuildDisplayStatus(o)
 		summary.Cancellation = CanCancel(o, isAdmin)
+		summary.CanReview = s.CanReview(ctx, &o)
 		res = append(res, *summary)
 	}
 	return response.NewPaginatedResponse(
@@ -1072,6 +1073,7 @@ func (s *orderService) GetOrderHistory(ctx context.Context, req request.OrderQue
 		}
 		summary.DisplayStatus = BuildDisplayStatus(o)
 		summary.Cancellation = CanCancel(o, isAdmin)
+		summary.CanReview = s.CanReview(ctx, &o)
 		res = append(res, *summary)
 	}
 	return response.NewPaginatedResponse(
@@ -1102,6 +1104,7 @@ func (s *orderService) GetDetails(ctx context.Context, id uint) (*response.Order
 	details.DisplayStatus = BuildDisplayStatus(*order)
 	details.Steps = BuildSteps(*order)
 	details.Cancellation = CanCancel(*order, isAdmin)
+	details.CanReview = s.CanReview(ctx, order)
 
 	return details, nil
 }
@@ -1243,4 +1246,25 @@ func CanCancel(order entity.Order, isAdmin bool) bool {
 	}
 
 	return false
+}
+
+func (s *orderService) CanReview(ctx context.Context, order *entity.Order) (bool) {
+	var skuIDs []uint
+	for _, item := range order.Items {
+		skuIDs = append(skuIDs, item.SKUID)
+	}
+
+	// Check for existing review
+	reviewedMap, err := s.repo.ReviewRepo.GetReviewedSKUs(ctx, order.Customer.ID, order.ID, skuIDs)
+	if err != nil {
+    return false
+	}
+
+	for _, rev := range reviewedMap {
+		if rev {
+			return false
+		}
+	}
+
+	return true
 }

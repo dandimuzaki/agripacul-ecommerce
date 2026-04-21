@@ -170,7 +170,7 @@ func (u *PaymentMethodUsecase) GetPaymentMethodByID(ctx context.Context, id uint
 }
 
 // GetPaymentMethods retrieves all payment methods with pagination
-func (u *PaymentMethodUsecase) GetPaymentMethods(ctx context.Context, req *request.GetPaymentMethodsRequest) (*response.PaymentMethodListResponse, error) {
+func (u *PaymentMethodUsecase) GetPaymentMethods(ctx context.Context, req *request.GetPaymentMethodsRequest) (*response.PaymentListResponse, error) {
 	// Set default values
 	if req.Page < 1 {
 		req.Page = 1
@@ -182,18 +182,10 @@ func (u *PaymentMethodUsecase) GetPaymentMethods(ctx context.Context, req *reque
 		req.Limit = 100
 	}
 
-	paymentMethods, total, err := u.paymentMethodRepo.FindAll(ctx, req.Page, req.Limit, req.Search, req.IsActive)
+	paymentTypes, total, err := u.paymentMethodRepo.FindAll(ctx, req.Page, req.Limit, req.Search, req.IsActive)
 	if err != nil {
 		u.log.Error("failed to get payment methods")
 		return nil, err
-	}
-
-	var paymentMethodResponses []response.PaymentMethodResponse
-	for _, pm := range paymentMethods {
-		resp := u.toResponse(&pm)
-		if resp != nil {
-			paymentMethodResponses = append(paymentMethodResponses, *resp)
-		}
 	}
 
 	totalPages := int64(0)
@@ -204,12 +196,12 @@ func (u *PaymentMethodUsecase) GetPaymentMethods(ctx context.Context, req *reque
 		}
 	}
 
-	return &response.PaymentMethodListResponse{
-		PaymentMethods: paymentMethodResponses,
-		Total:          total,
-		Page:           req.Page,
-		Limit:          req.Limit,
-		TotalPages:     totalPages,
+	return &response.PaymentListResponse{
+		PaymentTypes: paymentTypes,
+		Total: total,
+		Page: req.Page,
+		Limit: req.Limit,
+		TotalPages: totalPages,
 	}, nil
 }
 

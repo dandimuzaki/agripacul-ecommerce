@@ -139,7 +139,7 @@ func (h *PaymentMethodHandler) GetPaymentMethods(c *gin.Context) {
 		"total_pages": result.TotalPages,
 	}
 
-	utils.ResponsePagination(c, http.StatusOK, "Payment methods retrieved successfully", result.PaymentMethods, pagination)
+	utils.ResponsePagination(c, http.StatusOK, "Payment methods retrieved successfully", result.PaymentTypes, pagination)
 }
 
 // GetPaymentMethodByID godoc

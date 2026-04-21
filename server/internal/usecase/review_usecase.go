@@ -75,9 +75,6 @@ func (u *reviewUsecase) CreateReview(ctx context.Context, userID uint, req reque
 
 	// 3. Check for existing review
 	existing, err := u.repo.ReviewRepo.GetReviewByOrderIDAndProductID(ctx, req.OrderID, req.ProductID)
-	if err != nil {
-		return utils.WrapError("Failed to check existing review", err)
-	}
 	if existing != nil {
 		return utils.NewAppError(utils.ErrCodeConflict, "Review already exists for this product in this order", errors.New("conflict"))
 	}

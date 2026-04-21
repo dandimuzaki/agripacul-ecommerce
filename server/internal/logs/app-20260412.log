@@ -1,0 +1,4 @@
+2026-04-12T18:46:24.043+0700	ERROR	usecase/customer_usecase.go:91	Failed to get customer profile	{"error": "record not found"}
+2026-04-12T18:46:26.937+0700	ERROR	usecase/customer_usecase.go:91	Failed to get customer profile	{"error": "record not found"}
+2026-04-12T18:46:29.771+0700	ERROR	usecase/customer_usecase.go:91	Failed to get customer profile	{"error": "record not found"}
+2026-04-12T18:46:33.841+0700	ERROR	usecase/customer_usecase.go:91	Failed to get customer profile	{"error": "record not found"}

@@ -31,3 +31,11 @@ type PaymentMethodListResponse struct {
 	Limit          int                     `json:"limit"`
 	TotalPages     int64                   `json:"total_pages"`
 }
+
+type PaymentListResponse struct {
+	PaymentTypes []entity.PaymentType `json:"payment_types"`
+	Total          int64                   `json:"total"`
+	Page           int                     `json:"page"`
+	Limit          int                     `json:"limit"`
+	TotalPages     int64                   `json:"total_pages"`
+}

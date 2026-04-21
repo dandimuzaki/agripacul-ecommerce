@@ -76,11 +76,12 @@ func ReadConfiguration() (Configuration, error) {
 	viper.AutomaticEnv()
 
 	// 3. optional .env file (lowest priority)
+	viper.SetConfigFile("../../.env")
 	viper.SetConfigFile(".env")
 	viper.SetConfigType("env")
 	_ = viper.ReadInConfig() // DO NOT fail if missing
 
-	return Configuration{
+	config := Configuration{
 		AppName:     viper.GetString("APP_NAME"),
 		Port:        viper.GetString("PORT"),
 		Debug:       viper.GetBool("DEBUG"),
@@ -134,6 +135,8 @@ func ReadConfiguration() (Configuration, error) {
 			APIKey:    viper.GetString("CLOUDINARY_API_KEY"),
 			APISecret: viper.GetString("CLOUDINARY_API_SECRET"),
 		},
-	}, nil
+	}
+
+	return config, nil
 }
 
