@@ -1,0 +1,59 @@
+import {
+  useQueryClient,
+  useMutation,
+} from '@tanstack/react-query'
+import { ProductFormValues } from "@/schemas/product.schema"
+import { productService } from "@/services/product.service"
+import { productKeys } from '../queries/productKeys'
+import { ProductDetails } from '@/types/product'
+import { toast } from 'sonner'
+
+export const useUpdateProduct = () => {
+  const queryClient = useQueryClient()
+
+  return useMutation({
+    mutationFn: ({
+      id,
+      payload
+    }: {
+      id: number
+      payload: ProductFormValues
+    }) => productService.updateProduct(id, payload),
+
+    onMutate: async ({ id }) => {
+      await queryClient.cancelQueries({
+        queryKey: productKeys.adminDetail(id)
+      })
+
+      const previousProduct =
+        queryClient.getQueryData<ProductDetails>(
+          productKeys.adminDetail(id)
+        )
+      return { previousProduct }
+    },
+
+    onError: (_err, variables, context) => {
+      if (context?.previousProduct) {
+        queryClient.setQueryData(
+          productKeys.adminDetail(variables.id),
+          context.previousProduct
+        )
+      }
+      toast.error(_err.message || "Failed to update product")
+    },
+
+    onSettled: (_data, _error, variables) => {
+      queryClient.invalidateQueries({
+        queryKey: productKeys.lists()
+      })
+
+      queryClient.invalidateQueries({
+        queryKey: productKeys.adminDetail(variables.id)
+      })
+    },
+
+    onSuccess: () => {
+      toast.success("Product updated successfully")
+    },
+  })
+}
