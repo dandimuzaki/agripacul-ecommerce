@@ -89,7 +89,7 @@ func (r *paymentMethodRepository) FindAll(ctx context.Context, page, limit int, 
 	var paymentTypes []entity.PaymentType
 	var total int64
 
-	db := infra.GetDB(ctx, r.DB).Model(&entity.PaymentType{}).Joins("JOIN payment_methods pm ON payment_types.id = pm.payment_type_id").Preload("Methods")
+	db := infra.GetDB(ctx, r.DB).Model(&entity.PaymentType{}).Joins("JOIN payment_methods pm ON payment_types.id = pm.payment_type_id")
 
 	// Apply search filter
 	if search != "" {
@@ -111,10 +111,12 @@ func (r *paymentMethodRepository) FindAll(ctx context.Context, page, limit int, 
 	// Apply pagination and order
 	offset := (page - 1) * limit
 	if err := db.WithContext(ctx).
+		Model(&entity.PaymentType{}).
 		Order("created_at DESC").
 		Limit(limit).
 		Offset(offset).
-		Find(&paymentTypes).Error; err != nil {
+		Find(&paymentTypes).
+		Preload("Methods").Error; err != nil {
 		r.Log.Error("failed to find payment methods", zap.Error(err))
 		return nil, 0, err
 	}

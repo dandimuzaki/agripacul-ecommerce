@@ -142,6 +142,24 @@ func (h *PaymentMethodHandler) GetPaymentMethods(c *gin.Context) {
 	utils.ResponsePagination(c, http.StatusOK, "Payment methods retrieved successfully", result.PaymentTypes, pagination)
 }
 
+func (h *PaymentMethodHandler) GetAllPaymentMethods(c *gin.Context) {
+	// Panggil GetAll
+	result, err := h.paymentMethodUsecase.GetAllPaymentMethods(c)
+	if err != nil {
+		h.log.Error("failed to get payment methods")
+
+		switch {
+		case utils.IsNotFoundError(err):
+			utils.ResponseFailed(c, http.StatusNotFound, "No payment methods found", nil)
+		default:
+			utils.ResponseFailed(c, http.StatusInternalServerError, "Failed to get payment methods", nil)
+		}
+		return
+	}
+
+	utils.ResponseSuccess(c, http.StatusOK, "Payment methods retrieved successfully", result)
+}
+
 // GetPaymentMethodByID godoc
 // @Summary Get payment method by ID
 // @Description Get payment method details by ID

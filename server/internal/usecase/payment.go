@@ -205,6 +205,16 @@ func (u *PaymentMethodUsecase) GetPaymentMethods(ctx context.Context, req *reque
 	}, nil
 }
 
+func (u *PaymentMethodUsecase) GetAllPaymentMethods(ctx context.Context) ([]entity.PaymentType, error) {
+	paymentTypes, err := u.paymentMethodRepo.GetAll(ctx)
+	if err != nil {
+		u.log.Error("failed to get payment methods")
+		return nil, err
+	}
+
+	return paymentTypes, nil
+}
+
 // DeletePaymentMethod soft deletes a payment method
 func (u *PaymentMethodUsecase) DeletePaymentMethod(ctx context.Context, id uint) error {
 	if id == 0 {

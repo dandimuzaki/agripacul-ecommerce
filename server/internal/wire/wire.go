@@ -307,7 +307,7 @@ func CampaignRoute(r *gin.RouterGroup, handler *adaptor.Handler, mw mCustom.Midd
 }
 
 func PaymentRoute(r *gin.RouterGroup, handler *adaptor.Handler, mw mCustom.MiddlewareCustom) {
-	r.GET("", handler.PaymentMethodHandler.GetPaymentMethods)
+	r.GET("", handler.PaymentMethodHandler.GetAllPaymentMethods)
 	r.GET("/:id", handler.PaymentMethodHandler.GetPaymentMethodByID)
 }
 
