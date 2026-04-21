@@ -131,9 +131,7 @@ func (r *paymentMethodRepository) GetAll(ctx context.Context) ([]entity.PaymentT
 
 	if err := db.
 		Preload("Methods").
-		Joins("JOIN payment_methods pm ON payment_types.id = pm.payment_type_id").
 		Order("name ASC").
-		Where("pm.is_active = ?", true).
 		Find(&paymentTypes).Error; err != nil {
 		r.Log.Error("failed to find payment methods", zap.Error(err))
 		return nil, err
