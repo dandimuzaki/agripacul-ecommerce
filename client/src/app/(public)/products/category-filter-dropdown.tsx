@@ -8,6 +8,7 @@ import { useEffect } from "react"
 import { useCategories } from "@/hooks/category/useCategories"
 import { capitalizeAll } from "@/lib/formatText"
 import { Field } from "@/components/ui/field"
+import { Category } from "@/types/category"
 
 const CategoryFilterDropdown = () => {
   const { form } = useProductFilter()
@@ -57,8 +58,8 @@ const CategoryFilterDropdown = () => {
                 <SelectItem value={"0"}>
                   <span className="font-semibold">All Categories</span>
                 </SelectItem>
-              {categories?.map((s, i) =>
-                <SelectItem key={i} value={String(s.id)}>
+              {categories?.map((s: Category) =>
+                <SelectItem key={s.id} value={String(s.id)}>
                   <span className="font-semibold">{capitalizeAll(s.name)}</span>
                 </SelectItem>
               )}

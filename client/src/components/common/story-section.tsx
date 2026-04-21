@@ -1,5 +1,4 @@
 import { CheckCircle } from "@mui/icons-material"
-import SectionBadge from "./section-badge"
 
 const StorySection = () => {
   return (

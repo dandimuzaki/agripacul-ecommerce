@@ -2,7 +2,7 @@
 
 import { useProductFilter } from "@/hooks/product/useProductFilter"
 import { Controller } from "react-hook-form"
-import { Field, FieldLabel } from "../ui/field"
+import { Field } from "../ui/field"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select"
 import { useRouter, useSearchParams } from "next/navigation"
 import { useEffect } from "react"

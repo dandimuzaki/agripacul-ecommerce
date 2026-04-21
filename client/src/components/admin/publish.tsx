@@ -1,7 +1,6 @@
 "use client"
 
 import { usePublishProduct } from "@/hooks/product/usePublishProduct"
-import { Label } from "../ui/label"
 import { Switch } from "../ui/switch"
 import { ProductSummary } from "@/types/product"
 

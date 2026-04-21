@@ -3,6 +3,7 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { cartKeys } from "../queries/cartKeys";
 import { cartService } from "@/services/cart.service";
+import { Cart, Item } from "@/types/cart";
 
 export const useSelectAll = () => {
   const queryClient = useQueryClient()
@@ -17,12 +18,12 @@ export const useSelectAll = () => {
 
       const previousCart = queryClient.getQueryData(cartKeys.all);
 
-      queryClient.setQueryData(cartKeys.all, (old: any) => {
+      queryClient.setQueryData(cartKeys.all, (old: Cart) => {
         if (!old) return old;
 
         return {
           ...old,
-          items: old.items.map((item: any) => ({
+          items: old.items.map((item: Item) => ({
             ...item,
             is_selected: isSelected,
           })),

@@ -1,5 +1,5 @@
 "use client"
-import { Audiotrack, Email, Instagram, LinkedIn, LocationOn, Twitter, WhatsApp, X } from '@mui/icons-material';
+import { Audiotrack, Email, Instagram, LinkedIn, LocationOn, WhatsApp, X } from '@mui/icons-material';
 import { Button } from '../ui/button';
 import Link from 'next/link';
 
@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='bg-primary-dark overflow-hidden h-12 md:h-full'>
       <div className='flex justify-center md:grid gap-4 px-8 lg:px-16 py-4 lg:py-8 text-white md:grid-cols-[2fr_1fr_1fr]'>
       <div className='space-y-4'>
-        <div className='flex justify-center items-center w-28 md:w-48'><img src={"/logo.png"} className="w-full h-full" /></div>
+        <div className='flex justify-center items-center w-28 md:w-48'><img alt="footer" src={"/logo.png"} className="w-full h-full" /></div>
         <p className='hidden md:block text-sm/5'>Agripacul connects you with fresh produce, homemade foods, and gardening essentials, grown responsibly and delivered with care for everyday cooking and growing</p>
         <div className='hidden md:flex justify-center md:justify-start gap-2'>
           <Button className="aspect-square rounded-full h-full" ><Instagram fontSize='small'/></Button>

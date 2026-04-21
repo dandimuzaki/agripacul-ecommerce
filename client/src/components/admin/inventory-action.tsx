@@ -7,7 +7,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Inventory } from "@/types/inventory"
-import { AssignmentAdd, Close, FactCheck, FormatListBulleted, MoreVert, Visibility } from "@mui/icons-material"
+import { AssignmentAdd, FactCheck, FormatListBulleted, MoreVert } from "@mui/icons-material"
 import Link from "next/link"
 
 export function InventoryAction({inventory}: {inventory: Inventory}) {

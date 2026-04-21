@@ -5,7 +5,7 @@ import {
 import { productService } from "@/services/product.service"
 import { productKeys } from '../queries/productKeys'
 import { toast } from 'sonner'
-import { ProductDetails, ProductSummary } from '@/types/product'
+import { ProductDetails } from '@/types/product'
 import { GetProductResponse } from '@/types/response'
 
 export const useDeleteImage = () => {

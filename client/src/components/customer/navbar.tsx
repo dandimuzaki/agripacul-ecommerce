@@ -8,7 +8,6 @@ import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Button } from '../ui/button';
 import CartButton from '../common/cart-button';
-import { LocalMallRounded } from '@mui/icons-material';
 import { useProfile } from '@/hooks/profile/useProfile';
 import { CustomerMenu } from './customer-menu';
 import { AnimatePresence, motion } from 'framer-motion';

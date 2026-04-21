@@ -2,7 +2,7 @@ import {
   useQueryClient,
   useMutation,
 } from '@tanstack/react-query'
-import { ProductFormValues, ProductMainImageFormValues } from "@/schemas/product.schema"
+import { ProductMainImageFormValues } from "@/schemas/product.schema"
 import { productService } from "@/services/product.service"
 import { productKeys } from '../queries/productKeys'
 import { ProductDetails } from '@/types/product'

@@ -46,7 +46,7 @@ const PaymentMethodList = () => {
                         <label htmlFor={String(payment.id)} className="flex-1 cursor-pointer text-sm flex items-center justify-between gap-2">
                           <div className='flex gap-2 items-center'>
                           <div className='flex justify-center h-8 w-16 bg-white items-center'>
-                            <img src={payment.icon_url} className='h-fit w-fit object-fit'/>
+                            <img alt={payment.name} src={payment.icon_url} className='h-fit w-fit object-fit'/>
                           </div>
                           {payment.name}
                           </div>

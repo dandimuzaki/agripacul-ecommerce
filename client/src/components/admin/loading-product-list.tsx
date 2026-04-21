@@ -1,14 +1,8 @@
 'use client';
 
 import { useMemo } from 'react';
-import { Add, Search } from '@mui/icons-material';
 import { ProductSummary } from '@/types/product';
 import { ColumnDef, flexRender, getCoreRowModel, useReactTable } from '@tanstack/react-table';
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
-import { ReusablePagination } from '@/components/common/pagination';
-import CategoryFilterDropdown from '@/components/admin/category-dropdown';
-import SortProductDropdown from '@/components/admin/sort-product-dropdown';
 import { Skeleton } from '../ui/skeleton';
 
 const LoadingProductList = () => {

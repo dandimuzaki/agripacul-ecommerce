@@ -1,6 +1,5 @@
 'use client';
 
-import { Card, CardContent } from '../ui/card';
 import { Skeleton } from '../ui/skeleton';
 
 const LoadingProductCard = () => {

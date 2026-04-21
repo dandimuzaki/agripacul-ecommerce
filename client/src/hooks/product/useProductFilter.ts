@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation"
+import { useSearchParams } from "next/navigation"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import {
@@ -11,7 +11,6 @@ import { useEffect, useMemo } from "react";
 
 export const useProductFilter = () => {
   const searchParams = useSearchParams()
-  const router = useRouter()
 
   const search = searchParams.get("search")
   const category_id = searchParams.get("category_id")
@@ -57,27 +56,8 @@ export const useProductFilter = () => {
     form.reset(filters)
   }, [filters])
 
-  const updateParams = (updates: Record<string, any>) => {
-    const params = new URLSearchParams(searchParams.toString())
-
-    Object.entries(updates).forEach(([key, value]) => {
-      if (value === undefined || value === null) {
-        params.delete(key)
-      } else {
-        params.set(key, String(value))
-      }
-    })
-
-    params.delete("page")
-
-    router.push(`/products?${params.toString()}`, {
-      scroll: false
-    })
-  }
-
   return {
     form,
     filters,
-    updateParams
   }
 }

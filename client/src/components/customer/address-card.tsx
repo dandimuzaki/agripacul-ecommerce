@@ -4,7 +4,6 @@ import { Address } from '@/types/address';
 import { Check } from 'lucide-react';
 import { Button } from '../ui/button';
 import EditAddressForm from './address-form';
-import { useCheckoutForm } from '@/hooks/checkout/useCheckoutForm';
 import { useDeleteAddress } from '@/hooks/address/useDeleteAddress';
 import { useSetDefaultAddress } from '@/hooks/address/useSetDefaultAddress';
 import { UseFormReturn } from 'react-hook-form';

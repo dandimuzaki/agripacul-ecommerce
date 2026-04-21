@@ -1,8 +1,7 @@
 "use client"
 import { useEffect } from 'react'
 import { Controller } from 'react-hook-form'
-import { Field, FieldLabel } from '../ui/field'
-import { RadioGroup, RadioGroupItem } from '../ui/radio-group'
+import { Field } from '../ui/field'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useOrderFilter } from '@/hooks/order/useOrderFilter'
 import { capitalize } from '@/lib/formatText'
@@ -57,7 +56,7 @@ const OrderStatusDropdown = () => {
             </SelectTrigger>
 
             <SelectContent>
-              {statusOptions.map((s, i) =>
+              {statusOptions.map((s) =>
                 <SelectItem key={s} value={s}>
                   {capitalize(s)}
                 </SelectItem>

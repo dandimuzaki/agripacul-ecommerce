@@ -1,4 +1,4 @@
-import { AdjustStockFormValues, InventoryFormValues } from "@/schemas/inventory.schema"
+import { AdjustStockFormValues } from "@/schemas/inventory.schema"
 import { inventoryService } from "@/services/inventory.service"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { inventoryKeys } from "../queries/inventoryKeys"

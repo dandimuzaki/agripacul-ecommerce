@@ -1,5 +1,5 @@
 "use client"
-import { Dialog, DialogClose, DialogContent, DialogHeader, DialogTitle } from '../ui/dialog';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '../ui/dialog';
 import { CheckCircle } from '@mui/icons-material';
 import { Dispatch, SetStateAction } from 'react';
 import { Button } from '../ui/button';

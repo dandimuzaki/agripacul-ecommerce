@@ -4,10 +4,11 @@ import { useProductFilter } from "@/hooks/product/useProductFilter"
 import { Controller } from "react-hook-form"
 import { Field } from "../ui/field"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select"
-import { useRouter, useSearchParams } from "next/navigation"
+import { useSearchParams } from "next/navigation"
 import { useEffect } from "react"
 import { useCategories } from "@/hooks/category/useCategories"
 import { capitalizeAll } from "@/lib/formatText"
+import { Category } from "@/types/category"
 
 const CategoryFilterDropdown = () => {
   const { form } = useProductFilter()
@@ -55,8 +56,8 @@ const CategoryFilterDropdown = () => {
                 <SelectItem value={"0"}>
                   <span className="font-semibold">All Categories</span>
                 </SelectItem>
-              {categories?.map((s, i) =>
-                <SelectItem key={i} value={String(s.id)}>
+              {categories?.map((s: Category) =>
+                <SelectItem key={s.id} value={String(s.id)}>
                   <span className="font-semibold">{capitalizeAll(s.name)}</span>
                 </SelectItem>
               )}
