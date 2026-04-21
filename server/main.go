@@ -45,6 +45,10 @@ func main() {
 		log.Println(err)
 	}
 
+	paymentSeeder := seeder.NewBankPaymentMethodSeeder(db)
+
+	_ = paymentSeeder.Run()
+
 	route := wire.Wiring(db, rdb, logger, config)
 	cmd.APiserver(route)
 

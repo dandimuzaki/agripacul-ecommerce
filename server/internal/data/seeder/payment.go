@@ -32,6 +32,14 @@ func (s *BankPaymentMethodSeeder) Run() error {
 		{Name: "Retail Payment"},
 	}
 
+	for i := range paymentTypes {
+		// Use Upsert (Create or Update)
+		if err := s.DB.Where(entity.PaymentType{Name: paymentTypes[i].Name}).
+			FirstOrCreate(&paymentTypes[i]).Error; err != nil {
+			return err
+		}
+	}
+
 	var bankTransfer entity.PaymentType
 	var virtualAccount entity.PaymentType
 	var eWallet entity.PaymentType
@@ -51,14 +59,6 @@ func (s *BankPaymentMethodSeeder) Run() error {
 	}
 	if err := s.DB.Where("name = ?", "Retail Payment").First(&retail).Error; err != nil {
 		return err
-	}
-
-	for i := range paymentTypes {
-		// Use Upsert (Create or Update)
-		if err := s.DB.Where(entity.PaymentType{Name: paymentTypes[i].Name}).
-			FirstOrCreate(&paymentTypes[i]).Error; err != nil {
-			return err
-		}
 	}
 
 	var paymentMethods []entity.PaymentMethod
