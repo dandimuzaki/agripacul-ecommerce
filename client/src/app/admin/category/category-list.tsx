@@ -13,7 +13,7 @@ import ConfirmDelete from './confirm-delete';
 import NoRows from '@/components/admin/no-rows';
 
 const CategoryList = () => {
-  const { data: categories, isError, error, isLoading } = useCategories();
+  const { data: categories, isError, error } = useCategories();
 
   const columns: ColumnDef<Category>[] = useMemo(() => [
     {

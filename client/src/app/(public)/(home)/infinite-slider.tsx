@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 const images = [
   "/pakcoy.jpg",
@@ -32,6 +32,7 @@ export default function InfiniteSlider() {
 
         return (
           <img
+            alt="Agripacul Documentation"
             key={i}
             src={img}
             className={`absolute w-full h-full object-cover transition-transform duration-700 ease-in-out ${position}`}

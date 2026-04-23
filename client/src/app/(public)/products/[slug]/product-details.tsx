@@ -116,7 +116,7 @@ const ProductDetails = ({slug}: {slug: string}) => {
                 ? ("Empty Stock")
                 : (<>
                   <Icon icon='mui:add-cart'/>
-                  {"Add to Cart"}
+                  {isPending ? "Adding item..." : "Add to Cart"}
                   </>)}
             </Button>
           </div>

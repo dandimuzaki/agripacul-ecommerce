@@ -7,7 +7,7 @@ import React from 'react'
 
 const ReviewSection = ({productId}: {productId: number}) => {
   const {filters} = useReviewFilter()
-  const {data, isLoading} = useReviewsByProduct(productId, filters)
+  const {data} = useReviewsByProduct(productId, filters)
   const reviews = data?.data
   const pagination = data?.pagination
 
