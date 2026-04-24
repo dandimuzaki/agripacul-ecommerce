@@ -30,6 +30,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import InputTags from "../../../components/input-tags"
 import { useCategories } from "@/hooks/category/useCategories"
 import { Spinner } from "@/components/ui/spinner"
+import { Category } from "@/types/category"
 
 export default function EditProductForm({
   product,
@@ -111,7 +112,7 @@ export default function EditProductForm({
                       </SelectTrigger>
 
                       <SelectContent>
-                        {categories?.data.map((category) => (
+                        {categories?.data.map((category: Category) => (
                           <SelectItem
                             key={category.id}
                             value={category.id.toString()}
