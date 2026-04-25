@@ -3,7 +3,7 @@ import OrderFilter from "./order-filter";
 import OrderHistory from "./order-history";
 import SortOrderDropdown from "@/components/customer/sort-order-dropdown";
 
-export default async function OrderListPage() {
+export default function OrderListPage() {
   return (
     <section className='grid md:grid-cols-[1fr_3fr] gap-y-2 gap-x-8 md:px-8 md:py-8 md:pt-24 p-4 pt-16'>
       <OrderFilter/>
