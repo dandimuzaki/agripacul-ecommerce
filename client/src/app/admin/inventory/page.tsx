@@ -1,6 +1,6 @@
 import { InventoryTabs } from "./inventory-tabs"
 
-const AdminInventoryPage = () => {
+export default function AdminInventoryPage() {
   return (
     <div className='space-y-4'>
       <h2 className='font-bold text-2xl'>Inventory Management</h2>
@@ -8,5 +8,3 @@ const AdminInventoryPage = () => {
     </div>
   )
 }
-
-export default AdminInventoryPage

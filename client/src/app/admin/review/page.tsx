@@ -1,6 +1,6 @@
 import ReviewList from "./review-list"
 
-const AdminReviewPage = () => {
+export default function AdminReviewPage() {
   return (
     <div className='space-y-2'>
       <h2 className='font-bold text-2xl'>Review Management</h2>
@@ -8,5 +8,3 @@ const AdminReviewPage = () => {
     </div>
   )
 }
-
-export default AdminReviewPage

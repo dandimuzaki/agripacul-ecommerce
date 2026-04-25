@@ -1,11 +1,9 @@
 import CategoryList from './category-list';
 
-const AdminCategoryPage = () => {
+export default function AdminCategoryPage() {
   return (
     <>
       <CategoryList/>
     </>
   )
 }
-
-export default AdminCategoryPage

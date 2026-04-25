@@ -1,11 +1,9 @@
 import LoginCustomer from './login-section';
 
-const LoginCustomerPage = () => {
+export default function LoginCustomerPage() {
   return (
     <>
       <LoginCustomer/>
     </>
   )
 }
-
-export default LoginCustomerPage

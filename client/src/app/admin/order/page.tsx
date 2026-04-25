@@ -1,6 +1,6 @@
 import { OrderTabs } from './order-tabs';
 
-const AdminOrderPage = () => {
+export default function AdminOrderPage() {
   return (
     <div className='space-y-2'>
       <h2 className='font-bold text-2xl'>Order Management</h2>
@@ -8,5 +8,3 @@ const AdminOrderPage = () => {
     </div>
   )
 }
-
-export default AdminOrderPage

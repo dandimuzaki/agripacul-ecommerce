@@ -1,11 +1,9 @@
 import RegisterCustomer from './register-form';
 
-const RegisterCustomerPage = () => {
+export default function RegisterCustomerPage() {
   return (
     <>
       <RegisterCustomer/>
     </>
   )
 }
-
-export default RegisterCustomerPage

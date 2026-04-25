@@ -1,11 +1,9 @@
 import AddCategoryForm from './add-category-form'
 
-const AddCategoryPage = () => {
+export default function AddCategoryPage() {
   return (
     <>
       <AddCategoryForm/>
     </>
   )
 }
-
-export default AddCategoryPage
