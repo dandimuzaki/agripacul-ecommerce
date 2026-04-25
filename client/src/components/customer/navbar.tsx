@@ -1,22 +1,19 @@
 'use client';
 
-import React, { useEffect, useState } from 'react'
-import { InputGroup, InputGroupInput } from '@/components/ui/input-group'
-import { Menu, SearchIcon, X } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { Menu, X } from 'lucide-react'
 import Image from 'next/image'
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { Button } from '../ui/button';
 import CartButton from '../common/cart-button';
 import { useProfile } from '@/hooks/profile/useProfile';
 import { CustomerMenu } from './customer-menu';
 import { AnimatePresence, motion } from 'framer-motion';
+import SearchInput from './search-navbar';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [keyword, setKeyword] = useState("");
-  const searchParams = useSearchParams();
-  const router = useRouter()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,12 +27,6 @@ const Navbar = () => {
 
   const pathname = usePathname()
   const isHome = pathname === '/'
-
-  const onSubmit = (keyword: string) => {
-    const params = new URLSearchParams(searchParams.toString())    
-    params.set("search", keyword)
-    router.push(`/products?${params.toString()}`)
-  }
 
   const { data: profile } = useProfile()
 
@@ -94,17 +85,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop */}
-      <InputGroup className={`${!isHome ? 'max-w-lg' : scrolled ? 'max-w-lg' : 'w-0'} hidden md:flex rounded-full bg-white border-0 overflow-hidden`}>
-        <InputGroupInput
-          className='h-4'
-          placeholder="Search products..."
-          value={keyword}
-          onChange={(e) => setKeyword(e.target.value)}
-        />
-        <Button variant="searchIcon" type='button' className='bg-white' onClick={() => onSubmit(keyword)}>
-          <SearchIcon/>
-        </Button>
-      </InputGroup>
+      <SearchInput isHome={isHome} scrolled={scrolled}/>
       <div className='hidden md:flex justify-end gap-2 items-center w-full'>
         {profile && <div className='flex items-center gap-2'>
           <CartButton isHome={isHome} isOpen={isOpen} scrolled={scrolled}/>
