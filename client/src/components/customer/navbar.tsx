@@ -12,7 +12,7 @@ import { CustomerMenu } from './customer-menu';
 import { AnimatePresence, motion } from 'framer-motion';
 import SearchInput from './search-navbar';
 
-const Navbar = () => {
+export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -154,5 +154,3 @@ const Navbar = () => {
     </nav>
   );
 }
-
-export default Navbar
