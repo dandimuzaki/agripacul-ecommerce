@@ -71,7 +71,7 @@ const ProductDetails = ({slug}: {slug: string}) => {
       <Link href={"/products"} className="flex items-center"><ArrowBackIos fontSize="inherit"/>Back</Link>
       <div className='md:flex items-start md:gap-6 space-y-4'>
         <div className=''>
-          <ProductGallery/>
+          <ProductGallery images={product.images.map((img) => img.image_url)}/>
         </div>
         <div className='flex-1 w-full h-full'>
           <div className='md:space-y-1'>

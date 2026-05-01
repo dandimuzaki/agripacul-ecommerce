@@ -38,7 +38,7 @@ const ProductList = () => {
       cell: ({ row }) => (
         <div className='flex justify-center items-center'>
           <Image
-            src={"/cherry-tomato.png"}
+            src={row.original.main_image_url ?? "/loading.png"}
             alt={row.original?.name}
             width={100}
             height={100}

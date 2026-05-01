@@ -3,13 +3,11 @@
 import { useState } from "react"
 import Image from "next/image"
 
-export default function ProductGallery() {
-  const images = [
-    "/cherry-tomato.png",
-    "/garden.jpg",
-    "/pakcoy.jpg",
-    "/kimchi.jpg"
-  ]
+export default function ProductGallery({images}: {images: string[]}) {
+
+  if (images.length <= 0) {
+    images.push("/loading.png")
+  }
 
   const [selectedImage, setSelectedImage] = useState(images[0])
 

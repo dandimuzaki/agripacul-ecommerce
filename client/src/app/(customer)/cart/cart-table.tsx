@@ -73,7 +73,7 @@ const CartTable = () => {
       cell: ({ row }) => (
         <div className='flex items-center gap-2'>
           <div className='w-16 h-16 flex'>
-            <Image className='object-cover w-full h-full rounded-md' src={"/cherry-tomato.png"} alt={row.original.product.name} width={100} height={100} />
+            <Image className='object-cover w-full h-full rounded-md' src={row.original.product.main_image_url ?? "/loading.png"} alt={row.original.product.name} width={100} height={100} />
           </div>
           <div className='text-left'>
             <p className=''>{row.original.product.name}</p>

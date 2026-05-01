@@ -7,7 +7,7 @@ const CheckoutItem = ({item}: {item: item}) => {
     <div className="flex gap-2">
       <Image 
         className="w-16 h-16 object-cover aspect-square rounded"
-        src={"/cherry-tomato.png"} alt={item.product.name} width={100} height={100}/>
+        src={item.product.main_image_url ?? "/loading.png"} alt={item.product.name} width={100} height={100}/>
       <div className="grid grid-cols-[5fr_2fr] flex-1">
         <div className="space-y-2">
           <p className="font-medium">{item.product.name}</p>

@@ -7,7 +7,7 @@ const OrderItem = ({item}: {item: item}) => {
     <div className="flex gap-2">
       <Image 
         className="w-15 h-15 object-cover aspect-square rounded"
-        src={"/cherry-tomato.png"} alt={item.name} width={100} height={100}/>
+        src={item.main_image_url ?? "/loading.png"} alt={item.name} width={100} height={100}/>
       <div className="grid grid-cols-[5fr_2fr] flex-1">
         <p className="font-medium">{item.name}</p>
         <div className="text-right">{item.quantity} x {formatRupiah(item.price)}</div>

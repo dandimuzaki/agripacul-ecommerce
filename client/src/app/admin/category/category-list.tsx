@@ -27,7 +27,7 @@ const CategoryList = () => {
       cell: ({ row }) => (
         <div className='flex justify-center items-center'>
           <Image
-            src={"/cherry-tomato.png"}
+            src={row.original?.icon_url ?? "/loading.png"}
             alt={row.original?.name}
             width={100}
             height={100}

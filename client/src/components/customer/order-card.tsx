@@ -25,8 +25,7 @@ const OrderCard = ({ order }: {order: OrderSummary}) => {
           <div className='row-span-2 h-24 w-24 overflow-hidden rounded-md'>
             {order.first_item?.main_image_url
               ? <Image 
-                  src={"/cherry-tomato.png"}
-                  // src={order.first_item.main_image_url} 
+                  src={order.first_item.main_image_url ?? "/loading.png"} 
                   className='aspect-square object-cover'
                   width={100} height={100}
                   alt={order.first_item.name}

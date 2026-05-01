@@ -12,7 +12,7 @@ const ProductCard = ({product}: {product: ProductSummary}) => {
         <Link href={`/products/${product.slug}`} className='flex flex-col justify-between gap-2 h-full'>
           <div className='grid'>
             <div className='aspect-square bg-gray-100 mb-2 '>
-              <Image src={"/cherry-tomato.png"} alt={product.name} height={100} width={100} className='h-full w-full object-cover rounded-lg' />
+              <Image src={product.main_image_url ?? "/loading.png"} alt={product.name} height={100} width={100} className='h-full w-full object-cover rounded-lg' />
             </div>
             <div className='flex justify-between items-center'>
               <p className='text-xs text-gray-500'>{product.category.name}</p>
@@ -27,10 +27,9 @@ const ProductCard = ({product}: {product: ProductSummary}) => {
             <div>
               <p className='font-bold text-base md:text-lg'>{formatRupiah(product.min_price)}</p>
             </div>
-            <button className='bg-primary rounded-lg text-white p-1 md:p-2 flex items-center gap-1'>
+            {/* <button className='bg-primary rounded-lg text-white p-1 md:p-2 flex items-center gap-1'>
               <Icon icon='mui:add-cart' fontSize="inherit"/>
-              {/* <span>Add</span> */}
-            </button>
+            </button> */}
           </div>
         </Link>
     </div>
