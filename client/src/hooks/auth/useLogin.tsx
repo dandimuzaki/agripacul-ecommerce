@@ -25,7 +25,7 @@ export default function useLogin() {
         queryClient.setQueryData(authKeys.all, res.data.user)
       
       if (res.data.user.role === "admin") {
-        router.push("/")
+        router.push("/admin/product")
       } else {
         router.push("/")
       }

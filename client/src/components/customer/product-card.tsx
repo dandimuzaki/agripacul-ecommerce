@@ -11,7 +11,7 @@ const ProductCard = ({product}: {product: ProductSummary}) => {
     <div className='h-full'>
         <Link href={`/products/${product.slug}`} className='flex flex-col justify-between gap-2 h-full'>
           <div className='grid'>
-            <div className='aspect-square bg-gray-100 mb-2 '>
+            <div className='aspect-square bg-gray-200 mb-2 '>
               <Image src={product.main_image_url ?? "/loading.png"} alt={product.name} height={100} width={100} className='h-full w-full object-cover rounded-lg' />
             </div>
             <div className='flex justify-between items-center'>

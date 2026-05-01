@@ -14,6 +14,7 @@ const UpdateProductSection = ({id}: {id:number}) => {
   const { mutate, isPending } = useUpdateProduct()
   
   const onUpdateProduct = (data: ProductFormValues) => {
+    console.log(data)
     mutate({
       id,
       payload: data

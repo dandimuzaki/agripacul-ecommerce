@@ -44,12 +44,7 @@ export default function EditProductForm({
   const { data: categories } = useCategories()
 
   const form = useForm<ProductFormValues>({
-    resolver: zodResolver(productSchema),
-    defaultValues: {
-      name: "",
-      description: "",
-      category_id: undefined,
-    },
+    resolver: zodResolver(productSchema)
   })
 
   const normalizeProductInformation = (product: ProductDetails): ProductFormValues => {
@@ -108,7 +103,7 @@ export default function EditProductForm({
                       onValueChange={(value) => field.onChange(Number(value))}
                     >
                       <SelectTrigger aria-invalid={fieldState.invalid}>
-                        <SelectValue placeholder="Select category" />
+                        <SelectValue placeholder="Select category" defaultValue={product.category.id} />
                       </SelectTrigger>
 
                       <SelectContent>
