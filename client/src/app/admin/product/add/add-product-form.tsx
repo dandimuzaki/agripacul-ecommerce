@@ -36,17 +36,8 @@ import { Category } from "@/types/category"
 export default function AddProductForm() {
   const { data: categories } = useCategories()
 
-  const values: ProductFormValues = {
-    name: "",
-    description: "",
-    category_id: undefined,
-    tags: [],
-    variants: []
-  }
-
   const form = useForm<ProductFormValues>({
     resolver: zodResolver(productSchema),
-    defaultValues: values,
   })
 
   const { mutate, isPending } = useCreateProduct()

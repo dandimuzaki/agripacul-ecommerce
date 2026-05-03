@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import Image from "next/image"
 
 export default function ProductGallery({images}: {images: string[]}) {
 
@@ -12,20 +11,19 @@ export default function ProductGallery({images}: {images: string[]}) {
   const [selectedImage, setSelectedImage] = useState(images[0])
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex gap-4">
       
       {/* Main Image */}
-      <div className="w-full h-full relative border aspect-square rounded-xl overflow-hidden">
-        <Image
+      <div className="order-2 w-full h-full relative border aspect-square rounded-xl overflow-hidden">
+        <img
           src={selectedImage}
           alt="Product Image"
-          fill
           className="object-cover aspect-square w-full"
         />
       </div>
 
       {/* Thumbnails */}
-      <div className="flex gap-3">
+      <div className="order-1 flex flex-col gap-3">
         {images.map((img, index) => (
           <div
             key={index}
@@ -33,11 +31,10 @@ export default function ProductGallery({images}: {images: string[]}) {
               ${selectedImage === img ? "border-green-500" : "border-gray-300"}`}
             onClick={() => setSelectedImage(img)}
           >
-            <Image
+            <img
               src={img}
               alt="Thumbnail"
-              fill
-              className={`object-cover ${selectedImage === img ? "" : "filter brightness-60"}`}
+              className={`object-cover w-full h-full ${selectedImage === img ? "" : "filter brightness-60"}`}
             />
           </div>
         ))}

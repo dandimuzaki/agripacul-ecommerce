@@ -37,7 +37,7 @@ const ProductList = () => {
       accessorKey: 'image',
       cell: ({ row }) => (
         <div className='flex justify-center items-center'>
-          <Image
+          <img
             src={row.original.main_image_url ?? "/loading.png"}
             alt={row.original?.name}
             width={100}

@@ -26,7 +26,7 @@ const CategoryList = () => {
       accessorKey: 'icon_url',
       cell: ({ row }) => (
         <div className='flex justify-center items-center'>
-          <Image
+          <img
             src={row.original?.icon_url ?? "/loading.png"}
             alt={row.original?.name}
             width={100}

@@ -31,6 +31,8 @@ import InputTags from "../../../components/input-tags"
 import { useCategories } from "@/hooks/category/useCategories"
 import { Spinner } from "@/components/ui/spinner"
 import { Category } from "@/types/category"
+import BackNavigation from "@/components/common/back-navigation"
+import { Skeleton } from "@/components/ui/skeleton"
 
 export default function EditProductForm({
   product,
@@ -41,10 +43,16 @@ export default function EditProductForm({
   onUpdateProduct: (data: ProductFormValues) => void,
   isPending: boolean
 }) {
-  const { data: categories } = useCategories()
+  const { data: categories, isLoading } = useCategories()
 
   const form = useForm<ProductFormValues>({
-    resolver: zodResolver(productSchema)
+    resolver: zodResolver(productSchema),
+    defaultValues: {
+      name: product.name,
+      category_id: product.category.id,
+      description: product.description,
+      tags: product.tags,
+    }
   })
 
   const normalizeProductInformation = (product: ProductDetails): ProductFormValues => {
@@ -58,13 +66,14 @@ export default function EditProductForm({
   };
 
   useEffect(() => {
-    if (!product || categories?.data.length === 0) return;
-
-    form.reset(normalizeProductInformation(product));
-  }, [product, categories, form]);
+    if (product && !isLoading && categories?.data?.length) {
+      form.reset(normalizeProductInformation(product))
+    };
+  }, [product, isLoading, categories, form]);
 
   return (
     <div className="space-y-2">
+      <BackNavigation link="/admin/product"/>
       <h2 className="text-xl font-bold">Edit Product Data</h2>
       <Card className="w-full">
         <CardContent className="space-y-4">
@@ -91,19 +100,19 @@ export default function EditProductForm({
                   </Field>
                 )}
               />
-              <Controller
+              {isLoading ? <Skeleton className="w-1/2 h-8"/> : <Controller
                 name="category_id"
                 control={form.control}
                 render={({ field, fieldState }) => (
-                  <Field data-invalid={fieldState.invalid}>
+                  <Field data-invalid={fieldState.invalid} className="lg:w-1/2">
                     <FieldLabel>Category</FieldLabel>
 
                     <Select
-                      value={field.value?.toString()}
+                      value={field.value ? String(field.value) : undefined}
                       onValueChange={(value) => field.onChange(Number(value))}
                     >
                       <SelectTrigger aria-invalid={fieldState.invalid}>
-                        <SelectValue placeholder="Select category" defaultValue={product.category.id} />
+                        <SelectValue placeholder="Select category" />
                       </SelectTrigger>
 
                       <SelectContent>
@@ -123,7 +132,7 @@ export default function EditProductForm({
                     )}
                   </Field>
                 )}
-              />
+              />}
 
               <InputTags form={form} />
               
@@ -168,7 +177,7 @@ export default function EditProductForm({
             <Button type="button" className="bg-gray-200 text-black hover:bg-gray-300 hover:text-black" onClick={() => form.reset()}>
               Reset
             </Button>
-            <Button className="text-white hover:text-white" type="submit" form="form-rhf-demo">
+            <Button className="text-white hover:text-white" type="submit" form="edit-product">
               {isPending ? <><Spinner/>Saving...</> : <>Save Product Updates</>}
             </Button>
           </Field>

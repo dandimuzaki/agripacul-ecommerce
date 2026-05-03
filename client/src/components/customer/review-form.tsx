@@ -60,7 +60,7 @@ const ReviewForm = ({id}: {id: number}) => {
             {order?.items?.map((item, i) => (
               <div key={item.sku_id} className='space-y-2 bg-white p-4 rounded-lg'>
                 <div className='flex gap-2 items-center'>
-                  <Image className='h-8 w-8 rounded' src={item.main_image_url ?? "/loading.png"} alt={item.name} height={100} width={100}/>
+                  <img className='h-8 w-8 rounded' src={item.main_image_url ?? "/loading.png"} alt={item.name} height={100} width={100}/>
                   <p className='truncate w-full'>{item.name}</p>
                 </div>
                 <RatingForm index={i} form={form}/>

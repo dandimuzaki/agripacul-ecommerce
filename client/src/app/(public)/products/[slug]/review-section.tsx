@@ -16,7 +16,7 @@ const ReviewSection = ({productId}: {productId: number}) => {
   }
 
   return (
-    <section className="p-16 space-y-4">
+    <section className="p-4 md:p-8 space-y-2 md:space-y-4">
       <h3 className='font-semibold text-xl'>Customer Reviews</h3>
       <div className='grid grid-cols-2 gap-4'>
         {reviews.map((r: Review) => (

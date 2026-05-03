@@ -67,9 +67,9 @@ const ProductDetails = ({slug}: {slug: string}) => {
 
   return (
     <>
-    <section className='min-h-screen px-4 pt-16 pb-4 md:pt-32 md:pb-16 md:px-16 space-y-2 md:space-y-4'>
+    <section className='min-h-screen px-4 pt-16 pb-4 md:pt-24 md:pb-8 md:px-8 space-y-2 md:space-y-4'>
       <Link href={"/products"} className="flex items-center"><ArrowBackIos fontSize="inherit"/>Back</Link>
-      <div className='md:flex items-start md:gap-6 space-y-4'>
+      <div className='md:grid grid-cols-[3fr_4fr] items-start md:gap-6 space-y-4'>
         <div className=''>
           <ProductGallery images={product.images.map((img) => img.image_url)}/>
         </div>
@@ -124,7 +124,7 @@ const ProductDetails = ({slug}: {slug: string}) => {
       </div>
     </section>
     <ReviewSection productId={product.id}/>
-    {products && <section className="p-8 md:p-16 space-y-2 md:space-y-4 bg-white">
+    {products && <section className="p-4 md:p-8 space-y-2 md:space-y-4 bg-white">
       <div className="md:flex justify-between items-center">
         <h2 className="text-xl md:text-2xl text-primary font-semibold uppercase">Recommended Products</h2>
         <Button className='hidden md:flex'>See More</Button>

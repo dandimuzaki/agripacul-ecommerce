@@ -15,7 +15,7 @@ const PaymentMethodList = () => {
   return (
     <Card>
       <CardHeader>
-        <CardTitle onClick={() => console.log(payment)} className='text-primary font-medium text-lg uppercase'>
+        <CardTitle className='text-primary font-medium text-lg uppercase'>
           Payment Method
         </CardTitle>
       </CardHeader>
@@ -28,7 +28,6 @@ const PaymentMethodList = () => {
               <RadioGroup
                 value={field.value?.toString()}
                 onValueChange={(value) => {
-                  console.log(value)
                   field.onChange(Number(value))
                 }}
               >
@@ -50,7 +49,7 @@ const PaymentMethodList = () => {
                           </div>
                           {payment.name}
                           </div>
-                        <RadioGroupItem onClick={() => console.log(String(payment.id))} value={String(payment.id)} id={String(payment.id)} />
+                        <RadioGroupItem value={String(payment.id)} id={String(payment.id)} />
                         </label>
                       </div>
                     ))}

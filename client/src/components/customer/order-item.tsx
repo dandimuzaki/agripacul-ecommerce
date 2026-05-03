@@ -5,7 +5,7 @@ import Image from "next/image"
 const OrderItem = ({item}: {item: item}) => {
   return (
     <div className="flex gap-2">
-      <Image 
+      <img 
         className="w-15 h-15 object-cover aspect-square rounded"
         src={item.main_image_url ?? "/loading.png"} alt={item.name} width={100} height={100}/>
       <div className="grid grid-cols-[5fr_2fr] flex-1">

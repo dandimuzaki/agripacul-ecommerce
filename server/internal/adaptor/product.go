@@ -309,11 +309,13 @@ func (h *ProductHandler) GetSKUsByProductID(c *gin.Context) {
 	id, err := utils.GetUintParam(c, "id")
 	if err != nil {
 		utils.ResponseFailed(c, http.StatusBadRequest, "invalid product id", err)
+		h.log.Error("Failed to get product id", zap.Error(err))
 		return
 	}
 	result, err := h.service.GetSKUsByProductID(c, uint(id))
 	if err == utils.ErrProductNotFound {
-		utils.ResponseFailed(c, http.StatusNotFound, "sku not found", err)
+		utils.ResponseFailed(c, http.StatusNotFound, "SKU not found", err)
+		h.log.Error("Failed to get SKU", zap.Error(err))
 		return
 	}
 	if err != nil {

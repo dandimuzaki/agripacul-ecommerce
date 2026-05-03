@@ -12,12 +12,12 @@ export type EditProductFormValues = z.infer<typeof editProductSchema>;
 export const productSchema = z.object({
   name: z.string().min(3, "Name is required"),
   description: z.string().min(10).optional(),
-  category_id: z.coerce.number(),
+  category_id: z.number(),
   tags: z.array(z.string().min(1)),
   variants: z.array(variantTypeSchema)
 });
 
-export type ProductFormValues = z.input<typeof productSchema>;
+export type ProductFormValues = z.infer<typeof productSchema>;
 
 const MAX_FILE_SIZE = 2 * 1024 * 1024; // 2MB
 const ACCEPTED_IMAGE_TYPES = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
