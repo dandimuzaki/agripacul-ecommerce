@@ -79,7 +79,7 @@ export default function Navbar() {
       <div className='w-36 md:w-fit'>
         <div className='md:h-8 w-full'>
           <Link href="/" className='w-full'>
-            <Image src={!isHome ? "/logo.png" : isOpen ? "/logo.png" : scrolled ? "/logo.png" : "/logo-colored.png"} height={100} width={100} alt='logo Agripacul' className={`${!isHome ? 'md:h-8' : scrolled ? 'md:h-8' : 'md:h-12'} object-cover h-full w-full`} />
+            <Image src={"/logo.png"} height={100} width={100} alt='logo Agripacul' className={`h-8 object-cover h-full w-full`} />
           </Link>
         </div>
       </div>
@@ -95,10 +95,10 @@ export default function Navbar() {
           </>}
           {!profile && <>
           <Link href="/login">
-            <Button variant="outline" className={`${!isHome ? 'border-white text-white' : scrolled ? 'border-white text-white' : ''} bg-transparent hover:bg-primary-foreground hover:border-primary-foreground border `}>Login</Button>
+            <Button variant="outline" className={`border-white text-white bg-transparent hover:bg-primary-foreground hover:border-primary-foreground border `}>Login</Button>
           </Link>
           <Link href="/register">
-            <Button className={`${!isHome ? 'bg-white text-primary hover:text-white' : scrolled ? 'bg-white text-primary hover:text-white' : 'bg-primary text-white'} hover:bg-primary-foreground`}>Sign Up</Button>
+            <Button className={`bg-white text-primary hover:text-white hover:bg-primary-foreground`}>Sign Up</Button>
           </Link>
           </>}
       </div>

@@ -15,14 +15,14 @@ import Tags from "./tags";
 export default function Home() {
   return (
       <main className="min-h-screen">
-        <section className="grid lg:grid-cols-2 gap-2 lg:gap-6 lg:h-screen">
-
-          <div className="w-full order-2 lg:order-1 text-center lg:text-left gap-4 z-3 relative h-full w-full px-4 lg:px-16 flex flex-col justify-center items-center lg:items-start py-4 lg:py-16">
-              <h1 className="text-3xl md:text-5xl text-primary font-bold uppercase">
+        <section className="relative z-5 grid lg:grid-cols-2 gap-2 lg:gap-6 lg:h-screen bg-primary overflow-hidden">
+          <img src="/bgveg.png" className="absolute bottom-[-30px] z-2"/>
+          <div className="w-full order-2 lg:order-1 text-center gap-4 z-3 relative h-full w-full px-4 lg:px-16 flex flex-col justify-center items-center py-4 lg:py-16">
+              <h1 className="text-3xl md:text-5xl text-white font-bold uppercase">
                 From our farms <br/>To your table 
               </h1>
               <span className="text-base/5 md:text-lg/6">
-                Discover responsibly grown produce and gardening essentials. Everything you need to cook well and grow your own.
+                Explore sustainably grown produce and high-quality gardening essentials in one place. Everything you need to cook well and grow your own.
               </span>
               <InputGroup className={`p-2 rounded-full bg-white border-0 overflow-hidden`}>
                 <CategoryFilterDropdown/>
@@ -36,22 +36,22 @@ export default function Home() {
                 </Button>
               </InputGroup>
               <Tags/>
-              <div className="flex gap-2 md:gap-4 text-white items-center justify-center md:justify-start">
+              {/* <div className="flex gap-2 md:gap-4 text-white items-center justify-center md:justify-start">
                 <Link href={"/products"}>
                   <Button className="md:text-base font-semibold md:py-5 md:px-5">Shop Now</Button>
                 </Link>
                 <Link href={"/about-us"}>
                   <Button className="md:text-base border-3 font-semibold md:py-4 md:px-4" variant={"outline"}>Book a Visit</Button>
                 </Link>
-              </div>
+              </div> */}
           </div>
 
-          <div className="order-1 lg:order-2 pt-16 px-4 lg:py-20 lg:pr-16 h-72 lg:h-full">
+          <div className="z-5 order-1 lg:order-2 pt-16 px-4 lg:py-20 lg:pr-16 h-72 lg:h-full">
             <InfiniteSlider/>
           </div>
           
         </section>
-        <section className="p-4 md:p-16 flex flex-col items-center bg-white">
+        <section className="p-4 md:p-16 flex flex-col items-center">
           <SectionBadge text="What We Provide"/>
           <h2 className="mb-3 md:mb-5 text-2xl/7 md:text-4xl text-primary font-semibold text-center">Everything You Need<br/>to Eat Fresh & Grow More</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-[3fr_3fr_4fr] lg:grid-rows-8 lg:gap-4 gap-2 lg:items-end lg:h-160 w-full">

@@ -21,10 +21,11 @@ export default function Tags() {
   ]
 
   return (
-    <div className="w-full">
-    <div className="flex overflow-x-auto no-scrollbar gap-2 lg:flex-wrap text-xs md:text-sm items-center">
+    <div className="w-full lg:pt-2 text-white">
+    <div className="flex overflow-x-auto no-scrollbar gap-2 lg:flex-wrap text-xs md:text-sm items-center justify-center">
       <p className="font-bold pr-2">Popular: </p>
-      {tags.map((t) => <div key={t.name} className="cursor-pointer hover:text-primary hover:border-primary border-gray-400 px-1 py-[2px] md:px-3 md:py-1 rounded-full border">{t.name}</div>)}
+      {/* {tags.map((t) => <div key={t.name} className="cursor-pointer hover:text-primary hover:border-primary border-gray-400 px-1 py-[2px] md:px-3 md:py-1 rounded-full border">{t.name}</div>)} */}
+      {tags.map((t) => <div key={t.name} className="cursor-pointer hover:text-primary-dark hover:border-primary-dark border-white px-1 py-[2px] md:px-3 md:py-1 rounded-full border">{t.name}</div>)}
     </div>
     </div>
   )

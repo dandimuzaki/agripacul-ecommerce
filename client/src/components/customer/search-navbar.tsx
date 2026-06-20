@@ -18,7 +18,13 @@ export default function SearchInput({isHome, scrolled}: {isHome: boolean, scroll
   }
 
   return (
-    <InputGroup className={`${!isHome ? 'max-w-lg' : scrolled ? 'max-w-lg' : 'w-0'} hidden md:flex rounded-full bg-white border-0 overflow-hidden`}>
+    <>
+    <ul className={`${isHome && !scrolled ? 'flex items-center justify-center gap-4 text-white text-lg font-bold' : 'hidden'}`}>
+      <li><a href={"/"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">Home</a></li>
+      <li><a href={"/products"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">Shop</a></li>
+      <li><a href={"/about-us"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">About Us</a></li>
+    </ul>
+    <InputGroup className={`${!isHome ? 'md:flex max-w-lg' : scrolled ? 'md:flex max-w-lg' : 'hidden'} hidden rounded-full bg-white border-0 overflow-hidden`}>
       <InputGroupInput
         className='h-4'
         placeholder="Search products..."
@@ -29,5 +35,6 @@ export default function SearchInput({isHome, scrolled}: {isHome: boolean, scroll
         <SearchIcon/>
       </Button>
     </InputGroup>
+    </>
   )
 }
