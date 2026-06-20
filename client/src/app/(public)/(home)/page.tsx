@@ -11,6 +11,7 @@ import { SearchIcon } from "lucide-react";
 import Link from "next/link";
 import InfiniteSlider from "./infinite-slider";
 import Tags from "./tags";
+import SearchHero from "@/components/customer/search-hero";
 
 export default function Home() {
   return (
@@ -24,17 +25,7 @@ export default function Home() {
               <span className="text-base/5 md:text-lg/6">
                 Explore sustainably grown produce and high-quality gardening essentials in one place. Everything you need to cook well and grow your own.
               </span>
-              <InputGroup className={`p-2 rounded-full bg-white border-0 overflow-hidden`}>
-                <CategoryFilterDropdown/>
-                <InputGroupInput
-                  placeholder="Search products..."
-                  // value={keyword}
-                  // onChange={(e) => setKeyword(e.target.value)}
-                />
-                <Button variant="searchIcon" type='button'>
-                  <SearchIcon/>
-                </Button>
-              </InputGroup>
+              <SearchHero/>
               <Tags/>
               {/* <div className="flex gap-2 md:gap-4 text-white items-center justify-center md:justify-start">
                 <Link href={"/products"}>
