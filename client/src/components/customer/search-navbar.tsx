@@ -19,22 +19,29 @@ export default function SearchInput({isHome, scrolled}: {isHome: boolean, scroll
 
   return (
     <>
-    <ul className={`${isHome && !scrolled ? 'flex items-center justify-center gap-4 text-white text-lg font-bold' : 'hidden'}`}>
-      <li><a href={"/"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">Home</a></li>
-      <li><a href={"/products"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">Shop</a></li>
-      <li><a href={"/about-us"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">About Us</a></li>
-    </ul>
-    <InputGroup className={`${!isHome ? 'md:flex max-w-lg' : scrolled ? 'md:flex max-w-lg' : 'hidden'} hidden rounded-full bg-white border-0 overflow-hidden`}>
-      <InputGroupInput
-        className='h-4'
-        placeholder="Search products..."
-        value={keyword}
-        onChange={(e) => setKeyword(e.target.value)}
-      />
-      <Button variant="searchIcon" type='button' className='bg-white' onClick={() => onSubmit(keyword)}>
-        <SearchIcon/>
-      </Button>
-    </InputGroup>
+      <ul className={`${isHome && !scrolled ? 'flex items-center justify-center gap-4 text-white text-lg font-bold' : 'hidden'}`}>
+        <li><a href={"/"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">Home</a></li>
+        <li><a href={"/products"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">Shop</a></li>
+        <li><a href={"/about-us"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">About Us</a></li>
+      </ul>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          onSubmit(keyword);
+        }}
+      >
+        <InputGroup className={`${!isHome ? 'md:flex max-w-lg' : scrolled ? 'md:flex max-w-lg' : 'hidden'} hidden rounded-full bg-white border-0 overflow-hidden`}>
+          <InputGroupInput
+            className='h-4'
+            placeholder="Search products..."
+            value={keyword}
+            onChange={(e) => setKeyword(e.target.value)}
+          />
+          <Button variant="searchIcon" type='button' className='bg-white' onClick={() => onSubmit(keyword)}>
+            <SearchIcon/>
+          </Button>
+        </InputGroup>
+      </form>
     </>
   )
 }
