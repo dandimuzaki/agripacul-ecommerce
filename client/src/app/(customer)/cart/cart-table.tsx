@@ -75,8 +75,11 @@ const CartTable = () => {
           <div className='w-16 h-16 flex'>
             <img className='object-cover w-full h-full rounded-md' src={row.original.product.main_image_url ?? "/loading.png"} alt={row.original.product.name} width={100} height={100} />
           </div>
-          <div className='text-left'>
+          <div className='text-left space-y-1'>
             <p className=''>{row.original.product.name}</p>
+            <div className="flex flex-wrap gap-2">
+              {row.original.variants.map((v, index) => (<p className="bg-gray-200 px-2 py-1 text-xs w-fit h-fit rounded" key={index}>{v.name} : {v.value}</p>))}
+            </div>
             <p className='font-medium'>{formatRupiah(row.original.price.unit_price)}</p>
             <div className='mt-2 md:mt-0 md:hidden grid gap-2 md:gap-4 text-center md:justify-center'>
               {
@@ -111,7 +114,7 @@ const CartTable = () => {
         </div>
       ),
       footer: () => (
-        <p className="hidden md:block text-left px-1 font-medium">Select All</p>
+        <p className="hidden md:block text-left px-1 font-bold">Select All</p>
       )
     },
     {
@@ -149,7 +152,7 @@ const CartTable = () => {
         </div>
       ),
       footer: () => (
-        <div className="hidden md:block w-full text-center font-medium">
+        <div className="hidden md:block w-full text-center font-bold">
           Total Cart
         </div>
       )
@@ -160,7 +163,7 @@ const CartTable = () => {
       cell: ({ row }) =>
         (<p className='hidden md:block text-lg '>{formatRupiah(row.original.subtotal)}</p>),
       footer: () => (
-        <p className="hidden md:block font-medium text-lg">{formatRupiah(cart?.summary.total_price as number)}</p>
+        <p className="hidden md:block font-bold text-lg">{formatRupiah(cart?.summary.total_price as number)}</p>
       )
     },
     {

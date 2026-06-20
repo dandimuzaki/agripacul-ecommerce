@@ -88,7 +88,7 @@ export default function Navbar() {
       <SearchInput isHome={isHome} scrolled={scrolled}/>
       <div className='hidden md:flex justify-end gap-2 items-center w-full'>
         {profile && <div className='flex items-center gap-2'>
-          <CartButton isHome={isHome} isOpen={isOpen} scrolled={scrolled}/>
+          <CartButton/>
         </div>}
           {profile && <>
             <CustomerMenu color={isHome && !scrolled} profile={profile}/>

@@ -25,7 +25,7 @@ const menu = [
   },
 ]
 
-export function CustomerMenu({profile, color}: {profile: Profile, color: boolean}) {
+export function CustomerMenu({profile}: {profile: Profile}) {
   const {mutate: onLogout} = useLogout()
 
   return (
@@ -35,7 +35,7 @@ export function CustomerMenu({profile, color}: {profile: Profile, color: boolean
           <NavigationMenuTrigger className="bg-transparent hover:bg-primary-foreground active:bg-primary-foreground rounded-lg">
             <div className="flex gap-2 items-center">
               <img src={profile?.profile_image_url ?? "/profile.png"} alt={profile?.full_name ?? "profile"} height={100} width={100} className="w-8 h-8 rounded-full"/>
-              <p className={`${color ? "text-primary" : "text-white"} hover:text-white`}>Hi, {profile?.full_name?.split(' ')[0]}</p>
+              <p className={`text-white hover:text-white`}>Hi, {profile?.full_name?.split(' ')[0]}</p>
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>

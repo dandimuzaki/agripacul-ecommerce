@@ -10,6 +10,7 @@ import { RegisterFormValues, registerSchema } from '@/schemas/auth.schema';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Eye, EyeOff } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react'
 import { useForm } from 'react-hook-form';
 
@@ -85,12 +86,6 @@ const RegisterCustomer = () => {
               <div className="grid gap-2">
                 <div className="flex items-center">
                   <Label htmlFor="password">Password</Label>
-                  <a
-                    href="#"
-                    className="ml-auto inline-block text-sm underline-offset-4 hover:underline"
-                  >
-                    Forgot your password?
-                  </a>
                 </div>
                 <div className='relative'>
                   <Input 
@@ -112,9 +107,10 @@ const RegisterCustomer = () => {
         </CardContent>
         <CardFooter className="flex-col gap-2">
           <Button form='register-customer' type="submit" className="w-full text-base mt-2">
-            {isPending ? <><Spinner/>Logging in...</> : <>Register</>}
+            {isPending ? <><Spinner/>Registering your account...</> : <>Register</>}
           </Button>
           {isError && <p className='text-red-500 text-sm'>Something went wrong: {error.message}</p>}
+          <p className="text-sm">Already have an account? <Link className="font-bold text-primary hover:text-primary-foreground" href={"/login"}>Login here</Link></p>
         </CardFooter>
       </Card>
     </div>
