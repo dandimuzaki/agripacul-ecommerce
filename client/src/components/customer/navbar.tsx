@@ -91,7 +91,7 @@ export default function Navbar() {
           <CartButton/>
         </div>}
           {profile && <>
-            <CustomerMenu color={isHome && !scrolled} profile={profile}/>
+            <CustomerMenu profile={profile}/>
           </>}
           {!profile && <>
           <Link href="/login">
@@ -105,7 +105,7 @@ export default function Navbar() {
 
       {/* Mobile Button */}
       <div className='md:hidden flex gap-2 items-center'>
-        <div className={profile ? '' : 'hidden'}><CartButton isHome={isHome} isOpen={isOpen} scrolled={scrolled}/></div>
+        <div className={profile ? '' : 'hidden'}><CartButton/></div>
         <button
           className="md:hidden"
           onClick={() => setIsOpen(!isOpen)}

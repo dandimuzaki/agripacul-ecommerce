@@ -27,7 +27,7 @@ export default function SearchInput({isHome, scrolled}: {isHome: boolean, scroll
 
   return (
     <>
-      <ul className={`${isHome && !scrolled ? 'flex items-center justify-center gap-4 text-white text-lg font-bold' : 'hidden'}`}>
+      <ul className={`${isHome && !scrolled ? 'md:flex items-center justify-center gap-4 text-white text-lg font-bold' : ''} hidden`}>
         <li><a href={"/"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">Home</a></li>
         <li><a href={"/products"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">Shop</a></li>
         <li><a href={"/about-us"} className="px-4 py-2 rounded hover:bg-primary-foreground cursor-pointer">About Us</a></li>
