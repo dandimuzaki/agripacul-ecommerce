@@ -3,7 +3,7 @@
 import { SearchIcon } from "lucide-react"
 import { Button } from "../ui/button"
 import { InputGroup, InputGroupInput } from "../ui/input-group"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 export default function SearchInput({isHome, scrolled}: {isHome: boolean, scrolled: boolean}) {
@@ -16,6 +16,14 @@ export default function SearchInput({isHome, scrolled}: {isHome: boolean, scroll
     params.set("search", keyword)
     router.push(`/products?${params.toString()}`)
   }
+
+  const inputKeyword = searchParams.get("search") ?? ""
+
+  useEffect(() => {
+    if (inputKeyword) {
+      setKeyword(inputKeyword)
+    }
+  }, [inputKeyword])
 
   return (
     <>
@@ -38,7 +46,7 @@ export default function SearchInput({isHome, scrolled}: {isHome: boolean, scroll
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
           />
-          <Button variant="searchIcon" type='button' className='bg-white' onClick={() => onSubmit(keyword)}>
+          <Button variant="searchIcon" type='submit' className='bg-white'>
             <SearchIcon/>
           </Button>
         </InputGroup>

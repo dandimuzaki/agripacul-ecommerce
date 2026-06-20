@@ -33,7 +33,7 @@ export default function SearchHero() {
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
           />
-          <Button variant="searchIcon" type='button'>
+          <Button variant="searchIcon" type='submit'>
             <SearchIcon/>
           </Button>
         </InputGroup>

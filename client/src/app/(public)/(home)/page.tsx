@@ -27,14 +27,6 @@ export default function Home() {
               </span>
               <SearchHero/>
               <Tags/>
-              {/* <div className="flex gap-2 md:gap-4 text-white items-center justify-center md:justify-start">
-                <Link href={"/products"}>
-                  <Button className="md:text-base font-semibold md:py-5 md:px-5">Shop Now</Button>
-                </Link>
-                <Link href={"/about-us"}>
-                  <Button className="md:text-base border-3 font-semibold md:py-4 md:px-4" variant={"outline"}>Book a Visit</Button>
-                </Link>
-              </div> */}
           </div>
 
           <div className="z-5 order-1 lg:order-2 pt-16 px-4 lg:py-20 lg:pr-16 h-72 lg:h-full">
@@ -46,14 +38,14 @@ export default function Home() {
           <SectionBadge text="What We Provide"/>
           <h2 className="mb-3 md:mb-5 text-2xl/7 md:text-4xl text-primary font-semibold text-center">Everything You Need<br/>to Eat Fresh & Grow More</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-[3fr_3fr_4fr] lg:grid-rows-8 lg:gap-4 gap-2 lg:items-end lg:h-160 w-full">
-            <div className="rounded-lg overflow-hidden h-48 lg:h-full w-full relative lg:col-span-2 lg:row-span-5">
+            <Link href="/products?category_id=6" className="rounded-lg overflow-hidden h-48 lg:h-full w-full relative lg:col-span-2 lg:row-span-5">
               <img src="/harvest.png" alt="Fresh Vegetables by Agripacul" width={100} height={100} className="h-full w-full object-cover relative" />
               <div className="p-6 flex flex-col gap-1 justify-end absolute z-2 bottom-0 h-full w-full bg-[linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8))]">
                 <p className="text-xl text-white font-semibold">Fresh Vegetables</p>
                 <p className="text-md/4 text-white">Harvested from our 2020m² farm, delivered with care.</p>
               </div>
-            </div>
-            <div className="rounded-lg overflow-hidden relative h-48 lg:h-full lg:row-span-4">
+            </Link>
+            <Link href="/products?category_id=7" className="rounded-lg overflow-hidden relative h-48 lg:h-full lg:row-span-4">
               <img 
               src="/salad-2.jpg" 
               alt="Salad Shake by Agripacul" 
@@ -65,30 +57,30 @@ export default function Home() {
                 <p className="text-xl text-white font-semibold">Ready-to-Shake Salads</p>
                 <p className="text-md/4 text-white">Japanese & Western styles. Just shake, and enjoy the perfect bite.</p>
               </div>
-            </div>
-            <div className="rounded-lg overflow-hidden h-48 lg:h-full relative lg:row-span-4">
+            </Link>
+            <Link href="/products?category_id=8" className="rounded-lg overflow-hidden h-48 lg:h-full relative lg:row-span-4">
               <img src="/kimchi.jpg" alt="Cherry Tomato by Agripacul" width={100} height={100} className="h-full w-full object-cover" />
               <div className="p-6 flex flex-col gap-1 justify-end absolute z-2 bottom-0 h-full w-full bg-[linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8))]">
                 <p className="text-xl text-white font-semibold">Homemade & Specialty Foods</p>
                 <p className="text-md/4 text-white">Including our signature kimchi and fresh ingredients.</p>
               </div>
-            </div>
-            <div className="rounded-lg overflow-hidden h-48 lg:h-full relative lg:row-span-3">
+            </Link>
+            <Link href="/products?category_id=9" className="rounded-lg overflow-hidden h-48 lg:h-full relative lg:row-span-3">
               <img src="/seeds.jpg" alt="Cherry Tomato by Agripacul" width={100} height={100} className="h-full w-full object-cover" />
               <div className="p-6 flex flex-col gap-1 justify-end absolute z-2 bottom-0 h-full w-full bg-[linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8))]">
                 <p className="text-xl text-white font-semibold">Seeds & Seedlings</p>
                 <p className="text-md/4 text-white">Start your own mini farm at home.</p>
               </div>
-            </div>
+            </Link>
 
-            <div className="rounded-lg overflow-hidden h-48 lg:h-full relative lg:row-span-3">
+            <Link href="/products?category_id=10" className="rounded-lg overflow-hidden h-48 lg:h-full relative lg:row-span-3">
               <img src="/gardening-tools.jpeg" alt="Cherry Tomato by Agripacul" width={100} height={100} className="h-full w-full object-cover" />
               <div className="p-6 flex flex-col gap-1 justify-end absolute z-2 bottom-0 h-full w-full bg-[linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8))]">
                 <p className="text-xl text-white font-semibold">Gardening Tools</p>
                 <p className="text-md/4 text-white">Fun gardening with handy tools.</p>
               </div>
-            </div>
-            </div>
+            </Link>
+          </div>
         </section>
         <section className="p-4 md:p-16">
           <h2 className="mb-3 md:mb-5 text-2xl/7 md:text-4xl text-primary font-semibold">Best Seller</h2>
