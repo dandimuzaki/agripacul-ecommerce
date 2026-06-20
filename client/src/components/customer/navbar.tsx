@@ -74,7 +74,7 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className={`fixed w-full z-50 transition-all h-12 md:h-16 md:px-8 md:py-2 flex justify-between md:grid md:grid-cols-[2fr_3fr_2fr] items-center gap-2 bg-primary`}>
+    <nav className={`fixed w-full z-50 transition-all h-12 md:h-16 px-2 py-1 md:px-8 md:py-2 flex justify-between md:grid md:grid-cols-[2fr_3fr_2fr] items-center gap-2 bg-primary`}>
       {/* Logo */}
       <div className='w-36 md:w-fit'>
         <div className='md:h-8 w-full'>

@@ -29,6 +29,7 @@ export default function SearchInput({isHome, scrolled}: {isHome: boolean, scroll
           e.preventDefault();
           onSubmit(keyword);
         }}
+        className={`${!isHome ? 'md:flex max-w-lg' : scrolled ? 'md:flex max-w-lg' : 'hidden'}`}
       >
         <InputGroup className={`${!isHome ? 'md:flex max-w-lg' : scrolled ? 'md:flex max-w-lg' : 'hidden'} hidden rounded-full bg-white border-0 overflow-hidden`}>
           <InputGroupInput
