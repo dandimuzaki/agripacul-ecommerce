@@ -2,13 +2,13 @@
 
 import AddressList from '@/components/customer/address-list'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { useCheckoutForm } from '@/hooks/checkout/useCheckoutForm';
 import { useAddressDetails } from '@/hooks/address/useAddressDetails';
 import { capitalize } from '@/lib/formatText'
 import { LocationPin } from '@mui/icons-material'
+import { UseFormReturn } from 'react-hook-form';
+import { CheckoutFormValuesTemp } from '@/schemas/checkout.schema';
 
-const AddressSection = () => {
-  const { shippingAddressId, form } = useCheckoutForm()
+const AddressSection = ({shippingAddressId, form}: {shippingAddressId?: number, form: UseFormReturn<CheckoutFormValuesTemp>}) => {
   const { data: address } = useAddressDetails(shippingAddressId)
 
   return (

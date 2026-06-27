@@ -17,7 +17,7 @@ import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 const CheckoutForm = () => {
-  const { form, isLoading, checkout, options } = useCheckoutForm()
+  const { form, isLoading, checkout, shippingAddressId, options } = useCheckoutForm()
   const { mutateAsync: onCreateOrder, isPending } = useCreateOrder()
   const router = useRouter()
 
@@ -44,7 +44,7 @@ const CheckoutForm = () => {
       const data = await onCreateOrder(form)
       router.push(`/orders/${data.data.id}`)
     } catch (err) {
-      toast.error(err as string)
+      toast.error(String(err))
     }
   }
 
@@ -54,12 +54,12 @@ const CheckoutForm = () => {
       className="grid gap-x-4 gap-y-2 lg:grid-cols-[9fr_7fr]"
     >
       <div className="space-y-2 md:space-y-4">
-        <AddressSection  />
+        <AddressSection shippingAddressId={shippingAddressId} form={form} />
         <ShippingDropdown options={options} form={form} />
         <CheckoutItems checkout={checkout} />
       </div>
       <div className="space-y-2 md:space-y-4">
-        <PaymentMethodList/>
+        <PaymentMethodList form={form} />
         <CheckoutTotal checkout={checkout} isPending={isPending} />
       </div>
     </form>

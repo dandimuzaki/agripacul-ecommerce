@@ -20,7 +20,7 @@ export const useSetDefaultAddress = (options?: {
 
     onSuccess: () => {
       queryClient.invalidateQueries({
-        queryKey: addressKeys.lists()
+        queryKey: addressKeys.all
       })
       
       toast.success("Address updated successfully")

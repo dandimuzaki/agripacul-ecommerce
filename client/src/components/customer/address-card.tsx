@@ -33,7 +33,7 @@ const AddressCard = ({
   }
 
   return (
-    <div className={`flex justify-center p-4 gap-4 rounded-lg ${is_default ? 'border border-primary bg-primary/20' : 'shadow-[0_0_4px_rgba(0,0,0,0.2)]'}`}>
+    <div className={`flex justify-center p-4 gap-4 rounded-lg ${id == shippingAddressId ? 'border border-primary bg-primary/20' : 'shadow-[0_0_4px_rgba(0,0,0,0.2)]'}`}>
       <div className='flex-1'>
         <div className='flex gap-2 items-center'>
           <p className='font-semibold text-sm'>{label}</p>

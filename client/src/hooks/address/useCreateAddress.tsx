@@ -21,7 +21,7 @@ export const useCreateAddress = (options?: {
 
       // Refresh address list cache
       queryClient.invalidateQueries({
-        queryKey: addressKeys.lists()
+        queryKey: addressKeys.all
       })
 
       options?.onSuccess?.()

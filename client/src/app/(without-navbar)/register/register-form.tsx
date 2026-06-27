@@ -109,7 +109,7 @@ const RegisterCustomer = () => {
           <Button form='register-customer' type="submit" className="w-full text-base mt-2">
             {isPending ? <><Spinner/>Registering your account...</> : <>Register</>}
           </Button>
-          {isError && <p className='text-red-500 text-sm'>Something went wrong: {error.message}</p>}
+          {isError && <p className='text-red-500 text-sm'>Something went wrong: {error?.message}</p>}
           <p className="text-sm">Already have an account? <Link className="font-bold text-primary hover:text-primary-foreground" href={"/login"}>Login here</Link></p>
         </CardFooter>
       </Card>

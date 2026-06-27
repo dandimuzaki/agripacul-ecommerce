@@ -96,7 +96,7 @@ useEffect(() => {
       <DialogTrigger asChild>
         <Button className='bg-blue-500 hover:bg-blue-600 text-sm px-3 py-1'>Edit</Button>
       </DialogTrigger>
-      <DialogContent className='overflow-y-auto'>
+      <DialogContent className='overflow-auto max-h-xl'>
         <DialogHeader>
           <DialogTitle className='text-center'>
             Edit Address
@@ -161,27 +161,6 @@ useEffect(() => {
                     id="edit-address-phone-number"
                     aria-invalid={fieldState.invalid}
                     placeholder="081234567890"
-                  />
-                  {fieldState.invalid && (
-                    <FieldError errors={[fieldState.error]} />
-                  )}
-                </Field>
-              )}
-            />
-
-            <Controller
-              name="postal_code"
-              control={form.control}
-              render={({ field, fieldState }) => (
-                <Field data-invalid={fieldState.invalid}>
-                  <FieldLabel htmlFor="edit-address-postal-code">
-                    Label
-                  </FieldLabel>
-                  <Input
-                    {...field}
-                    id="edit-address-postal-code"
-                    aria-invalid={fieldState.invalid}
-                    placeholder="40514"
                   />
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
@@ -319,6 +298,27 @@ useEffect(() => {
                     </SelectContent>
                   </Select>
 
+                  {fieldState.invalid && (
+                    <FieldError errors={[fieldState.error]} />
+                  )}
+                </Field>
+              )}
+            />
+
+            <Controller
+              name="postal_code"
+              control={form.control}
+              render={({ field, fieldState }) => (
+                <Field data-invalid={fieldState.invalid}>
+                  <FieldLabel htmlFor="edit-address-postal-code">
+                    Postal Code
+                  </FieldLabel>
+                  <Input
+                    {...field}
+                    id="edit-address-postal-code"
+                    aria-invalid={fieldState.invalid}
+                    placeholder="40514"
+                  />
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
                   )}

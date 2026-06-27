@@ -46,7 +46,7 @@ export const useUpdateAddress = (options?: {
 
     onSettled: (_data, _error, variables) => {
       queryClient.invalidateQueries({
-        queryKey: addressKeys.lists()
+        queryKey: addressKeys.all
       })
 
       queryClient.invalidateQueries({

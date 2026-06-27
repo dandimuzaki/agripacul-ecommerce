@@ -4,13 +4,11 @@ import { RadioGroup, RadioGroupItem } from '../ui/radio-group';
 import { Controller } from 'react-hook-form';
 import { Field } from '../ui/field';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
-import { useCheckoutForm } from '@/hooks/checkout/useCheckoutForm';
 import { usePaymentMethods } from '@/hooks/payment/usePaymentMethods';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
 
-const PaymentMethodList = () => {
+const PaymentMethodList = ({form}: {form: UseFormReturn<CheckoutFormValuesTemp>}) => {
   const { data: payment } = usePaymentMethods()
-  const { form } = useCheckoutForm()
 
   return (
     <Card>
@@ -28,7 +26,10 @@ const PaymentMethodList = () => {
               <RadioGroup
                 value={field.value?.toString()}
                 onValueChange={(value) => {
+                  console.log("value", value)
                   field.onChange(Number(value))
+                  const check = form.getValues("selected_payment_method_id")
+                  console.log("check", check)
                 }}
               >
               <Accordion

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Josefin_Sans } from "next/font/google";
 import "./globals.css";
 import Provider from "./provider";
-import PageAnimation from "@/components/common/page-animation";
 import { Toaster } from "sonner";
 
 const josefinSans = Josefin_Sans({

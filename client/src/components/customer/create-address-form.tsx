@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '../ui/dialog';
 import { Input } from '../ui/input';
 import { Button } from '../ui/button';
-import { Controller, useForm } from 'react-hook-form';
+import { Controller, useForm, useWatch } from 'react-hook-form';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { AddressFormValues, addressSchema } from '@/schemas/address.schema';
@@ -25,22 +25,11 @@ const CreateAddressForm = () => {
 
   const form = useForm<AddressFormValues>({
     resolver: zodResolver(addressSchema),
-    defaultValues: {
-      recipient_name: "",
-      label: "",
-      province_id: undefined,
-      regency_id: undefined,
-      district_id: undefined,
-      subdistrict_id: undefined,
-      detail_address: "",
-      postal_code: "",
-      phone_number: ""
-    },
   })
 
-  const provinceId = form.watch('province_id');
-  const regencyId = form.watch('regency_id');
-  const districtId = form.watch('district_id');
+  const provinceId = useWatch({ control: form.control, name: "province_id" });
+  const regencyId = useWatch({ control: form.control, name: 'regency_id'});
+  const districtId = useWatch({ control: form.control, name: 'district_id'});
 
   const { data: regencies } = useRegency(provinceId as number)
   const { data: districts } = useDistrict(regencyId as number)
@@ -48,6 +37,7 @@ const CreateAddressForm = () => {
 
   const onSubmitAddress = (data: AddressFormValues) => {
     mutate(data)
+    form.reset()
   }
 
   const handleCloseDialog = () => {
@@ -58,9 +48,9 @@ const CreateAddressForm = () => {
   return (
     <Dialog open={onOpen} onOpenChange={setOnOpen}>
       <DialogTrigger asChild>
-        <Button>Add New Address</Button>
+        <Button className='w-full'>Add New Address</Button>
       </DialogTrigger>
-      <DialogContent className='overflow-y-auto'>
+      <DialogContent>
         <DialogHeader>
           <DialogTitle className='text-center'>
             Create Address
@@ -118,34 +108,13 @@ const CreateAddressForm = () => {
               render={({ field, fieldState }) => (
                 <Field data-invalid={fieldState.invalid}>
                   <FieldLabel htmlFor="edit-address-phone-number">
-                    Label
+                    Phone Number
                   </FieldLabel>
                   <Input
                     {...field}
                     id="edit-address-phone-number"
                     aria-invalid={fieldState.invalid}
                     placeholder="081234567890"
-                  />
-                  {fieldState.invalid && (
-                    <FieldError errors={[fieldState.error]} />
-                  )}
-                </Field>
-              )}
-            />
-
-            <Controller
-              name="postal_code"
-              control={form.control}
-              render={({ field, fieldState }) => (
-                <Field data-invalid={fieldState.invalid}>
-                  <FieldLabel htmlFor="edit-address-postal-code">
-                    Label
-                  </FieldLabel>
-                  <Input
-                    {...field}
-                    id="edit-address-postal-code"
-                    aria-invalid={fieldState.invalid}
-                    placeholder="40514"
                   />
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
@@ -283,6 +252,27 @@ const CreateAddressForm = () => {
                     </SelectContent>
                   </Select>
 
+                  {fieldState.invalid && (
+                    <FieldError errors={[fieldState.error]} />
+                  )}
+                </Field>
+              )}
+            />
+            
+            <Controller
+              name="postal_code"
+              control={form.control}
+              render={({ field, fieldState }) => (
+                <Field data-invalid={fieldState.invalid}>
+                  <FieldLabel htmlFor="edit-address-postal-code">
+                    Postal Code
+                  </FieldLabel>
+                  <Input
+                    {...field}
+                    id="edit-address-postal-code"
+                    aria-invalid={fieldState.invalid}
+                    placeholder="40514"
+                  />
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
                   )}

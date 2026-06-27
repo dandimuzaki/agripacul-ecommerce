@@ -70,7 +70,7 @@ const CategoryList = () => {
   const pagination = categories?.pagination;
 
   if (isError) {
-    return <p>{error.message}</p>
+    return <p>{error?.message}</p>
   }
 
   return (

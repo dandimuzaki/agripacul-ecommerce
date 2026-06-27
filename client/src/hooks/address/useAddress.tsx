@@ -11,7 +11,8 @@ export const useAddress = () => {
   const query = useQuery<Response, Error, Address[]>({
     queryKey: addressKeys.all,
     queryFn: () => addressService.getAddressList(),
-    select: (res) => res.data
+    select: (res) => res.data,
+    staleTime: 1000 * 60
   })
 
   const defaultShippingAddress: Address | null = useMemo(() => {

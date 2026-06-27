@@ -22,13 +22,13 @@ const AddressList = ({buttonText, form, shippingAddressId}: {
           {buttonText}
         </Button>
       </DialogTrigger>
-      <DialogContent className='overflow-y-auto'>
+      <DialogContent>
         <DialogHeader>
           <DialogTitle className='text-center'>Address List</DialogTitle>
         </DialogHeader>
-        <div className='grid gap-4'>
+        <div className='space-y-4 min-w-10'>
           <CreateAddressForm />
-          <div className='grid gap-4'>
+          <div className='space-y-4'>
             {addressList?.map((address, i) =>
               <AddressCard form={form} shippingAddressId={shippingAddressId} address={address} key={i} />
             )}

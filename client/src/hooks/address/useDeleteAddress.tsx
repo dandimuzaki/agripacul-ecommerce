@@ -6,6 +6,7 @@ import { addressService } from "@/services/address.service"
 import { addressKeys } from '../queries/addressKeys'
 import { toast } from 'sonner'
 import { Address } from '@/types/address'
+import { Response } from '@/types/response'
 
 export const useDeleteAddress = () => {
   const queryClient = useQueryClient()
@@ -16,28 +17,37 @@ export const useDeleteAddress = () => {
 
     onMutate: async (id) => {
       await queryClient.cancelQueries({
-        queryKey: addressKeys.lists(),
+        queryKey: addressKeys.all,
       })
 
-      const previousCategories =
+      const previousAddresses =
         queryClient.getQueryData<Address[]>(
-          addressKeys.lists()
+          addressKeys.all
         )
 
       // Optimistic update: remove address instantly
-      queryClient.setQueryData<Address[]>(
-        addressKeys.lists(),
-        (old) => old?.filter((cat) => cat.id !== id) || []
-      )
+      queryClient.setQueryData<Response>(
+        addressKeys.all,
+        (old) => {
+          if (!old) return old;
 
-      return { previousCategories }
+          return {
+            ...old,
+            data: old.data.filter(
+              (add: Address) => add.id !== id
+            ),
+          };
+        }
+      );
+
+      return { previousAddresses }
     },
 
     onError: (_err, _variables, context) => {
-      if (context?.previousCategories) {
+      if (context?.previousAddresses) {
         queryClient.setQueryData(
-          addressKeys.lists(),
-          context.previousCategories
+          addressKeys.all,
+          context.previousAddresses
         )
       }
 
@@ -46,7 +56,7 @@ export const useDeleteAddress = () => {
 
     onSettled: () => {
       queryClient.invalidateQueries({
-        queryKey: addressKeys.lists(),
+        queryKey: addressKeys.all,
       })
     },
 

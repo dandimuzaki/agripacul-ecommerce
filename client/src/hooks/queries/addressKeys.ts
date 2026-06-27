@@ -1,8 +1,6 @@
 export const addressKeys = {
   all: ["address"] as const,
 
-  lists: () => [...addressKeys.all, "lists"] as const,
-
   province: ["province"] as const,
 
   regency: (id: number) => ["regency", id] as const,

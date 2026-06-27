@@ -11,8 +11,10 @@ export const useCreateOrder = () => {
   const router = useRouter()
 
   return useMutation({
-    mutationFn: (payload: OrderFormValues) =>
-      orderService.createOrder(payload),
+    mutationFn: (payload: OrderFormValues) => {
+      console.log("payload", payload)
+      return orderService.createOrder(payload)
+    },
 
     onSuccess: () => {
       // refresh order list cache

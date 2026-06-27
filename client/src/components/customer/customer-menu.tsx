@@ -34,7 +34,7 @@ export function CustomerMenu({profile}: {profile: Profile}) {
         <NavigationMenuItem className="bg-transparent hover:bg-primary-foreground active:bg-primary-foreground rounded-lg">
           <NavigationMenuTrigger className="bg-transparent hover:bg-primary-foreground active:bg-primary-foreground rounded-lg">
             <div className="flex gap-2 items-center">
-              <img src={profile?.profile_image_url ?? "/profile.png"} alt={profile?.full_name ?? "profile"} height={100} width={100} className="w-8 h-8 rounded-full"/>
+              <img src={profile?.profile_image_url == "" ? "/profile.png" : profile?.profile_image_url} alt={profile?.full_name ?? "profile"} height={100} width={100} className="w-8 h-8 rounded-full"/>
               <p className={`text-white hover:text-white`}>Hi, {profile?.full_name?.split(' ')[0]}</p>
             </div>
           </NavigationMenuTrigger>
