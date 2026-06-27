@@ -1,11 +1,12 @@
 "use client";
 
 import { RadioGroup, RadioGroupItem } from '../ui/radio-group';
-import { Controller } from 'react-hook-form';
+import { Controller, UseFormReturn } from 'react-hook-form';
 import { Field } from '../ui/field';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { usePaymentMethods } from '@/hooks/payment/usePaymentMethods';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
+import { CheckoutFormValuesTemp } from '@/schemas/checkout.schema';
 
 const PaymentMethodList = ({form}: {form: UseFormReturn<CheckoutFormValuesTemp>}) => {
   const { data: payment } = usePaymentMethods()
