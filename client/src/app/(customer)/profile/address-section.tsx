@@ -1,13 +1,16 @@
 "use client"
 
 import AddressList from "@/components/customer/address-list"
+import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { useAddress } from "@/hooks/address/useAddress"
 import { capitalize } from "@/lib/formatText"
 import { LocationPin } from "@mui/icons-material"
+import { useState } from "react"
 
 export default function AddressSection() {
   const { defaultShippingAddress: address } = useAddress()
+  const [openAddress, setOpenAddress] = useState<boolean>(false)
 
   return (
     <div className="space-y-2">
@@ -27,10 +30,11 @@ export default function AddressSection() {
           }
         </div>
         <div className='flex justify-center items-center'>
-          <AddressList buttonText="Manage Address"/>
+          <Button type="button" onClick={() => setOpenAddress(true)}>Manage Address</Button>
         </div>
         </CardContent>
       </Card>
+      <AddressList openAddress={openAddress} setOpenAddress={setOpenAddress}/>
     </div>
   )
 }
