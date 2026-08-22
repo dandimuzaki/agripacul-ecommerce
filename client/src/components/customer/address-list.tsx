@@ -1,27 +1,23 @@
 "use client";
 
 import { useAddress } from '@/hooks/address/useAddress';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '../ui/dialog';
-import { Button } from '../ui/button';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '../ui/dialog';
 import AddressCard from './address-card';
 import CreateAddressForm from './create-address-form';
 import { CheckoutFormValuesTemp } from '@/schemas/checkout.schema';
 import { UseFormReturn } from 'react-hook-form';
+import { Dispatch, SetStateAction } from 'react';
 
-const AddressList = ({buttonText, form, shippingAddressId}: {
-  buttonText: string,
+const AddressList = ({openAddress, setOpenAddress, form, shippingAddressId}: {
+  openAddress: boolean,
+  setOpenAddress: Dispatch<SetStateAction<boolean>>,
   form?: UseFormReturn<CheckoutFormValuesTemp>,
   shippingAddressId?: number
 }) => {
   const { data: addressList } = useAddress();
 
   return (
-    <Dialog>
-      <DialogTrigger asChild>
-        <Button className='text-sm px-3 py-1 cursor-pointer'>
-          {buttonText}
-        </Button>
-      </DialogTrigger>
+    <Dialog open={openAddress} onOpenChange={setOpenAddress}>
       <DialogContent>
         <DialogHeader>
           <DialogTitle className='text-center'>Address List</DialogTitle>

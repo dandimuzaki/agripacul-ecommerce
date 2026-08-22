@@ -117,6 +117,7 @@ func (u *cartUsecase) GetCart(ctx context.Context) (*response.CartResponse, erro
 		TotalPrice: totalPrice,
 		TotalSelectedItems: totalSelectedItems,
 		TotalSelectedPrice: totalSelectedPrice,
+		IsAllSelected: totalSelectedItems == totalItems,
 	}
 
 	res.Summary = totalSummary

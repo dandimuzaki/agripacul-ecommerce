@@ -19,7 +19,7 @@ const CartSummary = () => {
     router.push("/checkout")
   }
 
-  const isAllSelected = cart && cart.items.length > 0 && cart.items.every(item => item.is_selected);
+  const isAllSelected = cart && cart.summary.is_all_selected == true;
 
   const { mutate: selectAll } = useSelectAll()
         

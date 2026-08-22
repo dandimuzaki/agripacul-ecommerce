@@ -37,6 +37,7 @@ type PriceSnapshot struct {
 }
 
 type TotalSnapshot struct {
+	IsAllSelected bool 	`json:"is_all_selected"`
 	TotalItems int                `json:"total_items"`
 	TotalPrice float64            `json:"total_price"`
 	TotalSelectedItems int                `json:"total_selected_items"`

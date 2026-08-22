@@ -19,7 +19,7 @@ export default function Home() {
         <section className="relative z-5 grid lg:grid-cols-2 gap-2 lg:gap-6 lg:h-screen bg-primary overflow-hidden">
           <img src="/bgveg.png" className="absolute bottom-[-30px] z-2"/>
           <div className="w-full order-2 lg:order-1 text-center gap-4 z-3 relative h-full w-full px-4 lg:px-16 flex flex-col justify-center items-center py-4 lg:py-16">
-              <h1 className="text-3xl md:text-5xl text-white font-bold uppercase">
+              <h1 className="text-2xl md:text-4xl text-white font-bold uppercase">
                 From our farms <br/>To your table 
               </h1>
               <span className="text-base/5 md:text-lg/6">

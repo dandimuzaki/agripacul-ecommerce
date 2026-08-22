@@ -14,7 +14,7 @@ import (
 )
 
 type OrderService interface {
-	Create(ctx context.Context, req request.CreateOrderRequest) (*entity.Order, error)
+	Create(ctx context.Context, req request.CreateOrderRequest) (*uint, error)
 	GetAll(ctx context.Context, req request.OrderQueryParams) (*response.PaginatedResponse[response.OrderSummary], error)
 	GetOrderHistory(ctx context.Context, req request.OrderQueryParams) (*response.PaginatedResponse[response.OrderSummary], error)
 	GetDetails(ctx context.Context, id uint) (*response.OrderDetails, error)
@@ -41,7 +41,7 @@ func NewOrderService(tx TxManager, repo *repository.Repository, log *zap.Logger)
 	}
 }
 
-func (s *orderService) Create(ctx context.Context, req request.CreateOrderRequest) (*entity.Order, error) {
+func (s *orderService) Create(ctx context.Context, req request.CreateOrderRequest) (*uint, error) {
 	txStart := time.Now()
 	defer func() {
 		s.log.Info("CreateOrder duration", zap.Duration("duration", time.Since(txStart)))
@@ -108,7 +108,7 @@ func (s *orderService) Create(ctx context.Context, req request.CreateOrderReques
 		s.log.Error("Transaction failed", zap.Error(err))
 		return nil, err
 	}
-	return &order, nil
+	return &order.ID, nil
 }
 
 func (s *orderService) getCustomerFromContext(ctx context.Context) (*entity.Customer, error) {

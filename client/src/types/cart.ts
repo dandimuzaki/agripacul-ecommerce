@@ -35,6 +35,7 @@ export interface CartSummary {
   total_price: number;
   total_selected_items: number;
   total_selected_price: number;
+  is_all_selected: boolean;
 }
 
 export interface Cart {
