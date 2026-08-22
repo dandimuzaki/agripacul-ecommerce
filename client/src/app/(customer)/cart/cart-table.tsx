@@ -189,7 +189,7 @@ const CartTable = () => {
     getCoreRowModel: getCoreRowModel(),
   });
 
-  if (isLoading) return (
+  if (!cart && isLoading) return (
     <LoadingCartTable/>
   )
 
