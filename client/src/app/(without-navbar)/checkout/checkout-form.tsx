@@ -27,7 +27,6 @@ const CheckoutForm = () => {
   const handleCreateOrder = async (form: OrderFormValues) => {
     try {
       const data = await onCreateOrder(form)
-      console.log("data order created", data)
       router.push(`/purchase?status=success&id=${data.data}`)
     } catch (err) {
       toast.error(String(err))
