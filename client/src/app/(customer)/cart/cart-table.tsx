@@ -10,7 +10,6 @@ import { formatRupiah } from "@/lib/formatCurrency";
 import { Item } from "@/types/cart";
 import { Add, Delete, Remove } from "@mui/icons-material";
 import { ColumnDef, flexRender, getCoreRowModel, useReactTable } from "@tanstack/react-table";
-import Image from "next/image";
 import { useMemo } from "react";
 import LoadingCartTable from "./loading-cart-table";
 import { useRemoveItem } from "@/hooks/cart/useRemoveItem";
@@ -182,7 +181,7 @@ const CartTable = () => {
     },
   ], [cart, isPendingQuantity, isPendingSelect]);
 
-  const emptyCart = Array(4)
+  const emptyCart = new Array<Item>(4)
 
   const table = useReactTable({
     data: cart?.items ?? emptyCart,
