@@ -44,7 +44,7 @@ const CartTable = () => {
     {
       id: 'select',
       footer: () => {
-        const isAllSelected = cart && cart.items.length > 0 && cart.items.every(item => item.is_selected);
+        const isAllSelected = cart && cart.summary.is_all_selected == true;
 
         return (
           <div className="hidden md:flex justify-center">
