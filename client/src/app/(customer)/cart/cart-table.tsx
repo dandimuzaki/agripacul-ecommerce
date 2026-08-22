@@ -181,15 +181,15 @@ const CartTable = () => {
     },
   ], [cart, isPendingQuantity, isPendingSelect]);
 
-  const emptyCart = new Array<Item>(4)
+  // const emptyCart = new Array<Item>(4)
 
   const table = useReactTable({
-    data: cart?.items ?? emptyCart,
+    data: cart?.items ?? [],
     columns,
     getCoreRowModel: getCoreRowModel(),
   });
 
-  if (!cart && isLoading) return (
+  if (!cart || isLoading) return (
     <LoadingCartTable/>
   )
 
