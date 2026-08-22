@@ -12,16 +12,15 @@ import { authKeys } from '../queries/authKeys'
 
 export default function useLogin() {
   const queryClient = useQueryClient()
-  const setUser = useAuthStore((state) => state.setUser)
   const router = useRouter()
+  const loginStore = useAuthStore((state) => state.login)
 
   return useMutation({
     mutationFn: (data: LoginFormValues) => authService.login(data),
 
     onSuccess: (res) => {
       if (res.success) {
-        localStorage.setItem("accessToken", res.data.token)
-        setUser(res.data.user)
+        loginStore(res.data.user, res.data.token)
         queryClient.setQueryData(authKeys.all, res.data.user)
       
       if (res.data.user.role === "admin") {

@@ -12,7 +12,6 @@ export const useCreateOrder = () => {
 
   return useMutation({
     mutationFn: (payload: OrderFormValues) => {
-      console.log("payload", payload)
       return orderService.createOrder(payload)
     },
 

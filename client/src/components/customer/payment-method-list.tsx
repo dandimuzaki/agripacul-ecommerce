@@ -27,10 +27,7 @@ const PaymentMethodList = ({form}: {form: UseFormReturn<CheckoutFormValuesTemp>}
               <RadioGroup
                 value={field.value?.toString()}
                 onValueChange={(value) => {
-                  console.log("value", value)
                   field.onChange(Number(value))
-                  const check = form.getValues("selected_payment_method_id")
-                  console.log("check", check)
                 }}
               >
               <Accordion

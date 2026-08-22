@@ -83,7 +83,5 @@ export const useCheckoutForm = () => {
     selected_payment_method_id: paymentMethodId,
   }, selectedShippingOption);
 
-  console.log("paymentMethodId", paymentMethodId)
-
   return { checkout: data, isLoading, form, shippingAddressId, options };
 };

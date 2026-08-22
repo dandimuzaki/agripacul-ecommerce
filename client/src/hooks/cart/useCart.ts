@@ -5,11 +5,15 @@ import { cartKeys } from "../queries/cartKeys";
 import { cartService } from "@/services/cart.service";
 import { Response } from "@/types/response";
 import { Cart } from "@/types/cart";
+import { useAuthStore } from "@/store/useAuthStore";
 
 export const useCart = () => {  
+  const token = useAuthStore(state => state.token);
+
   return useQuery<Response, Error, Cart>({
     queryKey: cartKeys.all,
     queryFn: () => cartService.getCart(),
-    select: (res) => res.data
+    select: (res) => res.data,
+    enabled: !!token
   })
 }

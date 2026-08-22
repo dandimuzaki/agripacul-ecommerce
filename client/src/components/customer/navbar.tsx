@@ -127,7 +127,7 @@ export default function Navbar() {
             {menu.filter(item => profile ? item : !item.mustAuth).map((item) => (
               <motion.div key={item.title} variants={itemVariants} className='w-full h-full px-4 py-2 hover:bg-primary-foreground'>
                 <Link
-                  href={`#${item.href}`}
+                  href={`${item.href}`}
                   onClick={() => setIsOpen(false)}
                   className="text-white w-full flex"
                 >

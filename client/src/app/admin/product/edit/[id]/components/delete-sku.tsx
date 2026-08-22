@@ -21,7 +21,6 @@ const ConfirmDeleteSKU = ({id}: {id:number}) => {
           <AlertDialogCancel>Cancel</AlertDialogCancel>
           <AlertDialogAction 
             variant="destructive"
-            onClick={() => console.log(id)}
           >
             Delete
           </AlertDialogAction>
